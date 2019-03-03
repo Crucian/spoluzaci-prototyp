@@ -1,0 +1,444 @@
+/****************************************************************************************************/
+/* FORM ELEMENTS
+/****************************************************************************************************/
+
+label {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100%;
+	line-height: 30px;
+	color: $color-4b6a77;
+	font-weight: $fw-700;
+	font-size: $fs-16;
+	position: relative;
+}
+
+input,
+select,
+textarea {
+	-webkit-appearance: none;
+	-moz-appearance:    none;
+	appearance:         none;
+	box-sizing: border-box;
+	background: transparent;
+	border: none;
+}
+select::-ms-expand {
+	display: none;
+}
+.required {
+	color: $color-eb0000;
+}
+label.error {
+	color: $color-eb0000;
+}
+
+/*--- RADIO --------------------------------------------------------------------------------------*/
+label + .radio_wrap {
+	padding: 10px 0 0 0;
+}
+.radio_wrap {
+	display: inline-block;
+	width: auto;
+	padding: 20px 0 0 0;
+
+	&.type_block {
+		display: block;
+	}
+	label {
+		vertical-align: top;
+		margin-right: 25px;
+		width: auto;
+		padding-left: 10px;
+		line-height: 20px;
+		color: $color-666666;
+		font-weight: $fw-400;
+	}
+	input[type="radio"] {
+		opacity: 0.001; /* skryte na pozadi */
+		height: 20px;
+		width: 20px;
+		line-height: 20px;
+		display: inline-block;
+		position: relative;
+		z-index: 10;
+		margin: 0;
+		cursor: pointer;
+
+		&+ span {
+			box-sizing: border-box;
+			display: inline-block;
+			position: relative;
+			vertical-align: middle;
+			height: 20px;
+			width: 20px;
+			top: -6px;
+			margin-left: -20px;
+			background: $color-ededed;
+			@include radius-default(100%);
+
+			&:before {
+				content: ' ';
+				position: absolute;
+				display: block;
+				left: 0;
+				top: 0;
+				height: 20px;
+				width: 20px;
+				box-sizing: border-box;
+				z-index: 1;
+				@include radius-default(100%);
+			}
+		}
+	}
+
+	/* hover */
+	input[type="radio"]:hover + span:before {
+		border: 1px solid $color-4b6a77;
+	}
+
+	/* active */
+
+	input[type="radio"] + span:hover:after,
+	input[type="radio"]:checked + span:after {
+		box-sizing: border-box;
+		content: ' ';
+		position:absolute;
+		display: block;
+		left: 4px;
+		top: 4px;
+		height: 12px;
+		width: 12px;
+		z-index: 2;
+		background: $color-4b6a77;
+		@include radius-default(100%);
+	}
+}
+
+/*--- CHECKBOX -----------------------------------------------------------------------------------*/
+
+label + .check_wrap {
+	padding: 10px 0 0 0;
+}
+.check_wrap {
+	display: inline-block;
+	width: auto;
+	padding: 20px 0 0 0;
+
+	&.type_block {
+		display: block;
+	}
+	label {
+		vertical-align: top;
+		margin-right: 25px;
+		width: auto;
+		line-height: 20px;
+		padding-left: 10px;
+		color: $color-666666;
+		font-weight: $fw-400;
+	}
+	input[type="checkbox"] {
+		opacity: 0.001; /* skryte na pozadi */
+		height: 20px;
+		width: 20px;
+		line-height: 20px;
+		display: inline-block;
+		position: relative;
+		z-index: 10;
+		margin: 0;
+		cursor: pointer;
+
+		&+ span {
+			box-sizing: border-box;
+			display: inline-block;
+			position: relative;
+			vertical-align: middle;
+			height: 20px;
+			width: 20px;
+			top: -6px;
+			margin-left: -20px;
+			background: $color-ededed;
+
+			&:before {
+				box-sizing: border-box;
+				content: ' ';
+				position: absolute;
+				display: block;
+				left: 0;
+				top: 0;
+				height: 20px;
+				width: 20px;
+				z-index: 1;
+			}
+		}
+	}
+
+	/* hover */
+
+	input[type="checkbox"]:hover + span:before {
+		border: 1px solid $color-4b6a77;
+		left: 0;
+		height: 20px;
+		width: 20px;
+		position:absolute;
+		display: block;
+		box-sizing: border-box;
+		z-index: 2;
+	}
+
+	/* active */
+
+	input[type="checkbox"]:checked + span:after {
+		border: none;
+		content: '';
+		background: url('../images/form_elements/checkbox.svg') 50% 50% no-repeat;
+		left: 3px;
+		top: 0;
+		height: 20px;
+		width: 20px;
+		position:absolute;
+		display: block;
+		box-sizing: border-box;
+		z-index: 2;
+	}
+}
+
+
+/*--- SWITCHER -----------------------------------------------------------------------------------*/
+.switch_wrap {
+	cursor: pointer;
+	display: inline-block;
+	width: auto;
+	line-height: 20px;
+	padding: 20px 0 0 0;
+	vertical-align: top;
+
+	&.type_block {
+		display: block;
+	}
+	.label {
+		padding-left: 10px;
+		color: $color-666666;
+		font-weight: $fw-400;
+		position: relative;
+		margin-right: 25px;
+		width: auto;
+		vertical-align: middle;
+		line-height: 20px;
+	}
+	.checkbox {
+		position: absolute;
+		visibility: hidden;
+	}
+	.switch {
+		display: inline-block;
+		position: relative;
+		vertical-align: middle;
+		background: $color-ededed;
+		width: 40px;
+		height: 20px;
+		border: 1px solid $color-ededed;
+
+		@include transition-default(("background 0.25s"));
+		@include radius-default(20px);
+
+		&:hover {
+			border: 1px solid $color-4b6a77;
+		}
+
+		&:before,
+		&:after {
+			content: "";
+		}
+		&:before {
+			display: block;
+			background: $color-4b6a77;
+			width: 12px;
+			height: 12px;
+			position: absolute;
+			top: 3px;
+			left: 3px;
+			@include transition-default(("left 0.25s"));
+			@include radius-default(12px);
+		}
+	}
+	.checkbox:checked + .switch {
+		background: $color-4b6a77;
+		border: 1px solid $color-4b6a77;
+	}
+	.checkbox:checked + .switch {
+		&:before {
+			left: 23px;
+			background: $color-ededed;
+		}
+	}
+}
+
+/*--- INPUT --------------------------------------------------------------------------------------*/
+
+input[type="text"]  + span,
+input[type="number"] + span,
+input[type="email"] + span,
+input[type="password"] + span {
+	display: none;
+}
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+	display: block;
+	width: 100%;
+	line-height: 41px;
+	height: 41px;
+	padding: 2px 10px 0 10px;
+	box-sizing: border-box;
+	background: $color-ededed;
+	color: $color-444444;
+	border-bottom: 2px solid $color-ffffff;
+
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+/* focus */
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+	border-bottom: 2px solid $color-4b6a77;
+}
+
+/* hover */
+
+input[type="text"]:hover,
+input[type="number"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+	border-bottom: 2px solid $color-cccccc;
+}
+
+/* correct / error */
+
+input[type="text"].error,
+input[type="number"].error,
+input[type="email"].error,
+input[type="password"].error {
+	border-color: $color-eb0000;
+	color: $color-eb0000;
+}
+input[type="text"].correct,
+input[type="number"].correct,
+input[type="email"].correct,
+input[type="password"].correct {
+	border-color: $color-5dbb12;
+	color: $color-5dbb12;
+}
+
+/*--- SELECT -------------------------------------------------------------------------------------*/
+
+select {
+	display: block;
+	width: 100%;
+	line-height: 41px;
+	height: 41px;
+	padding: 0 30px 0 10px;
+	box-sizing: border-box;
+	color: $color-444444;
+	background: $color-ededed url('../images/form_elements/selectbox.svg') calc(100% - 10px) 50% no-repeat;
+
+	/* focus */
+
+	&:focus {
+		border-bottom: 2px solid $color-4b6a77;
+	}
+	/* hover */
+
+	&:hover {
+		border-bottom: 2px solid $color-cccccc;
+	}
+	/* correct / error */
+
+	&.error {
+		border-color: $color-eb0000;
+		color: $color-eb0000;
+	}
+	&.correct {
+		border-color: $color-5dbb12;
+		color: $color-5dbb12;
+	}
+}
+
+/*--- TEXTAREA --------------------------------------------------------------------------------------*/
+
+textarea {
+	width: 100%;
+	display: block;
+	padding: 5px;
+	color: #444444;
+	background: $color-ededed;
+	resize: vertical;
+	min-height: 120px;
+
+	/* focus */
+
+	&:focus {
+		border-bottom: 2px solid $color-4b6a77;
+	}
+	/* hover */
+
+	&:hover {
+		border-bottom: 2px solid $color-cccccc;
+	}
+
+	/* correct / error */
+
+	&.error {
+		border-color: $color-eb0000;
+		color: $color-eb0000;
+	}
+	&.correct {
+		border-color: $color-5dbb12;
+		color: $color-5dbb12;
+	}
+}
+
+/* ASIDE */
+aside {
+	label {
+		color: $color-ffffff;
+		padding: 0 0 5px 0;
+	}
+	input[type="text"],
+	input[type="number"],
+	input[type="email"],
+	input[type="password"] {
+		background: $color-7f959e;
+		color: $color-ffffff;
+		border: none!important;
+	}
+	select {
+		color: $color-ffffff;
+		border: none!important;
+		background: $color-7f959e url('../images/form_elements/selectbox-white.svg') calc(100% - 10px) 50% no-repeat;
+
+		option {
+			color: $color-ffffff;
+		}
+	}
+}
+
+/*endyear calculator*/
+
+.endyear_calculator {
+	select {
+		color: $color-ffffff;
+		border: none!important;
+		background: $color-7f959e url('../images/form_elements/selectbox-white.svg') calc(100% - 10px) 50% no-repeat;
+
+		option {
+			color: $color-ffffff;
+		}
+	}
+}

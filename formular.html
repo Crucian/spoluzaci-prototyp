@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulář</title>
+    <link rel="stylesheet" type="text/css" href="css/core.css" media="all">
+</head>
+<body>
+
+<header>
+    <div class="inner_box">
+        <div class="logotype">
+            <a href="/"><img src="images/logo-h.svg"/></a>
+        </div>
+        <div class="block_login">
+            <!-- pred zalogováním -->
+            <button class="default">
+                <span>Přihlásit</span>
+            </button>
+            <button class="submit">
+                <span>Registrovat</span>
+            </button>
+            <div class="overlay">
+                <div class="popup_dialog">
+                    <a href="#" class="close"></a>
+                    <h2>Přihlaste se prosím</h2>
+                    <form action="#">
+                        <div class="row">
+                            <div class="col p100">
+                                <label>Jméno</label>
+                                <input type="text" name="name"/>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col p100">
+                                <label>
+                                    Heslo
+                                    <a href="#">Nepamatuji si heslo</a>
+                                </label>
+                                <input type="password" name="[assword"/>
+                            </div>
+                        </div>
+                        <div class="controls">
+                            <button class="submit"><span>Přihlásit se</span></button>
+                            <p>Ještě nemáte účet? <a href="#">Zaregistrujte se</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</header>
+<section class="subpage">
+    <div class="inner_box">
+        <aside>
+            <div class="form_block">
+                <form action="#">
+                    <div class="row">
+                        <div class="col p100">
+                            <label>Kraj</label>
+                            <select name="region">
+                                <option>Hlavní město Praha</option>
+                                <option>Středočeský</option>
+                                <option>Jihočeský</option>
+                                <option>Plzeňský</option>
+                                <option>Karlovarský</option>
+                                <option>Ústecký</option>
+                                <option>Liberecký</option>
+                                <option>Královéhradecký</option>
+                                <option>Pardubický</option>
+                                <option>Olomoucký</option>
+                                <option>Moravskoslezský</option>
+                                <option>Jihomoravský</option>
+                                <option>Zlínský</option>
+                                <option>Kraj Vysočina</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col p100">
+                            <label>Okres</label>
+                            <select name="district">
+                                <option>Okres 1</option>
+                                <option>Okres 2</option>
+                                <option>Okres ...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col p100">
+                            <label>Město</label>
+                            <select name="city">
+                                <option>Město 1</option>
+                                <option>Město 2</option>
+                                <option>Město ...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col p100">
+                            <label>Typ</label>
+                            <select name="type">
+                                <option>Typ 1</option>
+                                <option>Typ 2</option>
+                                <option>Typ ...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col p100">
+                            <label>Vyhledat frázi</label>
+                            <input type="text" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </aside>
+        <article class="white">
+            <form action="#">
+                <div class="form_block">
+                    <div class="row">
+                        <div class="col p50">
+                            <label>Kraj</label>
+                            <select name="region">
+                                <option>Hlavní město Praha</option>
+                                <option>Středočeský</option>
+                                <option>Jihočeský</option>
+                                <option>Plzeňský</option>
+                                <option>Karlovarský</option>
+                                <option>Ústecký</option>
+                                <option>Liberecký</option>
+                                <option>Královéhradecký</option>
+                                <option>Pardubický</option>
+                                <option>Olomoucký</option>
+                                <option>Moravskoslezský</option>
+                                <option>Jihomoravský</option>
+                                <option>Zlínský</option>
+                                <option>Kraj Vysočina</option>
+                            </select>
+                        </div>
+                        <div class="col p50">
+                            <label>Okres</label>
+                            <select name="district">
+                                <option>Okres 1</option>
+                                <option>Okres 2</option>
+                                <option>Okres ...</option>
+                            </select>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col p100">
+                            <label class="error">Lorem Ipsum</label>
+                            <input class="error" type="text" name="lorem"/>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col p100">
+                            <label>Textarea</label>
+                            <textarea type="text" name="textarea"></textarea>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col p50">
+                            <label>Checkbox inline type</label>
+                            <div class="check_wrap">
+                                <input type="checkbox" id="labelCheckbox1"/><span></span><label for="labelCheckbox1">Label checkbox button 1</label>
+                            </div>
+                            <div class="check_wrap">
+                                <input type="checkbox" id="labelCheckbox2"/><span></span><label for="labelCheckbox2">Label checkbox button 1</label>
+                            </div>
+                            <div class="check_wrap">
+                                <input type="checkbox" id="labalCheckbox3"/><span></span><label for="labalCheckbox3">Label checkbox button 1</label>
+                            </div>
+                        </div>
+                        <div class="col p50">
+                            <label>Checkbox block type</label>
+                            <div class="check_wrap type_block">
+                                <input type="checkbox" id="labelCheckbox4"/><span></span><label for="labelCheckbox4">Label checkbox button 1</label>
+                            </div>
+                            <div class="check_wrap type_block">
+                                <input type="checkbox" id="labelCheckbox5"/><span></span><label for="labelCheckbox5">Label checkbox button 1</label>
+                            </div>
+                            <div class="check_wrap type_block">
+                                <input type="checkbox" id="labalCheckbox6"/><span></span><label for="labalCheckbox6">Label checkbox button 1</label>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col p50">
+                            <label>Radiobutton inline type</label>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radiobutton" id="labelRadio1"/><span></span><label for="labelRadio1">Label radio button 1</label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radiobutton" id="labelRadio2"/><span></span><label for="labelRadio2">Label radio button 2</label>
+                            </div>
+                            <div class="radio_wrap">
+                                <input type="radio" name="radiobutton" id="labelRadio3"/><span></span><label for="labelRadio3">Label radio button 3</label>
+                            </div>
+                        </div>
+                        <div class="col p50">
+                            <label>Radiobutton block type</label>
+                            <div class="radio_wrap type_block">
+                                <input type="radio" name="radiobutton" id="labelRadio4"/><span></span><label for="labelRadio4">Label radio button 4</label>
+                            </div>
+                            <div class="radio_wrap type_block">
+                                <input type="radio" name="radiobutton" id="labelRadio5"/><span></span><label for="labelRadio5">Label radio button 5</label>
+                            </div>
+                            <div class="radio_wrap type_block">
+                                <input type="radio" name="radiobutton" id="labelRadio6"/><span></span><label for="labelRadio6">Label radio button 6</label>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col p50">
+                            <label>Switchbox inline type</label>
+                            <label class="switch_wrap">
+                                <input class="checkbox" type="checkbox">
+                                <div class="switch"></div>
+                                <span class="label">Switch 1</span>
+                            </label>
+                            <label class="switch_wrap">
+                                <input class="checkbox" type="checkbox">
+                                <div class="switch"></div>
+                                <span class="label">Switch 2</span>
+                            </label>
+                            <label class="switch_wrap">
+                                <input class="checkbox" type="checkbox" checked>
+                                <div class="switch"></div>
+                                <span class="label">Switch 3</span>
+                            </label>
+                        </div>
+                        <div class="col p50">
+                            <label>Switchbox block type</label>
+                            <label class="switch_wrap type_block">
+                                <input class="checkbox" type="checkbox" checked>
+                                <div class="switch"></div>
+                                <span class="label">Switch 1</span>
+                            </label>
+                            <label class="switch_wrap type_block">
+                                <input class="checkbox" type="checkbox">
+                                <div class="switch"></div>
+                                <span class="label">Switch 2</span>
+                            </label>
+                            <label class="switch_wrap type_block">
+                                <input class="checkbox" type="checkbox">
+                                <div class="switch"></div>
+                                <span class="label">Switch 3</span>
+                            </label>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="controls">
+                        <button class="back"><span>Zrušit</span></button>
+                        <button class="submit"><span>Odeslat</span></button>
+                    </div>
+
+
+                </div>
+            </form>
+        </article>
+        <div class="clear"></div>
+    </div>
+</section>
+<footer>
+    <div class="inner_box">
+        <p>©2019 - Službu provozuje Lorem ipsum. <a href="#">Podmínky použití</a></p>
+    </div>
+</footer>
+
+
+
+</body>
+</html>

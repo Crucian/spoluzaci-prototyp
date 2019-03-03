@@ -1,0 +1,116 @@
+input {
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #ccc; }
+
+/* obsah tooltipu - taha se z ATTR [data-tooltip] */
+[data-tooltip] {
+  cursor: pointer;
+  position: relative; }
+
+[data-tooltip]:before,
+[data-tooltip]:after {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.15s cubic-bezier(0.5, 1, 0.25, 1);
+  z-index: 1; }
+
+[data-tooltip]:before {
+  padding: 5px;
+  width: 110px;
+  border-radius: 3px;
+  background: #000;
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2; }
+
+[data-tooltip]:after {
+  border: 8px solid transparent;
+  width: 0;
+  content: "";
+  font-size: 0;
+  line-height: 0; }
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  opacity: 1; }
+
+/*tt-top*/
+[data-tooltip].tt-top:before {
+  bottom: 100%;
+  left: 50%;
+  margin-bottom: 5px;
+  transform: translateX(-50%); }
+
+[data-tooltip].tt-top:after {
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-top: 8px solid #000;
+  border-bottom: none; }
+
+[data-tooltip].tt-top:hover:before,
+[data-tooltip].tt-top:hover:after {
+  transform: translateX(-50%) translateY(-5px); }
+
+/*tt-right*/
+[data-tooltip].tt-right:before {
+  top: 50%;
+  left: 100%;
+  margin-left: 5px;
+  transform: translateY(-50%); }
+
+[data-tooltip].tt-right:after {
+  top: 50%;
+  left: 100%;
+  transform: translateY(-50%);
+  border-right: 8px solid #000;
+  border-left: none; }
+
+[data-tooltip].tt-right:hover:before,
+[data-tooltip].tt-right:hover:after {
+  transform: translateX(5px) translateY(-50%); }
+
+/*tt-bottom*/
+[data-tooltip].tt-bottom:before {
+  top: 100%;
+  left: 50%;
+  margin-top: 5px;
+  transform: translateX(-50%); }
+
+[data-tooltip].tt-bottom:after {
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-bottom: 8px solid #000;
+  border-top: none; }
+
+[data-tooltip].tt-bottom:hover:before,
+[data-tooltip].tt-bottom:hover:after {
+  transform: translateX(-50%) translateY(5px); }
+
+/*tt-left*/
+[data-tooltip].tt-left:before {
+  top: 50%;
+  right: 100%;
+  margin-right: 5px;
+  transform: translateY(-50%); }
+
+[data-tooltip].tt-left:after {
+  top: 50%;
+  right: 100%;
+  transform: translateY(-50%);
+  border-left: 8px solid #000;
+  border-right: none; }
+
+[data-tooltip].tt-left:hover:before,
+[data-tooltip].tt-left:hover:after {
+  transform: translateX(-5px) translateY(-50%); }
+
+/*# sourceMappingURL=tooltip.css.map */

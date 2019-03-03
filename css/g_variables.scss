@@ -1,0 +1,722 @@
+/*++++++++++++++++++++++++++++++++++++++++++++++++++
+
+GLOBAL VARIABLES
+
+++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+/*--------------------------------------------------
+FONT FAMILY
+--------------------------------------------------*/
+$ff-default:  'Nunito', sans-serif;
+$ff-title:  'Nunito', sans-serif;
+$ff-menu: 'Nunito', sans-serif;
+
+/*--------------------------------------------------
+FONT SIZES from 1 to 200 px - in [rem] units
+--------------------------------------------------*/
+
+/*font-sizes */
+$fs-1:  0.1rem; $fs-2:  0.2rem; $fs-3:  0.3rem; $fs-4:  0.4rem; $fs-5:  0.5rem; $fs-6:  0.6rem; $fs-7:  0.7rem; $fs-8:  0.8rem; $fs-9:  0.9rem; $fs-10: 1.0rem;
+$fs-11: 1.1rem; $fs-12: 1.2rem; $fs-13: 1.3rem; $fs-14: 1.4rem; $fs-15: 1.5rem; $fs-16: 1.6rem; $fs-17: 1.7rem; $fs-18: 1.8rem; $fs-19: 1.9rem; $fs-20: 2.0rem;
+$fs-21: 2.1rem; $fs-22: 2.2rem; $fs-23: 2.3rem; $fs-24: 2.4rem; $fs-25: 2.5rem; $fs-26: 2.6rem; $fs-27: 2.7rem; $fs-28: 2.8rem; $fs-29: 2.9rem; $fs-30: 3.0rem;
+$fs-31: 3.1rem; $fs-32: 3.2rem; $fs-33: 3.3rem; $fs-34: 3.4rem; $fs-35: 3.5rem; $fs-36: 3.6rem; $fs-37: 3.7rem; $fs-38: 3.8rem; $fs-39: 3.9rem; $fs-40: 4.0rem;
+$fs-41: 4.1rem; $fs-42: 4.2rem; $fs-43: 4.3rem; $fs-44: 4.4rem; $fs-45: 4.5rem; $fs-46: 4.6rem; $fs-47: 4.7rem; $fs-48: 4.8rem; $fs-49: 4.9rem; $fs-50: 5.0rem;
+$fs-51: 5.1rem; $fs-52: 5.2rem; $fs-53: 5.3rem; $fs-54: 5.4rem; $fs-55: 5.5rem; $fs-56: 5.6rem; $fs-57: 5.7rem; $fs-58: 5.8rem; $fs-59: 5.9rem; $fs-60: 6.0rem;
+$fs-61: 6.1rem; $fs-62: 6.2rem; $fs-63: 6.3rem; $fs-64: 6.4rem; $fs-65: 6.5rem; $fs-66: 6.6rem; $fs-67: 6.7rem; $fs-68: 6.8rem; $fs-69: 6.9rem; $fs-70: 7.0rem;
+$fs-71: 7.1rem; $fs-72: 7.2rem; $fs-73: 7.3rem; $fs-74: 7.4rem; $fs-75: 7.5rem; $fs-76: 7.6rem; $fs-77: 7.7rem; $fs-78: 7.8rem; $fs-79: 7.9rem; $fs-80: 8.0rem;
+$fs-81: 8.1rem; $fs-82: 8.2rem; $fs-83: 8.3rem; $fs-84: 8.4rem; $fs-85: 8.5rem; $fs-86: 8.6rem; $fs-87: 8.7rem; $fs-88: 8.8rem; $fs-89: 8.9rem; $fs-90: 9.0rem;
+$fs-91: 9.1rem; $fs-92: 9.2rem; $fs-93: 9.3rem; $fs-94: 9.4rem; $fs-95: 9.5rem; $fs-96: 9.6rem; $fs-97: 9.7rem; $fs-98: 9.8rem; $fs-99: 9.9rem; $fs-100: 10.0rem;
+
+$fs-101: 10.1rem; $fs-101: 10.2rem; $fs-103: 10.3rem; $fs-104: 10.4rem; $fs-105: 10.5rem; $fs-106: 10.6rem; $fs-107: 10.7rem; $fs-108: 10.8rem; $fs-109: 10.9rem; $fs-110: 11.0rem;
+$fs-111: 11.1rem; $fs-112: 11.2rem; $fs-113: 11.3rem; $fs-114: 11.4rem; $fs-115: 11.5rem; $fs-116: 11.6rem; $fs-117: 11.7rem; $fs-118: 11.8rem; $fs-119: 11.9rem; $fs-120: 12.0rem;
+$fs-121: 12.1rem; $fs-122: 12.2rem; $fs-123: 12.3rem; $fs-124: 12.4rem; $fs-125: 12.5rem; $fs-126: 12.6rem; $fs-127: 12.7rem; $fs-128: 12.8rem; $fs-129: 12.9rem; $fs-130: 13.0rem;
+$fs-131: 13.1rem; $fs-132: 13.2rem; $fs-133: 13.3rem; $fs-134: 13.4rem; $fs-135: 13.5rem; $fs-136: 13.6rem; $fs-137: 13.7rem; $fs-138: 13.8rem; $fs-139: 13.9rem; $fs-140: 14.0rem;
+$fs-141: 14.1rem; $fs-142: 14.2rem; $fs-143: 14.3rem; $fs-144: 14.4rem; $fs-145: 14.5rem; $fs-146: 14.6rem; $fs-147: 14.7rem; $fs-148: 14.8rem; $fs-149: 14.9rem; $fs-150: 15.0rem;
+$fs-151: 15.1rem; $fs-152: 15.2rem; $fs-153: 15.3rem; $fs-154: 15.4rem; $fs-155: 15.5rem; $fs-156: 15.6rem; $fs-157: 15.7rem; $fs-158: 15.8rem; $fs-159: 15.9rem; $fs-160: 16.0rem;
+$fs-161: 16.1rem; $fs-162: 16.2rem; $fs-163: 16.3rem; $fs-164: 16.4rem; $fs-165: 16.5rem; $fs-166: 16.6rem; $fs-167: 16.7rem; $fs-168: 16.8rem; $fs-169: 16.9rem; $fs-170: 17.0rem;
+$fs-171: 17.1rem; $fs-172: 17.2rem; $fs-173: 17.3rem; $fs-174: 17.4rem; $fs-175: 17.5rem; $fs-176: 17.6rem; $fs-177: 17.7rem; $fs-178: 17.8rem; $fs-179: 17.9rem; $fs-180: 18.0rem;
+$fs-181: 18.1rem; $fs-182: 18.2rem; $fs-183: 18.3rem; $fs-184: 18.4rem; $fs-185: 18.5rem; $fs-186: 18.6rem; $fs-187: 18.7rem; $fs-188: 18.8rem; $fs-189: 18.9rem; $fs-190: 19.0rem;
+$fs-191: 19.1rem; $fs-192: 19.2rem; $fs-193: 19.3rem; $fs-194: 19.4rem; $fs-195: 19.5rem; $fs-196: 19.6rem; $fs-197: 19.7rem; $fs-198: 19.8rem; $fs-199: 19.9rem; $fs-200: 20.0rem;
+
+/* or font-sizes definition by tag */
+
+$fs-xxs: 0.8rem; 	/*extra extra small*/
+$fs-xs: 1.0rem; 	/*extra small*/
+$fs-s: 1.1rem; 		/*small*/
+$fs-n: 1.2rem; 		/*normal*/
+$fs-d: 1.4rem; 		/*default*/
+$fs-m: 1.6rem; 		/*medium*/
+$fs-b: 1.8rem; 		/*big*/
+$fs-xb: 2.1rem; 	/*extra big*/
+$fs-xxb: 2.5rem; 	/*extra extra big*/
+
+/*--------------------------------------------------
+FONT WEIGHT
+--------------------------------------------------*/
+$fw-100: 100; $fw-200: 200; $fw-300: 300; $fw-400: 400; $fw-500: 500; $fw-600: 600; $fw-700: 700; $fw-800: 800; $fw-900: 900;
+
+/*--------------------------------------------------
+COLORS [rgba/hex]
+--------------------------------------------------*/
+
+/*-= Default color - neutral / global ===============================================================================-*/
+$color-transparent:		rgba(0,0,0,0);			/*transparent */
+$color-mark:			rgba(255,255,153,1);	/*#ffff99 - mark*/
+
+/*-= Black to white - solid scale =-*/
+
+$color-000000:			rgba(0,0,0,1);			/*#000000*/
+$color-030303:			rgba(3,3,3,1);			/*#030303*/
+$color-050505:			rgba(5,5,5,1);			/*#050505*/
+$color-080808:			rgba(8,8,8,1);			/*#080808*/
+$color-101010:			rgba(16,16,16,1);		/*#101010*/
+$color-0a0a0a:			rgba(10,10,10,1);		/*#0a0a0a*/
+$color-0d0d0d:			rgba(13,13,13,1);		/*#0d0d0d*/
+$color-0f0f0f:			rgba(15,15,15,1);		/*#0f0f0f*/
+$color-111111:			rgba(17,17,17,1);		/*#111111*/
+$color-121212:			rgba(18,18,18,1);		/*#121212*/
+$color-141414:			rgba(20,20,20,1);		/*#141414*/
+$color-171717:			rgba(23,23,23,1);		/*#171717*/
+$color-181818:			rgba(24,24,24,1);		/*#181818*/
+$color-1a1a1a:			rgba(26,26,26,1);		/*#1a1a1a*/
+$color-1c1c1c:			rgba(28,28,28,1);		/*#1c1c1c*/
+$color-1f1f1f:			rgba(31,31,31,1);		/*#1f1f1f*/
+$color-202020:			rgba(32,32,32,1);		/*#202020*/
+$color-212121:			rgba(33,33,33,1);		/*#212121*/
+$color-222222:			rgba(34,34,34,1);		/*#222222*/
+$color-242424:			rgba(36,36,36,1);		/*#242424*/
+$color-262626:			rgba(38,38,38,1);		/*#262626*/
+$color-282828:			rgba(40,40,40,1);		/*#282828*/
+$color-292929:			rgba(41,41,41,1);		/*#292929*/
+$color-2b2b2b:			rgba(43,43,43,1);		/*#2b2b2b*/
+$color-2e2e2e:			rgba(46,46,46,1);		/*#2e2e2e*/
+$color-303030:			rgba(48,48,48,1);		/*#303030*/
+$color-333333:			rgba(51,51,51,1);		/*#333333*/
+$color-363636:			rgba(54,54,54,1);		/*#363636*/
+$color-383838:			rgba(56,56,56,1);		/*#383838*/
+$color-3b3b3b:			rgba(59,59,59,1);		/*#3b3b3b*/
+$color-3d3d3d:			rgba(61,61,61,1);		/*#3d3d3d*/
+$color-404040:			rgba(64,64,64,1);		/*#404040*/
+$color-424242:			rgba(66,66,66,1);		/*#424242*/
+$color-444444:			rgba(68,68,68,1);		/*#444444*/
+$color-454545:			rgba(69,69,69,1);		/*#454545*/
+$color-474747:			rgba(71,71,71,1);		/*#474747*/
+$color-484848:			rgba(72,72,72,1);		/*#484848*/
+$color-4a4a4a:			rgba(74,74,74,1);		/*#4a4a4a*/
+$color-4d4d4d:			rgba(77,77,77,1);		/*#4d4d4d*/
+$color-4f4f4f:			rgba(79,79,79,1);		/*#4f4f4f*/
+$color-505050:			rgba(80,80,80,1);		/*#505050*/
+$color-525252:			rgba(82,82,82,1);		/*#525252*/
+$color-545454:			rgba(84,84,84,1);		/*#545454*/
+$color-555555:			rgba(85,85,85,1);		/*#555555*/
+$color-575757:			rgba(87,87,87,1);		/*#575757*/
+$color-585858:			rgba(88,88,88,1);		/*#585858*/
+$color-595959:			rgba(89,89,89,1);		/*#595959*/
+$color-5c5c5c:			rgba(92,92,92,1);		/*#5c5c5c*/
+$color-5e5e5e:			rgba(94,94,94,1);		/*#5e5e5e*/
+$color-606060:			rgba(96,96,96,1);		/*#606060*/
+$color-616161:			rgba(97,97,97,1);		/*#616161*/
+$color-636363:			rgba(99,99,99,1);		/*#636363*/
+$color-666666:			rgba(102,102,102,1);	/*#666666*/
+$color-686868:			rgba(104,104,104,1);	/*#686868*/
+$color-696969:			rgba(105,105,105,1);	/*#696969*/
+$color-6b6b6b:			rgba(107,107,107,1);	/*#6b6b6b*/
+$color-6e6e6e:			rgba(110,110,110,1);	/*#6e6e6e*/
+$color-707070:			rgba(112,112,112,1);	/*#707070*/
+$color-737373:			rgba(115,115,115,1);	/*#737373*/
+$color-757575:			rgba(117,117,117,1);	/*#757575*/
+$color-777777:			rgba(119,119,119,1);	/*#777777*/
+$color-787878:			rgba(120,120,120,1);	/*#787878*/
+$color-7a7a7a:			rgba(122,122,122,1);	/*#7a7a7a*/
+$color-7d7d7d:			rgba(125,125,125,1);	/*#7d7d7d*/
+$color-7f7f7f:			rgba(127,127,127,1);	/*#7f7f7f*/
+$color-808080:			rgba(128,128,128,1);	/*#808080*/
+$color-828282:			rgba(130,130,130,1);	/*#828282*/
+$color-858585:			rgba(133,133,133,1);	/*#858585*/
+$color-878787:			rgba(135,135,135,1);	/*#878787*/
+$color-888888:			rgba(136,136,136,1);	/*#888888*/
+$color-8a8a8a:			rgba(138,138,138,1);	/*#8a8a8a*/
+$color-8c8c8c:			rgba(140,140,140,1);	/*#8c8c8c*/
+$color-8f8f8f:			rgba(143,143,143,1);	/*#8f8f8f*/
+$color-909090:			rgba(144,144,144,1);	/*#909090*/
+$color-919191:			rgba(145,145,145,1);	/*#919191*/
+$color-949494:			rgba(148,148,148,1);	/*#949494*/
+$color-969696:			rgba(150,150,150,1);	/*#969696*/
+$color-989898:			rgba(152,152,152,1);	/*#989898*/
+$color-999999:			rgba(153,153,153,1);	/*#999999*/
+$color-9c9c9c:			rgba(156,156,156,1);	/*#9c9c9c*/
+$color-9e9e9e:			rgba(158,158,158,1);	/*#9e9e9e*/
+$color-a0a0a0:			rgba(160,160,160,1);	/*#a0a0a0*/
+$color-a1a1a1:			rgba(161,161,161,1);	/*#a1a1a1*/
+$color-a3a3a3:			rgba(163,163,163,1);	/*#a3a3a3*/
+$color-a6a6a6:			rgba(166,166,166,1);	/*#a6a6a6*/
+$color-a8a8a8:			rgba(168,168,168,1);	/*#a8a8a8*/
+$color-aaaaaa:			rgba(170,170,170,1);	/*#aaaaaa*/
+$color-ababab:			rgba(171,171,171,1);	/*#ababab*/
+$color-adadad:			rgba(173,173,173,1);	/*#adadad*/
+$color-b0b0b0:			rgba(176,176,176,1);	/*#b0b0b0*/
+$color-b3b3b3:			rgba(179,179,179,1);	/*#b3b3b3*/
+$color-b5b5b5:			rgba(181,181,181,1);	/*#b5b5b5*/
+$color-b8b8b8:			rgba(184,184,184,1);	/*#b8b8b8*/
+$color-bbbbbb:			rgba(187,187,187,1);	/*#bbbbbb*/
+$color-bababa:			rgba(186,186,186,1);	/*#bababa*/
+$color-bdbdbd:			rgba(189,189,189,1);	/*#bdbdbd*/
+$color-bfbfbf:			rgba(191,191,191,1);	/*#bfbfbf*/
+$color-c0c0c0:			rgba(192,192,192,1);	/*#c0c0c0*/
+$color-c2c2c2:			rgba(194,194,194,1);	/*#c2c2c2*/
+$color-c4c4c4:			rgba(196,196,196,1);	/*#c4c4c4*/
+$color-c7c7c7:			rgba(199,199,199,1);	/*#c7c7c7*/
+$color-c8c8c8:			rgba(200,200,200,1);	/*#c8c8c8*/
+$color-c9c9c9:			rgba(201,201,201,1);	/*#c9c9c9*/
+$color-cccccc:			rgba(204,204,204,1);	/*#cccccc*/
+$color-cfcfcf:			rgba(207,207,207,1);	/*#cfcfcf*/
+$color-d0d0d0:			rgba(208,208,208,1);	/*#d0d0d0*/
+$color-d1d1d1:			rgba(209,209,209,1);	/*#d1d1d1*/
+$color-d4d4d4:			rgba(212,212,212,1);	/*#d4d4d4*/
+$color-d6d6d6:			rgba(214,214,214,1);	/*#d6d6d6*/
+$color-d8d8d8:			rgba(216,216,216,1);	/*#d8d8d8*/
+$color-d9d9d9:			rgba(217,217,217,1);	/*#d9d9d9*/
+$color-dbdbdb:			rgba(219,219,219,1);	/*#dbdbdb*/
+$color-dedede:			rgba(222,222,222,1);	/*#dedede*/
+$color-dddddd:			rgba(221,221,221,1);	/*#dddddd*/
+$color-e0e0e0:			rgba(224,224,224,1);	/*#e0e0e0*/
+$color-e3e3e3:			rgba(227,227,227,1);	/*#e3e3e3*/
+$color-e5e5e5:			rgba(229,229,229,1);	/*#e5e5e5*/
+$color-e8e8e8:			rgba(232,232,232,1);	/*#e8e8e8*/
+$color-ebebeb:			rgba(235,235,235,1);	/*#ebebeb*/
+$color-ededed:			rgba(237,237,237,1);	/*#ededed*/
+$color-eeeeee:			rgba(238,238,238,1);	/*#eeeeee*/
+$color-f0f0f0:			rgba(240,240,240,1);	/*#f0f0f0*/
+$color-f2f2f2:			rgba(242,242,242,1);	/*#f2f2f2*/
+$color-f5f5f5:			rgba(245,245,245,1);	/*#f5f5f5*/
+$color-f7f7f7:			rgba(247,247,247,1);	/*#f7f7f7*/
+$color-f8f8f8:			rgba(248,248,248,1);	/*#f8f8f8*/
+$color-fafafa:			rgba(250,250,250,1);	/*#fafafa*/
+$color-fcfcfc:			rgba(252,252,252,1);	/*#fcfcfc*/
+$color-ffffff:			rgba(255,255,255,1);	/*#ffffff*/
+
+/* Black + alpha 1 - 99 % */
+
+$color-000000-a099:		rgba(0,0,0,0.99);		/*#000000 a0.99*/
+$color-000000-a098:		rgba(0,0,0,0.98);		/*#000000 a0.98*/
+$color-000000-a097:		rgba(0,0,0,0.97);		/*#000000 a0.97*/
+$color-000000-a096:		rgba(0,0,0,0.96);		/*#000000 a0.96*/
+$color-000000-a095:		rgba(0,0,0,0.95);		/*#000000 a0.95*/
+$color-000000-a094:		rgba(0,0,0,0.94);		/*#000000 a0.94*/
+$color-000000-a093:		rgba(0,0,0,0.93);		/*#000000 a0.93*/
+$color-000000-a092:		rgba(0,0,0,0.92);		/*#000000 a0.92*/
+$color-000000-a091:		rgba(0,0,0,0.91);		/*#000000 a0.91*/
+$color-000000-a09:		rgba(0,0,0,0.9);		/*#000000 a0.90*/
+
+$color-000000-a089:		rgba(0,0,0,0.89);		/*#000000 a0.89*/
+$color-000000-a088:		rgba(0,0,0,0.88);		/*#000000 a0.88*/
+$color-000000-a087:		rgba(0,0,0,0.87);		/*#000000 a0.87*/
+$color-000000-a086:		rgba(0,0,0,0.86);		/*#000000 a0.86*/
+$color-000000-a085:		rgba(0,0,0,0.85);		/*#000000 a0.85*/
+$color-000000-a084:		rgba(0,0,0,0.84);		/*#000000 a0.84*/
+$color-000000-a083:		rgba(0,0,0,0.83);		/*#000000 a0.83*/
+$color-000000-a082:		rgba(0,0,0,0.82);		/*#000000 a0.82*/
+$color-000000-a081:		rgba(0,0,0,0.81);		/*#000000 a0.81*/
+$color-000000-a08:		rgba(0,0,0,0.8);		/*#000000 a0.80*/
+
+$color-000000-a079:		rgba(0,0,0,0.79);		/*#000000 a0.79*/
+$color-000000-a078:		rgba(0,0,0,0.78);		/*#000000 a0.78*/
+$color-000000-a077:		rgba(0,0,0,0.77);		/*#000000 a0.77*/
+$color-000000-a076:		rgba(0,0,0,0.76);		/*#000000 a0.76*/
+$color-000000-a075:		rgba(0,0,0,0.75);		/*#000000 a0.75*/
+$color-000000-a074:		rgba(0,0,0,0.74);		/*#000000 a0.74*/
+$color-000000-a073:		rgba(0,0,0,0.73);		/*#000000 a0.73*/
+$color-000000-a072:		rgba(0,0,0,0.72);		/*#000000 a0.72*/
+$color-000000-a071:		rgba(0,0,0,0.71);		/*#000000 a0.71*/
+$color-000000-a07:		rgba(0,0,0,0.7);		/*#000000 a0.70*/
+
+$color-000000-a069:		rgba(0,0,0,0.69);		/*#000000 a0.69*/
+$color-000000-a068:		rgba(0,0,0,0.68);		/*#000000 a0.68*/
+$color-000000-a067:		rgba(0,0,0,0.67);		/*#000000 a0.67*/
+$color-000000-a066:		rgba(0,0,0,0.66);		/*#000000 a0.66*/
+$color-000000-a065:		rgba(0,0,0,0.65);		/*#000000 a0.65*/
+$color-000000-a064:		rgba(0,0,0,0.64);		/*#000000 a0.64*/
+$color-000000-a063:		rgba(0,0,0,0.63);		/*#000000 a0.63*/
+$color-000000-a062:		rgba(0,0,0,0.62);		/*#000000 a0.62*/
+$color-000000-a061:		rgba(0,0,0,0.61);		/*#000000 a0.61*/
+$color-000000-a06:		rgba(0,0,0,0.6);		/*#000000 a0.60*/
+
+$color-000000-a059:		rgba(0,0,0,0.59);		/*#000000 a0.59*/
+$color-000000-a058:		rgba(0,0,0,0.58);		/*#000000 a0.58*/
+$color-000000-a057:		rgba(0,0,0,0.57);		/*#000000 a0.57*/
+$color-000000-a056:		rgba(0,0,0,0.56);		/*#000000 a0.56*/
+$color-000000-a055:		rgba(0,0,0,0.55);		/*#000000 a0.55*/
+$color-000000-a054:		rgba(0,0,0,0.54);		/*#000000 a0.54*/
+$color-000000-a053:		rgba(0,0,0,0.53);		/*#000000 a0.53*/
+$color-000000-a052:		rgba(0,0,0,0.52);		/*#000000 a0.52*/
+$color-000000-a051:		rgba(0,0,0,0.51);		/*#000000 a0.51*/
+$color-000000-a05:		rgba(0,0,0,0.5);		/*#000000 a0.50*/
+
+$color-000000-a049:		rgba(0,0,0,0.49);		/*#000000 a0.49*/
+$color-000000-a048:		rgba(0,0,0,0.48);		/*#000000 a0.48*/
+$color-000000-a047:		rgba(0,0,0,0.47);		/*#000000 a0.47*/
+$color-000000-a046:		rgba(0,0,0,0.46);		/*#000000 a0.46*/
+$color-000000-a045:		rgba(0,0,0,0.45);		/*#000000 a0.45*/
+$color-000000-a044:		rgba(0,0,0,0.44);		/*#000000 a0.44*/
+$color-000000-a043:		rgba(0,0,0,0.43);		/*#000000 a0.43*/
+$color-000000-a042:		rgba(0,0,0,0.42);		/*#000000 a0.42*/
+$color-000000-a041:		rgba(0,0,0,0.41);		/*#000000 a0.41*/
+$color-000000-a04:		rgba(0,0,0,0.4);		/*#000000 a0.40*/
+
+$color-000000-a039:		rgba(0,0,0,0.39);		/*#000000 a0.39*/
+$color-000000-a038:		rgba(0,0,0,0.38);		/*#000000 a0.38*/
+$color-000000-a037:		rgba(0,0,0,0.37);		/*#000000 a0.37*/
+$color-000000-a036:		rgba(0,0,0,0.36);		/*#000000 a0.36*/
+$color-000000-a035:		rgba(0,0,0,0.35);		/*#000000 a0.3*/
+$color-000000-a034:		rgba(0,0,0,0.34);		/*#000000 a0.34*/
+$color-000000-a033:		rgba(0,0,0,0.33);		/*#000000 a0.33*/
+$color-000000-a032:		rgba(0,0,0,0.32);		/*#000000 a0.32*/
+$color-000000-a031:		rgba(0,0,0,0.31);		/*#000000 a0.31*/
+$color-000000-a03:		rgba(0,0,0,0.3);		/*#000000 a0.30*/
+
+$color-000000-a029:		rgba(0,0,0,0.29);		/*#000000 a0.29*/
+$color-000000-a028:		rgba(0,0,0,0.28);		/*#000000 a0.28*/
+$color-000000-a027:		rgba(0,0,0,0.27);		/*#000000 a0.27*/
+$color-000000-a026:		rgba(0,0,0,0.26);		/*#000000 a0.26*/
+$color-000000-a025:		rgba(0,0,0,0.25);		/*#000000 a0.25*/
+$color-000000-a024:		rgba(0,0,0,0.24);		/*#000000 a0.24*/
+$color-000000-a023:		rgba(0,0,0,0.23);		/*#000000 a0.23*/
+$color-000000-a022:		rgba(0,0,0,0.22);		/*#000000 a0.22*/
+$color-000000-a021:		rgba(0,0,0,0.21);		/*#000000 a0.21*/
+$color-000000-a02:		rgba(0,0,0,0.2);		/*#000000 a0.20*/
+
+$color-000000-a019:		rgba(0,0,0,0.19);		/*#000000 a0.19*/
+$color-000000-a018:		rgba(0,0,0,0.18);		/*#000000 a0.18*/
+$color-000000-a017:		rgba(0,0,0,0.17);		/*#000000 a0.17*/
+$color-000000-a016:		rgba(0,0,0,0.16);		/*#000000 a0.16*/
+$color-000000-a015:		rgba(0,0,0,0.15);		/*#000000 a0.15*/
+$color-000000-a014:		rgba(0,0,0,0.14);		/*#000000 a0.14*/
+$color-000000-a013:		rgba(0,0,0,0.13);		/*#000000 a0.13*/
+$color-000000-a012:		rgba(0,0,0,0.12);		/*#000000 a0.12*/
+$color-000000-a011:		rgba(0,0,0,0.11);		/*#000000 a0.11*/
+$color-000000-a01:		rgba(0,0,0,0.1);		/*#000000 a0.01*/
+
+$color-000000-a009:		rgba(0,0,0,0.09);		/*#000000 a0.09*/
+$color-000000-a008:		rgba(0,0,0,0.08);		/*#000000 a0.08*/
+$color-000000-a007:		rgba(0,0,0,0.07);		/*#000000 a0.07*/
+$color-000000-a006:		rgba(0,0,0,0.06);		/*#000000 a0.06*/
+$color-000000-a005:		rgba(0,0,0,0.05);		/*#000000 a0.05*/
+$color-000000-a004:		rgba(0,0,0,0.04);		/*#000000 a0.04*/
+$color-000000-a003:		rgba(0,0,0,0.03);		/*#000000 a0.03*/
+$color-000000-a002:		rgba(0,0,0,0.02);		/*#000000 a0.02*/
+$color-000000-a001:		rgba(0,0,0,0.01);		/*#000000 a0.01*/
+
+/* White + alpha 1 - 99 % */
+
+$color-ffffff-a099:		rgba(255,255,255,0.99);		/*#ffffff a0.99*/
+$color-ffffff-a098:		rgba(255,255,255,0.98);		/*#ffffff a0.98*/
+$color-ffffff-a097:		rgba(255,255,255,0.97);		/*#ffffff a0.97*/
+$color-ffffff-a096:		rgba(255,255,255,0.96);		/*#ffffff a0.96*/
+$color-ffffff-a095:		rgba(255,255,255,0.95);		/*#ffffff a0.95*/
+$color-ffffff-a094:		rgba(255,255,255,0.94);		/*#ffffff a0.94*/
+$color-ffffff-a093:		rgba(255,255,255,0.93);		/*#ffffff a0.93*/
+$color-ffffff-a092:		rgba(255,255,255,0.92);		/*#ffffff a0.92*/
+$color-ffffff-a091:		rgba(255,255,255,0.91);		/*#ffffff a0.91*/
+$color-ffffff-a09:		rgba(255,255,255,0.9);		/*#ffffff a0.90*/
+
+$color-ffffff-a089:		rgba(255,255,255,0.89);		/*#ffffff a0.89*/
+$color-ffffff-a088:		rgba(255,255,255,0.88);		/*#ffffff a0.88*/
+$color-ffffff-a087:		rgba(255,255,255,0.87);		/*#ffffff a0.87*/
+$color-ffffff-a086:		rgba(255,255,255,0.86);		/*#ffffff a0.86*/
+$color-ffffff-a085:		rgba(255,255,255,0.85);		/*#ffffff a0.85*/
+$color-ffffff-a084:		rgba(255,255,255,0.84);		/*#ffffff a0.84*/
+$color-ffffff-a083:		rgba(255,255,255,0.83);		/*#ffffff a0.83*/
+$color-ffffff-a082:		rgba(255,255,255,0.82);		/*#ffffff a0.82*/
+$color-ffffff-a081:		rgba(255,255,255,0.81);		/*#ffffff a0.81*/
+$color-ffffff-a08:		rgba(255,255,255,0.8);		/*#ffffff a0.80*/
+
+$color-ffffff-a079:		rgba(255,255,255,0.79);		/*#ffffff a0.79*/
+$color-ffffff-a078:		rgba(255,255,255,0.78);		/*#ffffff a0.78*/
+$color-ffffff-a077:		rgba(255,255,255,0.77);		/*#ffffff a0.77*/
+$color-ffffff-a076:		rgba(255,255,255,0.76);		/*#ffffff a0.76*/
+$color-ffffff-a075:		rgba(255,255,255,0.75);		/*#ffffff a0.75*/
+$color-ffffff-a074:		rgba(255,255,255,0.74);		/*#ffffff a0.74*/
+$color-ffffff-a073:		rgba(255,255,255,0.73);		/*#ffffff a0.73*/
+$color-ffffff-a072:		rgba(255,255,255,0.72);		/*#ffffff a0.72*/
+$color-ffffff-a071:		rgba(255,255,255,0.71);		/*#ffffff a0.71*/
+$color-ffffff-a07:		rgba(255,255,255,0.7);		/*#ffffff a0.70*/
+
+$color-ffffff-a069:		rgba(255,255,255,0.69);		/*#ffffff a0.69*/
+$color-ffffff-a068:		rgba(255,255,255,0.68);		/*#ffffff a0.68*/
+$color-ffffff-a067:		rgba(255,255,255,0.67);		/*#ffffff a0.67*/
+$color-ffffff-a066:		rgba(255,255,255,0.66);		/*#ffffff a0.66*/
+$color-ffffff-a065:		rgba(255,255,255,0.65);		/*#ffffff a0.65*/
+$color-ffffff-a064:		rgba(255,255,255,0.64);		/*#ffffff a0.64*/
+$color-ffffff-a063:		rgba(255,255,255,0.63);		/*#ffffff a0.63*/
+$color-ffffff-a062:		rgba(255,255,255,0.62);		/*#ffffff a0.62*/
+$color-ffffff-a061:		rgba(255,255,255,0.61);		/*#ffffff a0.61*/
+$color-ffffff-a06:		rgba(255,255,255,0.6);		/*#ffffff a0.60*/
+
+$color-ffffff-a059:		rgba(255,255,255,0.59);		/*#ffffff a0.59*/
+$color-ffffff-a058:		rgba(255,255,255,0.58);		/*#ffffff a0.58*/
+$color-ffffff-a057:		rgba(255,255,255,0.57);		/*#ffffff a0.57*/
+$color-ffffff-a056:		rgba(255,255,255,0.56);		/*#ffffff a0.56*/
+$color-ffffff-a055:		rgba(255,255,255,0.55);		/*#ffffff a0.55*/
+$color-ffffff-a054:		rgba(255,255,255,0.54);		/*#ffffff a0.54*/
+$color-ffffff-a053:		rgba(255,255,255,0.53);		/*#ffffff a0.53*/
+$color-ffffff-a052:		rgba(255,255,255,0.52);		/*#ffffff a0.52*/
+$color-ffffff-a051:		rgba(255,255,255,0.51);		/*#ffffff a0.51*/
+$color-ffffff-a05:		rgba(255,255,255,0.5);		/*#ffffff a0.50*/
+
+$color-ffffff-a049:		rgba(255,255,255,0.49);		/*#ffffff a0.49*/
+$color-ffffff-a048:		rgba(255,255,255,0.48);		/*#ffffff a0.48*/
+$color-ffffff-a047:		rgba(255,255,255,0.47);		/*#ffffff a0.47*/
+$color-ffffff-a046:		rgba(255,255,255,0.46);		/*#ffffff a0.46*/
+$color-ffffff-a045:		rgba(255,255,255,0.45);		/*#ffffff a0.45*/
+$color-ffffff-a044:		rgba(255,255,255,0.44);		/*#ffffff a0.44*/
+$color-ffffff-a043:		rgba(255,255,255,0.43);		/*#ffffff a0.43*/
+$color-ffffff-a042:		rgba(255,255,255,0.42);		/*#ffffff a0.42*/
+$color-ffffff-a041:		rgba(255,255,255,0.41);		/*#ffffff a0.41*/
+$color-ffffff-a04:		rgba(255,255,255,0.4);		/*#ffffff a0.40*/
+
+$color-ffffff-a039:		rgba(255,255,255,0.39);		/*#ffffff a0.39*/
+$color-ffffff-a038:		rgba(255,255,255,0.38);		/*#ffffff a0.38*/
+$color-ffffff-a037:		rgba(255,255,255,0.37);		/*#ffffff a0.37*/
+$color-ffffff-a036:		rgba(255,255,255,0.36);		/*#ffffff a0.36*/
+$color-ffffff-a035:		rgba(255,255,255,0.35);		/*#ffffff a0.3*/
+$color-ffffff-a034:		rgba(255,255,255,0.34);		/*#ffffff a0.34*/
+$color-ffffff-a033:		rgba(255,255,255,0.33);		/*#ffffff a0.33*/
+$color-ffffff-a032:		rgba(255,255,255,0.32);		/*#ffffff a0.32*/
+$color-ffffff-a031:		rgba(255,255,255,0.31);		/*#ffffff a0.31*/
+$color-ffffff-a03:		rgba(255,255,255,0.3);		/*#ffffff a0.30*/
+
+$color-ffffff-a029:		rgba(255,255,255,0.29);		/*#ffffff a0.29*/
+$color-ffffff-a028:		rgba(255,255,255,0.28);		/*#ffffff a0.28*/
+$color-ffffff-a027:		rgba(255,255,255,0.27);		/*#ffffff a0.27*/
+$color-ffffff-a026:		rgba(255,255,255,0.26);		/*#ffffff a0.26*/
+$color-ffffff-a025:		rgba(255,255,255,0.25);		/*#ffffff a0.25*/
+$color-ffffff-a024:		rgba(255,255,255,0.24);		/*#ffffff a0.24*/
+$color-ffffff-a023:		rgba(255,255,255,0.23);		/*#ffffff a0.23*/
+$color-ffffff-a022:		rgba(255,255,255,0.22);		/*#ffffff a0.22*/
+$color-ffffff-a021:		rgba(255,255,255,0.21);		/*#ffffff a0.21*/
+$color-ffffff-a02:		rgba(255,255,255,0.2);		/*#ffffff a0.20*/
+
+$color-ffffff-a019:		rgba(255,255,255,0.19);		/*#ffffff a0.19*/
+$color-ffffff-a018:		rgba(255,255,255,0.18);		/*#ffffff a0.18*/
+$color-ffffff-a017:		rgba(255,255,255,0.17);		/*#ffffff a0.17*/
+$color-ffffff-a016:		rgba(255,255,255,0.16);		/*#ffffff a0.16*/
+$color-ffffff-a015:		rgba(255,255,255,0.15);		/*#ffffff a0.15*/
+$color-ffffff-a014:		rgba(255,255,255,0.14);		/*#ffffff a0.14*/
+$color-ffffff-a013:		rgba(255,255,255,0.13);		/*#ffffff a0.13*/
+$color-ffffff-a012:		rgba(255,255,255,0.12);		/*#ffffff a0.12*/
+$color-ffffff-a011:		rgba(255,255,255,0.11);		/*#ffffff a0.11*/
+$color-ffffff-a01:		rgba(255,255,255,0.1);		/*#ffffff a0.01*/
+
+$color-ffffff-a009:		rgba(255,255,255,0.09);		/*#ffffff a0.09*/
+$color-ffffff-a008:		rgba(255,255,255,0.08);		/*#ffffff a0.08*/
+$color-ffffff-a007:		rgba(255,255,255,0.07);		/*#ffffff a0.07*/
+$color-ffffff-a006:		rgba(255,255,255,0.06);		/*#ffffff a0.06*/
+$color-ffffff-a005:		rgba(255,255,255,0.05);		/*#ffffff a0.05*/
+$color-ffffff-a004:		rgba(255,255,255,0.04);		/*#ffffff a0.04*/
+$color-ffffff-a003:		rgba(255,255,255,0.03);		/*#ffffff a0.03*/
+$color-ffffff-a002:		rgba(255,255,255,0.02);		/*#ffffff a0.02*/
+$color-ffffff-a001:		rgba(255,255,255,0.01);		/*#ffffff a0.01*/
+
+/*-= Local / Client colors ==========================================================================================-*/
+
+/*-= Basic scheme =-*/
+$color-title:           rgba(53,64,82,1);		/*#354052*/
+$color-primary:         rgba(53,64,82,1);		/*#354052*/
+$color-secondary:       rgba(46,162,248,1);		/*#2ea2f8 + gradient*/
+
+$color-f6f6f6:			rgba(246,246,246,1);	/*#f6f6f6 + background body*/
+$color-e7e7e7:			rgba(231,231,231,1);	/*#e7e7e7 + border header*/
+/*-= Button scheme =-*/
+$color-ffffff:			rgba(255,255,255,1);	/*#ffffff - text submit/back; background default*/
+/*default*/
+$color-cccccc:			rgba(204,204,204,1);	/*#cccccc - background*/
+$color-666666:			rgba(102,102,102,1);	/*#666666 - text*/
+$color-f7f7f7:			rgba(247,247,247,1);	/*#f7f7f7 - text*/
+/*submit*/
+$color-de4e07:			rgba(222,78,7,1);		/*#de4e07 - background*/
+$color-b33f05:			rgba(179,63,5,1);		/*#b33f05 - border*/
+$color-f76016:			rgba(247,96,22,1);		/*#f76016 - hover*/
+/*back*/
+$color-b8b8b8:			rgba(184,184,184,1);	/*#b8b8b8 - background*/
+$color-959595:			rgba(149,149,149,1);	/*#959595 - border*/
+$color-b4b4b4:			rgba(160,160,160,1);	/*#b4b4b4 - hover*/
+
+/*-= Forms scheme =-*/
+$color-4b6a77:			rgba(75,106,119,1);		/*#4b6a77 - focus*/
+$color-cccccc:			rgba(149,149,149,1);	/*#959595 - hover*/
+/*aside*/
+$color-7f959e:			rgba(127,149,158,1);	/*#7f959e - background input/select*/
+$color-f3d396:			rgba(243,211,150,1);	/*#f3d396 - avatar photo border + nav hover*/
+
+
+/*error*/
+$color-eb0000:			rgba(235,0,0,1);		/*#eb0000 - error*/
+/*correct*/
+$color-5dbb12:			rgba(93,187,18,1);		/*#5dbb12 - correct*/
+
+/*-= Titles =-*/
+$color-f6deae:			rgba(246,222,174,1);	/*#f6deae - homepage H1 span*/
+$color-4b6a77:			rgba(75,106,119,1);		/*#4b6a77 - homepage H2 */
+$color-d2d2d2:			rgba(210,210,210,1);	/*#d2d2d2 - mapa */
+
+/*-= Footer =-*/
+$color-323637:			rgba(50,54,55,1);		/*#323637 - background */
+$color-908b8b:			rgba(144,139,139,1);	/*#908b8b - p */
+$color-b19f7b:			rgba(177,159,123,1);	/*#b19f7b - p a*/
+
+/*-= status avatar - trida =-*/
+$color-73c400:			rgba(115,196,0,1);		/*#73c400 - active state */
+$color-ec9b00:			rgba(236,155,0,1);		/*#ec9b00 - away state */
+$color-aaaaaa:			rgba(170,170,170,1);	/*#aaaaaa - nonactive state */
+
+/*
+
+@mixin color($color, $opacity) {
+	background: rgba($color, $opacity);
+}
+//@include color($color-ffffff,0.5);
+}
+
+ */
+
+/*--------------------------------------------------
+MIXINS
+--------------------------------------------------*/
+
+/*-= value reset-basic =-*/
+@mixin reset-basic {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	//@include reset-basic;
+}
+@mixin reset-font-inherit {
+	font-weight: inherit;
+	font-style: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	//@include reset-font-inherit;
+}
+
+
+/*-= radius =-*/
+
+@mixin radius-default($value: 100%) {
+	$prefixes: -webkit- -moz- -ms- -o-;
+	@each $prefix in $prefixes {
+		#{$prefix}border-radius: $value;
+	}
+	//radius default
+	//@include radius-default; - znamena automaticky 100% - all
+	//radius specific
+	//@include radius-default(0 0 3px 3px); - muze byt i sdruzena definice [napriklad: 5px]
+	//radius none
+	//@include radius-default("0");
+}
+
+/*-= gradient full + img =-*/
+
+@mixin gradient-full(
+	$start-color,
+	$end-color,
+	$orientation: 'vertical',
+	$url: '',
+	$posX: 'center',
+	$posY: 'center',
+	$repeat: 'no-repeat'
+) {
+	background: $start-color;
+
+	$imageDefinition: '';
+	@if $url != '' {
+		$imageDefinition: 'url(#{$url}) #{$posX} #{$posY} #{$repeat},';
+	}
+
+	$orientationStandard: 'left'; // default is horizontal
+	$orientationPrefix: 'to right'; // default is horizontal
+	@if $orientation == 'vertical' {
+		$orientationStandard: 'to bottom';
+		$orientationPrefix: 'top';
+	}
+
+	@each $prefix in '-webkit-' '-moz-' '-ms-' '-o-' {
+		background: #{$imageDefinition} #{$prefix}linear-gradient(#{$orientationPrefix}, $start-color 0%, $end-color 100%);
+	}
+
+	background: #{$imageDefinition} linear-gradient(#{$orientationStandard}, $start-color 0%, $end-color 100%);
+	//@include gradient-full($color-ffffff, $color-f2f4f7, 'vertical', "'../images/forms/select.png'", '100%', '55%', 'no-repeat');
+}
+
+/*-= gradient 0% - 94% / 94% - 100% */
+
+@mixin gradient-vertical-y94($start-color, $end-color, $orientation) {
+	background: $start-color;
+	background: -moz-linear-gradient(top,  $start-color 94%, $end-color 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(94%,$start-color), color-stop(100%,$end-color));
+	background: -webkit-linear-gradient(top,  $start-color 94%,$end-color 100%);
+	background: -o-linear-gradient(top,  $start-color 94%,$end-color 100%);
+	background: -ms-linear-gradient(top,  $start-color 94%,$end-color 100%);
+	background: linear-gradient(to bottom,  $start-color 94%,$end-color 100%);
+	//@include gradient-vertical-y94($color-ffffff, $color-f2f4f7, vertical);
+}
+
+/*-= box shadows =-*/
+
+@mixin box-shadow-default($properties: (("1px 1px 1px 1px " + $color-000000-a05))) {
+	$prefixes: -webkit- -moz- -ms- -o-;
+	@each $prefix in $prefixes {
+		$value: ();
+		@each $property in $properties {
+			@if length($value) > 0 {
+				$value: append($value, unquote(",") #{$property});
+			}
+			@else {
+				$value: append($value, #{$property});
+			}
+		}
+		#{$prefix}box-shadow: $value;
+	}
+	//shadouw default
+	//@include box-shadow-default; - znamena, ze se aplikuji globalni definice pro vsechny vlastnosti, stejny cas, stejna metoda animace, stejna prodleva
+	//shadow specific
+	//@include box-shadow-default(("inset x y blur spread " + $color-primary));
+	//shadow none
+	//@include box-shadow-default("none");
+}
+/*-=text shadow =-*/
+
+@mixin text-shadow-default($properties: (("1px 1px 1px 1px " + $color-000000-a05))) {
+	$prefixes: -webkit- -moz- -ms- -o-;
+	@each $prefix in $prefixes {
+		$value: ();
+		@each $property in $properties {
+			@if length($value) > 0 {
+				$value: append($value, unquote(",") #{$property});
+			}
+			@else {
+				$value: append($value, #{$property});
+			}
+		}
+		#{$prefix}text-shadow: $value;
+	}
+	//text shadouw default
+	//@include text-shadow-default; - znamena, ze se aplikuji globalni definice pro vsechny vlastnosti, stejny cas, stejna metoda animace, stejna prodleva
+	//text shadow specific
+	//@include text-shadow-default(("x y blur spread " + $color-primary));
+	//text shadow none
+	//@include text-shadow-default("none");
+}
+
+/*-= transitions =-*/
+
+@mixin transition-default($properties: (("all 500ms ease 0ms"))) {
+	$prefixes: -webkit- -moz- -ms- -o-;
+	@each $prefix in $prefixes {
+		$value: ();
+		@each $property in $properties {
+			@if length($value) > 0 {
+				$value: append($value, unquote(",") #{$property});
+			}
+			@else {
+				$value: append($value, #{$property});
+			}
+		}
+		#{$prefix}transition: $value;
+	}
+	//all transition
+	//@include transition-default; - znamena, ze se aplikuji globalni definice pro vsechny vlastnosti, stejny cas, stejna metoda animace, stejna prodleva
+	//multi transition
+	//@include transition-default(("property duration timing delay","property duration timing delay"));
+	//none transition
+	//@include transition-default("none");
+}
+
+/*-= transforms =-*/
+
+@mixin transform($properties: ((""))) {
+	$prefixes: -webkit- -moz- -ms- -o-;
+	@each $prefix in $prefixes {
+		$value: ();
+		@each $property in $properties {
+			@if length($value) > 0 {
+				$value: append($value, unquote(",") #{$property});
+			}
+			@else {
+				$value: append($value, #{$property});
+			}
+		}
+		#{$prefix}transform: $value;
+	}
+	//@include transform(skew(-10deg, 20deg));
+	//@include transform(translate(50%, 50%));
+	//@include transform(rotate(-45deg));
+}
+//transform origin
+@mixin transform-origin ($origin) {
+	moz-transform-origin: $origin;
+	-o-transform-origin: $origin;
+	-ms-transform-origin: $origin;
+	-webkit-transform-origin: $origin;
+	transform-origin: $origin;
+	//@include transform-origin(0 0);
+}
+
+
+
+
+//jak zapisovat v SCSS keyframe u animace aby nebyl error - example
+
+/*
+.loader {
+	animation: spin .5s infinite linear;
+	-moz-animation: spin .5s infinite linear;
+	-webkit-animation: spin .5s infinite linear;
+}
+
+
+@keyframes spin {
+	0% { transform:rotate(0deg); }
+	100% { transform:rotate(360deg); }
+}
+@-moz-keyframes spin {
+	0% { -moz-transform:rotate(0deg); }
+	100% { -moz-transform:rotate(360deg); }
+}
+@-webkit-keyframes spin {
+	0% { -webkit-transform:rotate(0deg); }
+	100% { -webkit-transform:rotate(360deg); }
+}
+*/
+
+/* moznost zapisu pro nested elements - "&" spojuje
+This notation is most often used to write pseudo-elements and -classes:
+
+.element{
+	&:hover{ ... }
+	&:nth-child(1){ ... }
+}
+However, you can place the & at virtually any position you like*, so the following is possible too:
+
+.container {
+	background:red;
+	#id &{
+		background:blue;
+	}
+}
+*/
+/* compiles to:
+.container {
+	background: red;
+}
+#id .container {
+	background: blue;
+}
+*/
+
+/*----------------------------------------------------------------------------*/
+// konec global variables
+/*----------------------------------------------------------------------------*/
+
+
+

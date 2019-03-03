@@ -1,0 +1,24 @@
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*  MESSAGES                                                                                                                   */
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+.messages {
+	margin-bottom: 10px;
+	background: $color-ffffff;
+	border: 1px solid $color-cccccc;
+
+	.error {
+		padding: 15px 10px 15px 50px;
+		background: url('../images/icons/messages/icon_messages_error.svg') 15px 50% no-repeat;
+	}
+	.alert {
+		padding: 15px 10px 15px 50px;
+		background: url('../images/icons/messages/icon_messages_alert.svg') 15px 50% no-repeat;
+	}
+	.info {
+		padding: 15px 10px 15px 50px;
+		background: url('../images/icons/messages/icon_messages_info.svg') 15px 50% no-repeat;
+	}
+	.basic {
+		padding: 10px;
+	}
+}

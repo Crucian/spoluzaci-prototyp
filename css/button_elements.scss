@@ -1,0 +1,87 @@
+.controls {
+	text-align: center;
+	padding: 40px 0;
+
+	p {
+		padding-top: 20px;
+	}
+}
+aside .controls,
+.popup_dialog .controls {
+	padding: 20px 0 0 0;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+/*  BUTTONS                                                                                                                    */
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+a.button,
+button,
+input[type="button"].button,
+input[type="submit"].button {
+	box-sizing: border-box;
+	display: inline-block;
+	height: 52px;
+	line-height: 52px;
+	padding: 0 40px;
+	margin: 0 5px;
+	text-align: center;
+	border: none;
+	vertical-align: middle;
+	text-decoration: none;
+	cursor: pointer;
+	@include radius-default(10px);
+
+	&.default {
+		border: 2px solid $color-cccccc;
+		background: $color-ffffff;
+		color: $color-666666;
+
+		&:hover{
+			background: $color-f7f7f7;
+		}
+		&:active {
+			padding-top:2px;
+		}
+		span {
+			color: $color-666666;
+		}
+	}
+	&.submit {
+		border-bottom: 2px solid $color-b33f05;
+		background: $color-de4e07;
+		color: $color-ffffff;
+
+		&:hover{
+			background: $color-f76016;
+		}
+		&:active {
+			border-bottom: none;
+			padding-top:2px;
+		}
+		span {
+			color: $color-ffffff;
+		}
+	}
+	&.back {
+		border-bottom: 2px solid $color-959595;
+		background: $color-b8b8b8;
+		color: $color-ffffff;
+
+		&:hover{
+			background: $color-b4b4b4;
+		}
+		&:active {
+			border-bottom: none;
+			padding-top:2px;
+		}
+		span {
+			color: $color-ffffff;
+		}
+	}
+	&.low {
+		height: 42px;
+		line-height: 42px;
+		padding: 0 15px;
+	}
+
+}

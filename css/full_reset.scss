@@ -1,0 +1,128 @@
+/*++++++++++++++++++++++++++++++++++++++++++++++++++
+FULL RESET
+++++++++++++++++++++++++++++++++++++++++++++++++++*/
+html, body,
+h1, h2, h3, h4, h5, h6,
+div, p, span, blockquote, cite, q, dl, dt, dd, ol, ul, li,
+a,
+img,
+abbr, acronym, address, big, small, center, pre, code, samp, kbd, tt, var, ins, mark, del, dfn, time,
+strong, em, strike, sub, sup, b, u, i, s,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+header, hgroup, footer, menu, nav, section, article, aside,
+canvas, details, embed, figure, figcaption, audio, video, output, ruby, summary, applet, object, iframe
+{
+	@include reset-basic;
+	@include reset-font-inherit;
+}
+optgroup {
+	@include reset-font-inherit;
+}
+blockquote, q { quotes: none; }
+
+/* inserted / marked / deleted text */
+mark { background-color: $color-mark; color: $color-000000; font-style: italic; font-weight: $fw-700; }
+ins  { background-color: $color-mark; color: $color-000000;	text-decoration:none; }
+del  { text-decoration: line-through; }
+
+/* source code */
+code { font-family: monospace; }
+
+
+header, hgroup, footer, menu, nav, section, aside, details, figure, figcaption, summary, article, main { display: block; }
+canvas { vertical-align: middle; display: inline-block; }
+audio { display: inline-block; vertical-align: middle;}
+video {	vertical-align: middle;	display: inline-block; }
+svg	{ vertical-align: middle; fill: currentColor; }
+
+/* audio / video / vector / canvas */
+
+audio:not([controls]) {	display: none; height: 0; }
+svg:not(:root) { overflow: hidden; }
+
+/* hidden items */
+template { display: none; }
+[hidden] { display: none; }
+
+/*horizontal line*/
+hr { display:block;	height:1px;	border:0; border-top:1px solid $color-cccccc; margin: 10px 0; padding:0; box-sizing: content-box; }
+
+/* abbreviation */
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor:help; }
+
+/* fieldset */
+fieldset { border: none; margin: 0;	padding: 0;	min-width: inherit; }
+@-moz-document url-prefix() { fieldset { display: table-cell; }}
+
+/*iframe*/
+iframe { vertical-align: middle;}
+iframe[name="google_conversion_frame"] { visibility: hidden; height: 0; }
+
+/* form elements */
+input, select, textarea
+{
+	@include reset-font-inherit;
+}
+button
+{
+	@include reset-font-inherit;
+	-webkit-appearance: button;
+}
+input { -webkit-appearance: none; }
+[type="reset"], [type="submit"] [type="checkbox"], [type="radio"] {	padding: 0;}
+[type="button"], [type="reset"], [type="submit"] { -webkit-appearance: button; }
+
+/*blockquote*/
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+
+/* list */
+ol, nav ol, nav ul { list-style: none; }
+
+/* text */
+b {	font-weight: 700; }
+
+/* images */
+img, a img { border: none;	text-decoration: none;	border: none; }
+img { vertical-align: middle; }
+
+/* links */
+a {	background-color: transparent;	-webkit-text-decoration-skip: objects; }
+
+/* table */
+table {	width: 100%; margin: 0;	border: none; border-collapse: collapse; }
+caption, th, td { text-align: left; }
+
+/* pre */
+pre { text-align: left;	clear: both; font-family: monospace;
+	td { padding: 0 !important; margin: 0 !important; }
+}
+
+/* before/after */
+::before, ::after {	background-repeat: no-repeat; text-decoration: inherit; vertical-align: inherit; }
+
+/* title */
+h1, h2, h3, h4, h5, h6 {
+	@include reset-font-inherit;
+}
+
+/* align */
+.aleft   { text-align: left;  }
+.aright  { text-align: right; }
+.acenter { text-align: center;}
+
+/* float */
+.fright	 { float: right; }
+.fleft	 { float: left;  }
+
+/* clear */
+.clear
+{
+	clear: both !important;
+	font-size: 0 !important;
+	height: 0 !important;
+	line-height: 0 !important;
+	float: none !important;
+	display: block !important;
+}
+.inner_clear { clear: both !important; }
