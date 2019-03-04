@@ -4,6 +4,10 @@
 * [Buttons](#section-button)
 * [Form elements](#section-form)
 * [Tooltip](#section-tooltip)
+* [SCSS - struktura a členění](#section-scss)
+ * Charset
+ * Fonts
+ * Definice font-family / fonts.google.com.
 
 <a name="section-grid"/></a>
 ## Grid layout
@@ -278,4 +282,37 @@ Je možné aplikovat na jakémkoli prvku ve struktuře, který obsahuje třídu 
 
 ...
 ```
+<a name="section-scss"/></a>
+## SCSS - struktura a členění
+
+### Charset
+Definice znakové sady.
+
+**Code**
+```scss
+@charset 'utf-8';
+```
+### Fonts
+Definice font-family / fonts.google.com.
+
+**Code**
+```scss
+@import url('//fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i,700,700i&subset=latin-ext');
+```
+### SCSS include / structura komponent SCSS
+
+```scss
+@import "g_variables";		 /*Nastaveni globalnich promennych, mixinu,...*/
+@import "full_reset";     	 /*Reset vychozich hodnot - globalne*/
+@import "core_elements"; 	 /*Obecne prvky - globalne*/
+@import "form_elements"; 	 /*Formularove prvky*/
+@import "button_elements"; 	 /*Tlacitka*/
+@import "grid_elements"; 	 /*Zakladni prvky konstruktu*/
+@import "layout_elements";	 /*Layout / HP / SP /...*/
+@import "popup_elements";	 /*Popup - dialog*/
+@import "tooltip_elements";  /*Tooltipy*/
+@import "messages_elements"; /*Message info/alert/error/default*/
+```
+
+
 
