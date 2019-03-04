@@ -5,9 +5,9 @@
 * [Form elements](#section-form)
 * [Tooltip](#section-tooltip)
 * [SCSS - struktura a členění](#section-scss)
- * Charset
- * Fonts
- * Definice font-family / fonts.google.com.
+ ** Charset
+ ** Fonts
+ ** Definice font-family / fonts.google.com.
 
 <a name="section-grid"/></a>
 ## Grid layout
