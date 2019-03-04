@@ -1,5 +1,11 @@
 # Help
 
+* [Grid layout](#section-grid)
+* [Buttons](#section-button)
+* [Form elements](#section-form)
+* [Tooltip](#section-tolltip)
+
+<a name="section-grid"/></a>
 ## Grid layout
 Je definován prvky DIV s třídami **row** a **col** a doplňkovou třídou **p1** až **p100** viz příklad použití [code](#code-grid). Před ukončovací značkou DIVu **row** je vždy umístěn DIV s třídou **clear**.
 
@@ -24,6 +30,7 @@ Je definován prvky DIV s třídami **row** a **col** a doplňkovou třídou **p
   <div class="clear"></div>
 </div>
 ```
+<a name="section-button"/></a>
 ## Buttons
 Jsou definovány prvky BUTTON, A, INPUT, INPUT[submit] s třídou **button** (kromě BUTTON, tam není základní třída potřeba) a doplňkovými třídami **default**, **submit** a **back** viz příklad použití [code](#code-buttons).
 
@@ -51,7 +58,7 @@ Jsou definovány prvky BUTTON, A, INPUT, INPUT[submit] s třídou **button** (kr
 <input type="submit" class="button submit" value="Submit"/>
 <input type="submit" class="button back" value="Back"/>
 ```
-
+<a name="section-form"/></a>
 ## Form elements
 Jsou definovány prvky INPUT[radio], INPUT[checkbox], INPUT[text], INPUT[number], INPUT[email], INPUT[password], SELECT, TEXTAREA. Samostatným prvkem je pak SWITCH viz příklad použití [code](#code-forms).
 
@@ -252,7 +259,7 @@ Jsou definovány prvky INPUT[radio], INPUT[checkbox], INPUT[text], INPUT[number]
   </div>
 </form>
 ```
-
+<a name="section-tooltip"/></a>
 ## Tooltip
 Je možné aplikovat na jakémkoli prvku ve struktuře, který obsahuje třídu **tt-top**, **tt-right**, **tt-bottom** nebo **tt-left**. Textový obsah tooltipu je umístěn do atributu **data-tooltip**. Viz příklad použití [code](#code-tooltip).
 
