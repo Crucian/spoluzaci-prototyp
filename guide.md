@@ -25,7 +25,7 @@ Je definován prvky DIV s třídami **row** a **col** a doplňkovou třídou **p
 </div>
 ```
 ## Buttons
-Jsou definovány prvky <BUTTON/>, <A/>, <INPUT/>, <INPUT type="submit"/> s třídou **button** (kromě <BUTTON/> tam není základní třída potřeba) a doplňkovými třídami **default**, **submit** a **back** viz příklad použití [code](#code-buttons).
+Jsou definovány prvky BUTTON, A, INPUT, INPUT[submit] s třídou **button** (kromě BUTTON, tam není základní třída potřeba) a doplňkovými třídami **default**, **submit** a **back** viz příklad použití [code](#code-buttons).
 
 <a name="code-buttons"/></a>
 **code**
