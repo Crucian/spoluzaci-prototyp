@@ -5,9 +5,9 @@
 * [Form elements](#section-form)
 * [Tooltip](#section-tooltip)
 * [SCSS - struktura a členění](#section-scss)
- ** Charset
- ** Fonts
- ** Definice font-family / fonts.google.com.
+  * Charset
+  * Fonts
+  * Definice font-family / fonts.google.com.
 
 <a name="section-grid"/></a>
 ## Grid layout
@@ -302,16 +302,16 @@ Definice font-family / fonts.google.com.
 ### SCSS include / structura komponent SCSS
 
 ```scss
-@import "g_variables";		 /*Nastaveni globalnich promennych, mixinu,...*/
-@import "full_reset";     	 /*Reset vychozich hodnot - globalne*/
-@import "core_elements"; 	 /*Obecne prvky - globalne*/
-@import "form_elements"; 	 /*Formularove prvky*/
-@import "button_elements"; 	 /*Tlacitka*/
-@import "grid_elements"; 	 /*Zakladni prvky konstruktu*/
-@import "layout_elements";	 /*Layout / HP / SP /...*/
-@import "popup_elements";	 /*Popup - dialog*/
-@import "tooltip_elements";  /*Tooltipy*/
-@import "messages_elements"; /*Message info/alert/error/default*/
+@import "g_variables";        /*Nastaveni globalnich promennych, mixinu,...*/
+@import "full_reset";         /*Reset vychozich hodnot - globalne*/
+@import "core_elements";      /*Obecne prvky - globalne*/
+@import "form_elements";      /*Formularove prvky*/
+@import "button_elements";    /*Tlacitka*/
+@import "grid_elements";      /*Zakladni prvky konstruktu*/
+@import "layout_elements";    /*Layout / HP / SP /...*/
+@import "popup_elements";     /*Popup - dialog*/
+@import "tooltip_elements";   /*Tooltipy*/
+@import "messages_elements";  /*Message info/alert/error/default*/
 ```
 
 
