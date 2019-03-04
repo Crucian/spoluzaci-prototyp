@@ -2,7 +2,7 @@
 
 ## Grig layout
 
-Je definován prvky **row** a **col** a doplňkovou definicí **p1** až **p100** viz příklad použití [link](#code):
+Je definován prvky **row** a **col** a doplňkovou definicí **p1** až **p100** viz příklad použití [code](#code-grid):
 Před ukončovací značkou DIVu **row** je vždy umístěn prvek **clear**.
 
 **Poznámka**
