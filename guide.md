@@ -8,7 +8,7 @@ Je definován prvky DIV s třídami **row** a **col** a doplňkovou třídou **p
 > Součet velikostí prvků **col** v **row** by neměl přesáhnout 100 %, ale menší než 100 % být může.
 
 <a name="code-grid"/></a>
-**code**
+**Code**
 ```html
 <div class="row">
   <div class="col p10">10%</div>
@@ -28,7 +28,7 @@ Je definován prvky DIV s třídami **row** a **col** a doplňkovou třídou **p
 Jsou definovány prvky BUTTON, A, INPUT, INPUT[submit] s třídou **button** (kromě BUTTON, tam není základní třída potřeba) a doplňkovými třídami **default**, **submit** a **back** viz příklad použití [code](#code-buttons).
 
 <a name="code-buttons"/></a>
-**code**
+**Code**
 ```html
 
 <button class="default"><span>Default</button>
@@ -59,7 +59,7 @@ Jsou definovány prvky INPUT[radio], INPUT[checkbox], INPUT[text], INPUT[number]
 > Formulářové prvky je nutné s ohledem na správné formátování obalovat prvky [grid layoutu](#code-grid) viz [příklad](#code-forms-in-grid)
 
 <a name="code-forms"/></a>
-**code**
+**Code**
 ```html
 // Radiobutton inline type
 <div class="radio_wrap"> 
@@ -111,7 +111,7 @@ Jsou definovány prvky INPUT[radio], INPUT[checkbox], INPUT[text], INPUT[number]
 ```
 
 <a name="code-forms-in-grid"/></a>
-**code**
+**Code**
 ```html
 <form action="#">
   <div class="form_block"> // Form container
@@ -253,10 +253,22 @@ Jsou definovány prvky INPUT[radio], INPUT[checkbox], INPUT[text], INPUT[number]
 </form>
 ```
 
+## Tooltip
+Je možné aplikovat na jakémkoli prvku ve struktuře, který obsahuje třídu **tt-top**, **tt-right**, **tt-bottom** nebo **tt-left**. Textový obsah tooltipu je umístěn do atributu **data-tooltip**. Viz příklad použití [code](#code-tooltip).
 
+<a name="code-tooltip"/></a>
+**Code**
+```html
+// Tooltips on Buttons
+<button class="tt-top" data-tooltip="Top Tooltip"></button>
+<button class="tt-right" data-tooltip="Right Tooltip"></button>
+<button class="tt-bottom" data-tooltip="Bottom Tooltip"></button>
+<button class="tt-left" data-tooltip="Left Tooltip"></button>
 
+//Tooltips on Links
+<a href="#" class="tt-bottom" data-tooltip="Bottom Tooltip"></a>
+<a href="#" class="tt-top" data-tooltip="Top Tooltip"></a></p>
 
-
-
-
+...
+```
 
