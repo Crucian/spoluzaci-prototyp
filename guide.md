@@ -2,14 +2,14 @@
 
 ## Grig layout
 
-Je definován prvky **row** a **col** a doplňkovou definicí **p1** až **p100** viz příklad použití *code*:
+Je definován prvky **row** a **col** a doplňkovou definicí **p1** až **p100** viz příklad použití <a name="code-grid">:
 Před ukončovací značkou DIVu **row** je vždy umístěn prvek **clear**.
 
 **Poznámka**
 > Pochopitelně není vhodné umisťovat do prvků objekty větší než je definovaná velikost samotného layout prvku **col** v *%*.
 > Součet velikostí prvků **col** v **row** by neměl přesáhnout 100 %.
 
-**code**
+**code**[link](#code)
 ```html
 <div class="row">
   <div class="col p1">1%</div>
