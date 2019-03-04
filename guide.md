@@ -61,14 +61,25 @@ Jsou definovány prvky INPUT[radio], INPUT[checkbox], INPUT[text], INPUT[number]
 <a name="code-forms"/></a>
 **code**
 ```html
-// Radiobutton
-<input type="radio" name="radiobutton" id="labelRadio1"/><span></span><label for="labelRadio1">Label radio button 1</label>
-<input type="radio" name="radiobutton" id="labelRadio2"/><span></span><label for="labelRadio2">Label radio button 2</label>
+// Radiobutton inline type
+<div class="radio_wrap"> 
+  <input type="radio" name="radiobutton" id="labelRadio1"/><span></span><label for="labelRadio1">Label radio button 1</label>
+</div>
 
-// Checkbox
-<input type="checkbox" id="labelCheckbox1"/><span></span><label for="labelCheckbox1">Label checkbox button 1</label>
-<input type="checkbox" id="labelCheckbox2"/><span></span><label for="labelCheckbox2">Label checkbox button 1</label>
-<input type="checkbox" id="labalCheckbox3"/><span></span><label for="labalCheckbox3">Label checkbox button 1</label>
+// Radiobutton block type
+<div class="radio_wrap type_block"> 
+  <input type="radio" name="radiobutton" id="labelRadio4"/><span></span><label for="labelRadio4">Label radio button 4</label>
+</div>
+
+// Checkbox inline type
+<div class="check_wrap"> 
+  <input type="checkbox" id="labelCheckbox1"/><span></span><label for="labelCheckbox1">Label checkbox button 1</label>
+</div>
+
+// Checkbox block type
+<div class="check_wrap type_block"> 
+  <input type="checkbox" id="labelCheckbox4"/><span></span><label for="labelCheckbox2">Label checkbox button 2</label>
+</div>
 
 // Input [text/password/number/email]
 <input type="text" />
@@ -79,19 +90,23 @@ Jsou definovány prvky INPUT[radio], INPUT[checkbox], INPUT[text], INPUT[number]
 // Select
 <select>
     <option>option 1</option>
-    <option>option 2</option>
-    <option>option 3</option>
-    <option>option 4</option>
 </select>
 
 // Textarea
 <textarea></textarea>
 
-// Switch
-<label class="switch_wrap">
-    <input class="checkbox" type="checkbox" checked>
-    <div class="switch"></div>
-    <span class="label">Bluetooth</span>
+// Switchbox inline type
+<label class="switch_wrap"> 
+  <input class="checkbox" type="checkbox">
+  <div class="switch"></div>
+  <span class="label">Switch 1</span>
+</label>
+
+// Switchbox block type
+<label class="switch_wrap type_block"> 
+  <input class="checkbox" type="checkbox" checked>
+  <div class="switch"></div>
+  <span class="label">Switch 1</span>
 </label>
 ```
 
@@ -116,9 +131,13 @@ Jsou definovány prvky INPUT[radio], INPUT[checkbox], INPUT[text], INPUT[number]
       <div class="clear"></div>
     </div>
     <div class="row">
-      <div class="col p100">
+      <div class="col p50">
         <label class="error">Lorem Ipsum</label>  // Label - state error
         <input class="error" type="text" name="lorem"/> // Input - state error
+      </div>
+      <div class="col p50">
+        <label>Lorem Ipsum</label>
+        <input type="text" name="lorem"/>
       </div>
       <div class="clear"></div>
     </div>
@@ -126,34 +145,6 @@ Jsou definovány prvky INPUT[radio], INPUT[checkbox], INPUT[text], INPUT[number]
       <div class="col p100">
         <label>Textarea</label>
         <textarea type="text" name="textarea"></textarea> // Textarea
-      </div>
-      <div class="clear"></div>
-    </div>
-
-    <div class="row">
-      <div class="col p50">
-        <label>Checkbox inline type</label>
-        <div class="check_wrap"> // Checkbox inline type
-          <input type="checkbox" id="labelCheckbox1"/><span></span><label for="labelCheckbox1">Label checkbox button 1</label>
-        </div>
-        <div class="check_wrap"> // Checkbox inline type
-          <input type="checkbox" id="labelCheckbox2"/><span></span><label for="labelCheckbox2">Label checkbox button 1</label>
-        </div>
-        <div class="check_wrap"> // Checkbox inline type
-          <input type="checkbox" id="labalCheckbox3"/><span></span><label for="labalCheckbox3">Label checkbox button 1</label>
-        </div>
-      </div>
-      <div class="col p50">
-        <label>Checkbox block type</label> 
-        <div class="check_wrap type_block"> // Checkbox block type
-          <input type="checkbox" id="labelCheckbox4"/><span></span><label for="labelCheckbox4">Label checkbox button 1</label>
-        </div>
-        <div class="check_wrap type_block"> // Checkbox block type
-          <input type="checkbox" id="labelCheckbox5"/><span></span><label for="labelCheckbox5">Label checkbox button 1</label>
-        </div>
-        <div class="check_wrap type_block"> // Checkbox block type
-          <input type="checkbox" id="labalCheckbox6"/><span></span><label for="labalCheckbox6">Label checkbox button 1</label>
-        </div>
       </div>
       <div class="clear"></div>
     </div>
@@ -185,6 +176,34 @@ Jsou definovány prvky INPUT[radio], INPUT[checkbox], INPUT[text], INPUT[number]
       </div>
       <div class="clear"></div>
     </div>
+    
+    <div class="row">
+      <div class="col p50">
+        <label>Checkbox inline type</label>
+        <div class="check_wrap"> // Checkbox inline type
+          <input type="checkbox" id="labelCheckbox1"/><span></span><label for="labelCheckbox1">Label checkbox button 1</label>
+        </div>
+        <div class="check_wrap"> // Checkbox inline type
+          <input type="checkbox" id="labelCheckbox2"/><span></span><label for="labelCheckbox2">Label checkbox button 1</label>
+        </div>
+        <div class="check_wrap"> // Checkbox inline type
+          <input type="checkbox" id="labalCheckbox3"/><span></span><label for="labalCheckbox3">Label checkbox button 1</label>
+        </div>
+      </div>
+      <div class="col p50">
+        <label>Checkbox block type</label> 
+        <div class="check_wrap type_block"> // Checkbox block type
+          <input type="checkbox" id="labelCheckbox4"/><span></span><label for="labelCheckbox4">Label checkbox button 1</label>
+        </div>
+        <div class="check_wrap type_block"> // Checkbox block type
+          <input type="checkbox" id="labelCheckbox5"/><span></span><label for="labelCheckbox5">Label checkbox button 1</label>
+        </div>
+        <div class="check_wrap type_block"> // Checkbox block type
+          <input type="checkbox" id="labalCheckbox6"/><span></span><label for="labalCheckbox6">Label checkbox button 1</label>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>    
 
     <div class="row">
       <div class="col p50">
