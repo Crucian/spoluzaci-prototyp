@@ -3,7 +3,7 @@
 * [Grid layout](#section-grid)
 * [Buttons](#section-button)
 * [Form elements](#section-form)
-* [Tooltip](#section-tolltip)
+* [Tooltip](#section-tooltip)
 
 <a name="section-grid"/></a>
 ## Grid layout
