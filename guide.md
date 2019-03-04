@@ -300,7 +300,9 @@ Definice font-family / fonts.google.com.
 @import url('//fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i,700,700i&subset=latin-ext');
 ```
 ### SCSS include / structura komponent SCSS
+SCSS soubory jsou umístěny v adresáři /CSS, kde se nachází i hlavní soubor **core.scss**, do kterého se includují následující **SCSS** soubory.
 
+**Code**
 ```scss
 @import "g_variables";        /*Nastaveni globalnich promennych, mixinu,...*/
 @import "full_reset";         /*Reset vychozich hodnot - globalne*/
