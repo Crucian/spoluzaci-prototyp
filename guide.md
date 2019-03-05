@@ -475,3 +475,100 @@ Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými p
     </div>
 </article>
 ```
+## Emotikony
+Jsou identifikovány kódem a vkládáný jako span s příslušnou třídou (např.: **e-1f31d**) do html kódu.
+Níže celý výpis používaných emoticon. Ve statickém klikacím modelu je zobrazeno přímo ve stránce. Výpis je seřazen shodně pro lepší identifikaci konkrétních ikon.
+
+**Code**
+```html
+<span class="emoticon e-1f31d"></span>
+<span class="emoticon e-1f600"></span>
+<span class="emoticon e-1f601"></span>
+<span class="emoticon e-1f602"></span>
+<span class="emoticon e-1f603"></span>
+<span class="emoticon e-1f604"></span>
+<span class="emoticon e-1f605"></span>
+<span class="emoticon e-1f606"></span>
+<span class="emoticon e-1f607"></span>
+<span class="emoticon e-1f609"></span>
+<span class="emoticon e-1f60a"></span>
+<span class="emoticon e-1f60b"></span>
+<span class="emoticon e-1f60c"></span>
+<span class="emoticon e-1f60d"></span>
+<span class="emoticon e-1f60e"></span>
+<span class="emoticon e-1f60f"></span>
+<span class="emoticon e-1f610"></span>
+<span class="emoticon e-1f611"></span>
+<span class="emoticon e-1f612"></span>
+<span class="emoticon e-1f613"></span>
+<span class="emoticon e-1f614"></span>
+<span class="emoticon e-1f615"></span>
+<span class="emoticon e-1f616"></span>
+<span class="emoticon e-1f617"></span>
+<span class="emoticon e-1f618"></span>
+<span class="emoticon e-1f619"></span>
+<span class="emoticon e-1f61a"></span>
+<span class="emoticon e-1f61b"></span>
+<span class="emoticon e-1f61c"></span>
+<span class="emoticon e-1f61d"></span>
+<span class="emoticon e-1f61e"></span>
+<span class="emoticon e-1f61f"></span>
+<span class="emoticon e-1f620"></span>
+<span class="emoticon e-1f621"></span>
+<span class="emoticon e-1f622"></span>
+<span class="emoticon e-1f623"></span>
+<span class="emoticon e-1f624"></span>
+<span class="emoticon e-1f625"></span>
+<span class="emoticon e-1f626"></span>
+<span class="emoticon e-1f627"></span>
+<span class="emoticon e-1f628"></span>
+<span class="emoticon e-1f629"></span>
+<span class="emoticon e-1f62a"></span>
+<span class="emoticon e-1f62b"></span>
+<span class="emoticon e-1f62c"></span>
+<span class="emoticon e-1f62d"></span>
+<span class="emoticon e-1f62e"></span>
+<span class="emoticon e-1f62f"></span>
+<span class="emoticon e-1f630"></span>
+<span class="emoticon e-1f631"></span>
+<span class="emoticon e-1f632"></span>
+<span class="emoticon e-1f633"></span>
+<span class="emoticon e-1f634"></span>
+<span class="emoticon e-1f635"></span>
+<span class="emoticon e-1f636"></span>
+<span class="emoticon e-1f637"></span>
+<span class="emoticon e-1f640"></span>
+<span class="emoticon e-1f641"></span>
+<span class="emoticon e-1f642"></span>
+<span class="emoticon e-1f643"></span>
+<span class="emoticon e-1f644"></span>
+<span class="emoticon e-1f910"></span>
+<span class="emoticon e-1f911"></span>
+<span class="emoticon e-1f912"></span>
+<span class="emoticon e-1f913"></span>
+<span class="emoticon e-1f914"></span>
+<span class="emoticon e-1f915"></span>
+<span class="emoticon e-1f917"></span>
+<span class="emoticon e-1f920"></span>
+<span class="emoticon e-1f923"></span>
+<span class="emoticon e-1f924"></span>
+<span class="emoticon e-1f925"></span>
+<span class="emoticon e-1f927"></span>
+<span class="emoticon e-1f928"></span>
+<span class="emoticon e-1f929"></span>
+<span class="emoticon e-1f92a"></span>
+<span class="emoticon e-1f92b"></span>
+<span class="emoticon e-1f92c"></span>
+<span class="emoticon e-1f92d"></span>
+<span class="emoticon e-1f92e"></span>
+<span class="emoticon e-1f92f"></span>
+<span class="emoticon e-1f970"></span>
+<span class="emoticon e-1f973"></span>
+<span class="emoticon e-1f974"></span>
+<span class="emoticon e-1f975"></span>
+<span class="emoticon e-1f976"></span>
+<span class="emoticon e-1f97a"></span>
+<span class="emoticon e-1f9d0"></span>
+<span class="emoticon e-2639"></span>
+<span class="emoticon e-263a"></span>
+```
