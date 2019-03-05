@@ -323,7 +323,7 @@ SCSS soubory jsou umístěny v adresáři /CSS, kde se nachází i hlavní soubo
 ## Rozvržení typických prvků stránek
 Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými prvky kontejnerů, které tvoří základní rozvržení všech stránek.
 
-* Globalně
+### Globalně
 
 **Code**
 ```html
@@ -344,17 +344,17 @@ Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými p
 </div>
 ```
 
-* Homepage section
+### Homepage section
 
 **Code**
 ```html
-<div class="claim_bck">  // background části claim, animovane ruce, vyhledavani
-    <div class="inner_box">  // vymezuje maximální šířku obsahu
+<div class="claim_bck">  // Background části claim, animovane ruce, vyhledavani
+    <div class="inner_box">  // Vymezuje maximální šířku obsahu
         <div class="hands"> 
             // Animované ruce
         </div>
         <div class="claim">
-            // Claim a vyhledavani
+            // Slogan a vyhledávání
         </div>
         <div class="clear"></div>
     </div>
@@ -367,13 +367,13 @@ Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými p
 </div>
 ```
 
-* Subpage section [školy]
+### Subpage section [školy]
 
 **Code**
 ```html
 <div class="inner_box">
     <aside class="form_block">
-        // Aside form
+        // Aside formulář
     </aside>
     <article>
         <div class="container schools">
@@ -390,7 +390,7 @@ Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými p
 </div>
 ```
 
-* Subpage section [škola]
+### Subpage section [škola]
 
 **Code**
 ```html
@@ -413,16 +413,16 @@ Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými p
 </article>
 ```
 
-* Subpage section [třída]
+### Subpage section [třída]
 
 **Code**
 ```html
 <aside>
     <div class="avatar user">
-        // User avatar
+        // Avatar uživatele
     </div>
     <div class="form_block">
-        // Výběr tříd z comba
+        // Výběr tříd v selectboxu
     </div>
     <nav>
         // Navigace
@@ -430,15 +430,15 @@ Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými p
 </aside>
 <article>
     <div class="container classroom add">
-        // Add new post in classroom, emoticons, img, button
+        // Přidat nový post/konverzaci ve třídě. Emoticony, obrázek a button
     </div>
     
     <div class="container classroom">
         <div class="avatar active"> // Status může nabývat hodnot - active/away/nonactive
-            // Avatar status active
+            // Status - active
         </div>
         <div class="block">
-            // Post content
+            // Obsah příspěvku
         </div>
         <div class="clear"></div>
     </div>
@@ -448,7 +448,7 @@ Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými p
     </div>
 
     <div class="container classroom load_next_conversation"> // Načíst další posty v konverzaci 
-        // Obsah postu - analogicky viz výše               
+        // Obsah příspěvku - analogicky viz výše               
         <div class="load_next">
             <a href="#">Zobrazit další komentáře</a>
         </div>
@@ -459,20 +459,19 @@ Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými p
             <div class="row">
                 <div class="col p35">
                     <div class="photo">
-                        // Obsah postu - image
+                        // Obsah příspěvku - image
                     </div>
                 </div>
                 <div class="col p65 message">
-                    // Obsah postu - text
+                    // Obsah příspěvku - text
                 </div>
                 <div class="clear"></div>
             </div>
         </div>
     </div>
-    
+
     <div class="load_next">
-        //Načíst další diskuse
+        // Načíst další diskuse
     </div>
 </article>
-
 ```
