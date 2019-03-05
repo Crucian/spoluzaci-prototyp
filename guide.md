@@ -9,9 +9,8 @@
   * Fonts
   * Definice font-family / fonts.google.com.
 * [Rozvržení typických prvků stránek](#section-structure)
+* [Emotikony](#section-emoticons)
   
-
-
 <a name="section-grid"/></a>
 ## Grid layout
 Je definován prvky DIV s třídami **row** a **col** a doplňkovou třídou **p1** až **p100** viz příklad použití [code](#code-grid). Před ukončovací značkou DIVu **row** je vždy umístěn DIV s třídou **clear**.
@@ -475,6 +474,7 @@ Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými p
     </div>
 </article>
 ```
+<a name="section-emoticons"/></a>
 ## Emotikony
 Jsou identifikovány kódem a vkládáný jako span s příslušnou třídou (např.: **e-1f31d**) do html kódu.
 Níže celý výpis používaných emoticon. Ve statickém klikacím modelu je zobrazeno přímo ve stránce. Výpis je seřazen shodně pro lepší identifikaci konkrétních ikon.
