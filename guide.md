@@ -8,6 +8,9 @@
   * Charset
   * Fonts
   * Definice font-family / fonts.google.com.
+* [Rozvržení typických prvků stránek](#section-structure)
+  
+
 
 <a name="section-grid"/></a>
 ## Grid layout
@@ -316,5 +319,160 @@ SCSS soubory jsou umístěny v adresáři /CSS, kde se nachází i hlavní soubo
 @import "messages_elements";  /*Message info/alert/error/default*/
 ```
 
+<a name="section-structure"/></a>
+## Rozvržení typických prvků stránek
+Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými prvky kontejnerů, které tvoří základní rozvržení všech stránek.
 
+* Globalně
 
+**Code**
+```html
+<div class="box"> // Hlavní kontejner
+    <header>
+        <div class="inner_box"> // vymezuje maximální šířku obsahu
+            --- prvky hlavičky ---
+        </div>
+    </header>
+    <section> // Kontejner obsahu (třídy: homepage/subapage)
+        --- prvky obsahu ---
+    </section>
+    <footer>
+        <div class="inner_box"> // vymezuje maximální šířku obsahu
+            --- prvky hlavičky ---
+        </div>
+    </footer>
+</div>
+```
+
+* Homepage section
+
+**Code**
+```html
+<div class="claim_bck">  // background části claim, animovane ruce, vyhledavani
+    <div class="inner_box">  // vymezuje maximální šířku obsahu
+        <div class="hands"> 
+            // Animované ruce
+        </div>
+        <div class="claim">
+            // Claim a vyhledavani
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+        
+<div class="regions">
+    <div class="inner_box">
+        // Mapa a seznam regionů
+    </div>
+</div>
+```
+
+* Subpage section [školy]
+
+**Code**
+```html
+<div class="inner_box">
+    <aside class="form_block">
+        // Aside form
+    </aside>
+    <article>
+        <div class="container schools">
+            // Obsah bloku školy
+        </div>
+        <div class="load_next">
+            // Načítání dalších bloků škol
+        </div>
+        <div class="add_banner">
+            // Blok pro přidání školy
+        </div>
+    </article>
+    <div class="clear"></div>
+</div>
+```
+
+* Subpage section [škola]
+
+**Code**
+```html
+<aside class="school">
+    // Logo + adresa školy
+</aside>
+<article>
+    <div class="endyear_calculator form_block">
+        // Kalkulátor roku ukončení
+    </div>
+    <div class="container school">
+        // Obsah bloku školních tříd / ročníků
+    </div>
+    <div class="advertisement">
+        // Reklama
+    </div>
+    <div class="add_banner">
+        // Blok pro přidání třídy / ročníku
+    </div>
+</article>
+```
+
+* Subpage section [třída]
+
+**Code**
+```html
+<aside>
+    <div class="avatar user">
+        // User avatar
+    </div>
+    <div class="form_block">
+        // Výběr tříd z comba
+    </div>
+    <nav>
+        // Navigace
+    </nav>
+</aside>
+<article>
+    <div class="container classroom add">
+        // Add new post in classroom, emoticons, img, button
+    </div>
+    
+    <div class="container classroom">
+        <div class="avatar active"> // Status může nabývat hodnot - active/away/nonactive
+            // Avatar status active
+        </div>
+        <div class="block">
+            // Post content
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="container classroom level_2">
+        // 2. úroveň zanoření konverzace  
+    </div>
+
+    <div class="container classroom load_next_conversation"> // Načíst další posty v konverzaci 
+        // Obsah postu - analogicky viz výše               
+        <div class="load_next">
+            <a href="#">Zobrazit další komentáře</a>
+        </div>
+    </div>
+
+    <div class="container classroom with_image"> // Konverzace s obrázkem  
+        <div class="block">
+            <div class="row">
+                <div class="col p35">
+                    <div class="photo">
+                        // Obsah postu - image
+                    </div>
+                </div>
+                <div class="col p65 message">
+                    // Obsah postu - text
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="load_next">
+        //Načíst další diskuse
+    </div>
+</article>
+
+```
