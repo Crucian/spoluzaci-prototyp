@@ -56,70 +56,150 @@
     </header>
     <section class="subpage">
         <div class="inner_box">
-            <aside class="form_block">
-                <form action="#">
-                    <div class="row">
-                        <div class="col p100">
-                            <label>Kraj</label>
-                            <select name="region">
-                                <option>Hlavní město Praha</option>
-                                <option>Středočeský</option>
-                                <option>Jihočeský</option>
-                                <option>Plzeňský</option>
-                                <option>Karlovarský</option>
-                                <option>Ústecký</option>
-                                <option>Liberecký</option>
-                                <option>Královéhradecký</option>
-                                <option>Pardubický</option>
-                                <option>Olomoucký</option>
-                                <option>Moravskoslezský</option>
-                                <option>Jihomoravský</option>
-                                <option>Zlínský</option>
-                                <option>Kraj Vysočina</option>
-                            </select>
+
+            <!-- ASIDE skoly / desktop zobrazeni -->
+            <div class="desktop_view">
+                <aside class="form_block">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col p100">
+                                <label>Kraj</label>
+                                <select name="region">
+                                    <option>Hlavní město Praha</option>
+                                    <option>Středočeský</option>
+                                    <option>Jihočeský</option>
+                                    <option>Plzeňský</option>
+                                    <option>Karlovarský</option>
+                                    <option>Ústecký</option>
+                                    <option>Liberecký</option>
+                                    <option>Královéhradecký</option>
+                                    <option>Pardubický</option>
+                                    <option>Olomoucký</option>
+                                    <option>Moravskoslezský</option>
+                                    <option>Jihomoravský</option>
+                                    <option>Zlínský</option>
+                                    <option>Kraj Vysočina</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col p100">
-                            <label>Okres</label>
-                            <select name="district">
-                                <option>Okres 1</option>
-                                <option>Okres 2</option>
-                                <option>Okres ...</option>
-                            </select>
+                        <div class="row">
+                            <div class="col p100">
+                                <label>Okres</label>
+                                <select name="district">
+                                    <option>Okres 1</option>
+                                    <option>Okres 2</option>
+                                    <option>Okres ...</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col p100">
-                            <label>Město</label>
-                            <select name="city">
-                                <option>Město 1</option>
-                                <option>Město 2</option>
-                                <option>Město ...</option>
-                            </select>
+                        <div class="row">
+                            <div class="col p100">
+                                <label>Město</label>
+                                <select name="city">
+                                    <option>Město 1</option>
+                                    <option>Město 2</option>
+                                    <option>Město ...</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col p100">
-                            <label>Typ</label>
-                            <select name="type">
-                                <option>Typ 1</option>
-                                <option>Typ 2</option>
-                                <option>Typ ...</option>
-                            </select>
+                        <div class="row">
+                            <div class="col p100">
+                                <label>Typ</label>
+                                <select name="type">
+                                    <option>Typ 1</option>
+                                    <option>Typ 2</option>
+                                    <option>Typ ...</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col p100">
-                            <label>Vyhledat frázi</label>
-                            <input type="text" />
+                        <div class="row">
+                            <div class="col p100">
+                                <label>Vyhledat frázi</label>
+                                <input type="text" />
+                            </div>
                         </div>
-                    </div>
-                    <div class="controls">
-                        <button class="submit"><span>Hledat</span></button>
-                    </div>
-                </form>
-            </aside>
+                        <div class="controls">
+                            <button class="submit"><span>Hledat</span></button>
+                        </div>
+                    </form>
+                </aside>
+            </div>
+
+            <!-- ASIDE skoly / mobilni zobrazeni -->
+
+
+            <div class="mobile_view schools">
+                <input type="checkbox" id="toggle-aside">
+                <div class="aside_container">
+                    <label for="toggle-aside" class="icon-toggle"></label>
+                    <aside class="form_block">
+                        <form action="#">
+                            <div class="row">
+                                <div class="col p100">
+                                    <label>Kraj</label>
+                                    <select name="region">
+                                        <option>Hlavní město Praha</option>
+                                        <option>Středočeský</option>
+                                        <option>Jihočeský</option>
+                                        <option>Plzeňský</option>
+                                        <option>Karlovarský</option>
+                                        <option>Ústecký</option>
+                                        <option>Liberecký</option>
+                                        <option>Královéhradecký</option>
+                                        <option>Pardubický</option>
+                                        <option>Olomoucký</option>
+                                        <option>Moravskoslezský</option>
+                                        <option>Jihomoravský</option>
+                                        <option>Zlínský</option>
+                                        <option>Kraj Vysočina</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col p100">
+                                    <label>Okres</label>
+                                    <select name="district">
+                                        <option>Okres 1</option>
+                                        <option>Okres 2</option>
+                                        <option>Okres ...</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col p100">
+                                    <label>Město</label>
+                                    <select name="city">
+                                        <option>Město 1</option>
+                                        <option>Město 2</option>
+                                        <option>Město ...</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col p100">
+                                    <label>Typ</label>
+                                    <select name="type">
+                                        <option>Typ 1</option>
+                                        <option>Typ 2</option>
+                                        <option>Typ ...</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col p100">
+                                    <label>Vyhledat frázi</label>
+                                    <input type="text" />
+                                </div>
+                            </div>
+                            <div class="controls">
+                                <button class="submit"><span>Hledat</span></button>
+                            </div>
+                        </form>
+                    </aside>
+                </div>
+            </div>
+
+
             <article>
                 <div class="container schools">
                     <a href="skola.html" class="block">
