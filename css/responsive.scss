@@ -1,0 +1,17 @@
+@media only screen and (max-width: 1200px) {
+	.inner_box {
+		padding: 0 20px;
+	}
+}
+@media only screen and (max-width: 999px) {
+	.desktop_view { display: none; }
+	.mobile_view  { display: block;}
+
+	header .block_login button {
+		display: none;
+	}
+	.subpage article {
+		float: none;
+		width: 100%;
+	}
+}
