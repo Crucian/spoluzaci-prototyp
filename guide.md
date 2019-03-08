@@ -9,8 +9,9 @@
   * Fonts
   * Definice font-family / fonts.google.com.
 * [Rozvržení typických prvků stránek](#section-structure)
-* [Emotikony](#section-emoticons)
   
+
+
 <a name="section-grid"/></a>
 ## Grid layout
 Je definován prvky DIV s třídami **row** a **col** a doplňkovou třídou **p1** až **p100** viz příklad použití [code](#code-grid). Před ukončovací značkou DIVu **row** je vždy umístěn DIV s třídou **clear**.
@@ -322,7 +323,7 @@ SCSS soubory jsou umístěny v adresáři /CSS, kde se nachází i hlavní soubo
 ## Rozvržení typických prvků stránek
 Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými prvky kontejnerů, které tvoří základní rozvržení všech stránek.
 
-### Globalně
+* Globalně
 
 **Code**
 ```html
@@ -343,17 +344,17 @@ Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými p
 </div>
 ```
 
-### Homepage section
+* Homepage section
 
 **Code**
 ```html
-<div class="claim_bck">  // Background části claim, animovane ruce, vyhledavani
-    <div class="inner_box">  // Vymezuje maximální šířku obsahu
+<div class="claim_bck">  // background části claim, animovane ruce, vyhledavani
+    <div class="inner_box">  // vymezuje maximální šířku obsahu
         <div class="hands"> 
             // Animované ruce
         </div>
         <div class="claim">
-            // Slogan a vyhledávání
+            // Claim a vyhledavani
         </div>
         <div class="clear"></div>
     </div>
@@ -366,13 +367,13 @@ Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými p
 </div>
 ```
 
-### Subpage section [školy]
+* Subpage section [školy]
 
 **Code**
 ```html
 <div class="inner_box">
     <aside class="form_block">
-        // Aside formulář
+        // Aside form
     </aside>
     <article>
         <div class="container schools">
@@ -389,7 +390,7 @@ Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými p
 </div>
 ```
 
-### Subpage section [škola]
+* Subpage section [škola]
 
 **Code**
 ```html
@@ -412,16 +413,16 @@ Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými p
 </article>
 ```
 
-### Subpage section [třída]
+* Subpage section [třída]
 
 **Code**
 ```html
 <aside>
     <div class="avatar user">
-        // Avatar uživatele
+        // User avatar
     </div>
     <div class="form_block">
-        // Výběr tříd v selectboxu
+        // Výběr tříd z comba
     </div>
     <nav>
         // Navigace
@@ -429,15 +430,15 @@ Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými p
 </aside>
 <article>
     <div class="container classroom add">
-        // Přidat nový post/konverzaci ve třídě. Emoticony, obrázek a button
+        // Add new post in classroom, emoticons, img, button
     </div>
     
     <div class="container classroom">
         <div class="avatar active"> // Status může nabývat hodnot - active/away/nonactive
-            // Status - active
+            // Avatar status active
         </div>
         <div class="block">
-            // Obsah příspěvku
+            // Post content
         </div>
         <div class="clear"></div>
     </div>
@@ -447,7 +448,7 @@ Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými p
     </div>
 
     <div class="container classroom load_next_conversation"> // Načíst další posty v konverzaci 
-        // Obsah příspěvku - analogicky viz výše               
+        // Obsah postu - analogicky viz výše               
         <div class="load_next">
             <a href="#">Zobrazit další komentáře</a>
         </div>
@@ -458,117 +459,20 @@ Struktura je složena kromě prvků [grid layoutu](#code-grid) také obecnými p
             <div class="row">
                 <div class="col p35">
                     <div class="photo">
-                        // Obsah příspěvku - image
+                        // Obsah postu - image
                     </div>
                 </div>
                 <div class="col p65 message">
-                    // Obsah příspěvku - text
+                    // Obsah postu - text
                 </div>
                 <div class="clear"></div>
             </div>
         </div>
     </div>
-
+    
     <div class="load_next">
-        // Načíst další diskuse
+        //Načíst další diskuse
     </div>
 </article>
-```
-<a name="section-emoticons"/></a>
-## Emotikony
-Jsou identifikovány kódem a vkládáný jako span s příslušnou třídou (např.: **e-1f31d**) do html kódu.
-Níže celý výpis používaných emoticon. Ve statickém klikacím modelu je zobrazeno přímo ve stránce. Výpis je seřazen shodně pro lepší identifikaci konkrétních ikon.
 
-**Code**
-```html
-<span class="emoticon e-1f31d"></span>
-<span class="emoticon e-1f600"></span>
-<span class="emoticon e-1f601"></span>
-<span class="emoticon e-1f602"></span>
-<span class="emoticon e-1f603"></span>
-<span class="emoticon e-1f604"></span>
-<span class="emoticon e-1f605"></span>
-<span class="emoticon e-1f606"></span>
-<span class="emoticon e-1f607"></span>
-<span class="emoticon e-1f609"></span>
-<span class="emoticon e-1f60a"></span>
-<span class="emoticon e-1f60b"></span>
-<span class="emoticon e-1f60c"></span>
-<span class="emoticon e-1f60d"></span>
-<span class="emoticon e-1f60e"></span>
-<span class="emoticon e-1f60f"></span>
-<span class="emoticon e-1f610"></span>
-<span class="emoticon e-1f611"></span>
-<span class="emoticon e-1f612"></span>
-<span class="emoticon e-1f613"></span>
-<span class="emoticon e-1f614"></span>
-<span class="emoticon e-1f615"></span>
-<span class="emoticon e-1f616"></span>
-<span class="emoticon e-1f617"></span>
-<span class="emoticon e-1f618"></span>
-<span class="emoticon e-1f619"></span>
-<span class="emoticon e-1f61a"></span>
-<span class="emoticon e-1f61b"></span>
-<span class="emoticon e-1f61c"></span>
-<span class="emoticon e-1f61d"></span>
-<span class="emoticon e-1f61e"></span>
-<span class="emoticon e-1f61f"></span>
-<span class="emoticon e-1f620"></span>
-<span class="emoticon e-1f621"></span>
-<span class="emoticon e-1f622"></span>
-<span class="emoticon e-1f623"></span>
-<span class="emoticon e-1f624"></span>
-<span class="emoticon e-1f625"></span>
-<span class="emoticon e-1f626"></span>
-<span class="emoticon e-1f627"></span>
-<span class="emoticon e-1f628"></span>
-<span class="emoticon e-1f629"></span>
-<span class="emoticon e-1f62a"></span>
-<span class="emoticon e-1f62b"></span>
-<span class="emoticon e-1f62c"></span>
-<span class="emoticon e-1f62d"></span>
-<span class="emoticon e-1f62e"></span>
-<span class="emoticon e-1f62f"></span>
-<span class="emoticon e-1f630"></span>
-<span class="emoticon e-1f631"></span>
-<span class="emoticon e-1f632"></span>
-<span class="emoticon e-1f633"></span>
-<span class="emoticon e-1f634"></span>
-<span class="emoticon e-1f635"></span>
-<span class="emoticon e-1f636"></span>
-<span class="emoticon e-1f637"></span>
-<span class="emoticon e-1f640"></span>
-<span class="emoticon e-1f641"></span>
-<span class="emoticon e-1f642"></span>
-<span class="emoticon e-1f643"></span>
-<span class="emoticon e-1f644"></span>
-<span class="emoticon e-1f910"></span>
-<span class="emoticon e-1f911"></span>
-<span class="emoticon e-1f912"></span>
-<span class="emoticon e-1f913"></span>
-<span class="emoticon e-1f914"></span>
-<span class="emoticon e-1f915"></span>
-<span class="emoticon e-1f917"></span>
-<span class="emoticon e-1f920"></span>
-<span class="emoticon e-1f923"></span>
-<span class="emoticon e-1f924"></span>
-<span class="emoticon e-1f925"></span>
-<span class="emoticon e-1f927"></span>
-<span class="emoticon e-1f928"></span>
-<span class="emoticon e-1f929"></span>
-<span class="emoticon e-1f92a"></span>
-<span class="emoticon e-1f92b"></span>
-<span class="emoticon e-1f92c"></span>
-<span class="emoticon e-1f92d"></span>
-<span class="emoticon e-1f92e"></span>
-<span class="emoticon e-1f92f"></span>
-<span class="emoticon e-1f970"></span>
-<span class="emoticon e-1f973"></span>
-<span class="emoticon e-1f974"></span>
-<span class="emoticon e-1f975"></span>
-<span class="emoticon e-1f976"></span>
-<span class="emoticon e-1f97a"></span>
-<span class="emoticon e-1f9d0"></span>
-<span class="emoticon e-2639"></span>
-<span class="emoticon e-263a"></span>
 ```
