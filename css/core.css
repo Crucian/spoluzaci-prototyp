@@ -2147,58 +2147,6 @@ g#reg14:hover path {
   cursor: pointer;
   opacity: 0.9; }
 
-/*
-g#reg01 text tspan, g#reg01 text,
-g#reg02 text tspan, g#reg02 text,
-g#reg03 text tspan, g#reg03 text,
-g#reg04 text tspan, g#reg04 text,
-g#reg05 text tspan, g#reg05 text,
-g#reg06 text tspan, g#reg06 text,
-g#reg07 text tspan, g#reg07 text,
-g#reg08 text tspan, g#reg08 text,
-g#reg09 text tspan, g#reg09 text,
-g#reg10 text tspan, g#reg10 text,
-g#reg11 text tspan, g#reg11 text,
-g#reg12 text tspan, g#reg12 text,
-g#reg13 text tspan, g#reg13 text,
-g#reg14 text tspan, g#reg14 text{
-	fill: $color-d2d2d2;
-}
-g#reg01:hover text tspan, g#reg01:hover text,
-g#reg02:hover text tspan, g#reg02:hover text,
-g#reg03:hover text tspan, g#reg03:hover text,
-g#reg04:hover text tspan, g#reg04:hover text,
-g#reg05:hover text tspan, g#reg05:hover text,
-g#reg06:hover text tspan, g#reg06:hover text,
-g#reg07:hover text tspan, g#reg07:hover text,
-g#reg08:hover text tspan, g#reg08:hover text,
-g#reg09:hover text tspan, g#reg09:hover text,
-g#reg10:hover text tspan, g#reg10:hover text,
-g#reg11:hover text tspan, g#reg11:hover text,
-g#reg12:hover text tspan, g#reg12:hover text,
-g#reg13:hover text tspan, g#reg13:hover text,
-g#reg14:hover text tspan, g#reg14:hover text{
-	fill: #fff;
-	cursor: pointer;
-}
-g#reg01:hover path,
-g#reg02:hover path,
-g#reg03:hover path,
-g#reg04:hover path,
-g#reg05:hover path,
-g#reg06:hover path,
-g#reg07:hover path,
-g#reg08:hover path,
-g#reg09:hover path,
-g#reg10:hover path,
-g#reg11:hover path,
-g#reg12:hover path,
-g#reg13:hover path,
-g#reg14:hover path{
-	fill: $color-4b6a77;
-	cursor: pointer;
-	opacity: 0.9;
-}*/
 /*-----------------------------------------------------------------------------------------------------------------------------*/
 /*  SUBPAGE		                                                                                                               */
 /*-----------------------------------------------------------------------------------------------------------------------------*/
@@ -2639,7 +2587,7 @@ nav {
   .container.classroom.add .bottom_bar .emoticons {
     background: url("../images/icons/icon-smile.svg") 50% 50% no-repeat; }
     .container.classroom.add .bottom_bar .emoticons .icons_block {
-      display: block;
+      display: none;
       padding: 25px 30px;
       position: absolute;
       top: 45px;
@@ -2672,8 +2620,8 @@ nav {
         -o-transform: rotate(-45deg); }
     .container.classroom.add .bottom_bar .emoticons:hover {
       background: url("../images/icons/icon-smile-hover.svg") 50% 50% no-repeat; }
-      .container.classroom.add .bottom_bar .emoticons:hover .icons_block {
-        display: block; }
+    .container.classroom.add .bottom_bar .emoticons.active .icons_block {
+      display: block; }
   .container.classroom.add .bottom_bar .add_image {
     background: url("../images/icons/icon-image.svg") 50% 50% no-repeat; }
     .container.classroom.add .bottom_bar .add_image span {
@@ -3322,6 +3270,10 @@ nav {
   body {
     font-size: 1.5rem; }
 
+  /* titles */
+  h1 {
+    font-size: 2.4rem; }
+
   h2 {
     font-size: 2rem; }
 
@@ -3348,52 +3300,6 @@ nav {
 
   .col {
     padding: 0 10px; }
-
-  .subpage article {
-    float: none;
-    width: 100%; }
-
-  .subpage article > .endyear_calculator {
-    display: none; }
-
-  .container .block {
-    padding: 15px 20px; }
-
-  /*school*/
-  .mobile_view aside + a {
-    display: inline-block;
-    margin-top: 10px; }
-
-  .container.school h2 a {
-    bottom: 15px; }
-  .container.school .classroom a {
-    font-size: 1.6rem;
-    margin-right: 10px; }
-  .container.school .classroom span {
-    font-size: 1.3rem; }
-
-  /*schools*/
-  .container.schools .content h2 {
-    height: 40px;
-    margin-bottom: 10px;
-    font-size: 1.6rem; }
-  .container.schools .content p {
-    font-size: 1.3rem; }
-  .container.schools .col.p20 {
-    width: 30%; }
-  .container.schools .col.p80 {
-    width: 70%; }
-
-  .add_banner {
-    padding: 30px; }
-    .add_banner h2 {
-      font-size: 2rem;
-      padding: 0 0 20px 0; }
-
-  .advertisement {
-    height: 100px;
-    line-height: 100px;
-    font-size: 2rem; }
 
   .controls {
     text-align: center;
@@ -3424,7 +3330,129 @@ nav {
       line-height: 35px;
       padding: 0 10px; }
 
-  /* aside - fixed position */
+  /*-----------------------------------------------------------------------------------------------------------------------------*/
+  /*  HOMEPAGE		                                                                                                           */
+  /*-----------------------------------------------------------------------------------------------------------------------------*/
+  .homepage .hands {
+    float: none;
+    width: 100%;
+    min-height: 10px;
+    text-align: center; }
+    .homepage .hands .hand {
+      width: 80px;
+      height: 220px;
+      position: static;
+      z-index: 2;
+      display: inline-block; }
+      .homepage .hands .hand.hand_1 {
+        position: static;
+        background: url("../images/hand-1-tr.svg") 50% 30px no-repeat;
+        background-size: 70px auto;
+        animation-play-state: paused; }
+      .homepage .hands .hand.hand_2 {
+        position: static;
+        background: url("../images/hand-2-tr.svg") 50% 50px no-repeat;
+        background-size: 70px auto;
+        animation-play-state: paused; }
+      .homepage .hands .hand.hand_3 {
+        position: static;
+        background: url("../images/hand-3-tr.svg") 50% 20px no-repeat;
+        background-size: 70px auto;
+        animation-play-state: paused; }
+  .homepage .claim {
+    float: none;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0 0 0;
+    text-align: center; }
+    .homepage .claim h1 {
+      text-align: center;
+      padding: 0 0 30px 0; }
+      .homepage .claim h1 span {
+        font-size: 2.4rem;
+        color: #f6deae; }
+    .homepage .claim .row.search .col {
+      padding: 5px 20px;
+      width: 100%;
+      float: none;
+      text-align: center; }
+  .homepage .map {
+    display: none; }
+  .homepage .regions {
+    padding: 30px 0; }
+    .homepage .regions .col {
+      padding: 5px 20px;
+      width: 100%;
+      float: none;
+      text-align: left; }
+    .homepage .regions h2 {
+      font-size: 2.6rem;
+      padding: 0 0 35px 0; }
+
+  /*-----------------------------------------------------------------------------------------------------------------------------*/
+  /*  SUBPAGE		                                                                                                               */
+  /*-----------------------------------------------------------------------------------------------------------------------------*/
+  .subpage article {
+    float: none;
+    width: 100%; }
+
+  .subpage article > .endyear_calculator {
+    display: none; }
+
+  .container .block {
+    padding: 15px 20px; }
+
+  /* schools */
+  .container.schools .content h2 {
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 1.6rem; }
+  .container.schools .content p {
+    font-size: 1.3rem; }
+  .container.schools .col.p20 {
+    width: 30%; }
+  .container.schools .col.p80 {
+    width: 70%; }
+
+  /* school */
+  .mobile_view.school {
+    position: relative; }
+    .mobile_view.school aside {
+      float: none;
+      width: 100%;
+      padding: 5px 15px; }
+      .mobile_view.school aside .avatar {
+        text-align: left;
+        padding: 15px 0; }
+        .mobile_view.school aside .avatar * {
+          display: inline-block;
+          vertical-align: middle; }
+        .mobile_view.school aside .avatar .photo {
+          width: 80px;
+          height: 80px;
+          padding: 15px; }
+          .mobile_view.school aside .avatar .photo img {
+            width: 40px;
+            height: 40px; }
+        .mobile_view.school aside .avatar .name {
+          width: calc(100% - 105px);
+          margin-left: 20px;
+          font-size: 1.5rem; }
+      .mobile_view.school aside + a {
+        display: inline-block;
+        margin-top: 10px; }
+
+  .container.school h2 a {
+    bottom: 15px; }
+  .container.school .classroom a {
+    font-size: 1.6rem;
+    margin-right: 10px; }
+  .container.school .classroom span {
+    font-size: 1.3rem; }
+
+  /*-----------------------------------------------------------------------------------------------------------------------------*/
+  /*  ASIDE - fixed position	- pro mobilni rozliseni                                                                            */
+  /*-----------------------------------------------------------------------------------------------------------------------------*/
   .mobile_view {
     position: relative; }
     .mobile_view.schools, .mobile_view.classroom {
@@ -3478,39 +3506,50 @@ nav {
       -ms-transition: all  .3s;
       -o-transition: all  .3s; }
     .mobile_view input[type="checkbox"]:checked ~ .icon-toggle {
-      right: 0; } }
+      right: 0; }
+
+  .add_banner {
+    padding: 30px; }
+    .add_banner h2 {
+      font-size: 2rem;
+      padding: 0 0 20px 0; }
+
+  .advertisement {
+    height: 100px;
+    line-height: 100px;
+    font-size: 2rem; } }
 @media only screen and (max-width: 600px) {
   [data-tooltip]:before,
   [data-tooltip]:after {
     display: none; }
 
-  /* schools */
-  /* school */
-  .mobile_view.school {
-    position: relative; }
-    .mobile_view.school aside {
-      float: none;
-      width: 100%;
-      padding: 5px 15px; }
-      .mobile_view.school aside .avatar {
-        text-align: left;
-        padding: 15px 0; }
-        .mobile_view.school aside .avatar * {
-          display: inline-block;
-          vertical-align: middle; }
-        .mobile_view.school aside .avatar .photo {
-          width: 80px;
-          height: 80px;
-          padding: 15px; }
-          .mobile_view.school aside .avatar .photo img {
-            width: 40px;
-            height: 40px; }
-        .mobile_view.school aside .avatar .name {
-          width: calc(100% - 105px);
-          margin-left: 20px;
-          font-size: 1.5rem; }
-
   /* classroom */
+  .mobile_view.classroom .avatar {
+    padding: 5px 0 15px 0;
+    text-align: left; }
+    .mobile_view.classroom .avatar .photo {
+      float: left;
+      margin: 0 15px 15px 0;
+      display: block;
+      width: 65px;
+      height: 65px; }
+      .mobile_view.classroom .avatar .photo span {
+        display: none; }
+      .mobile_view.classroom .avatar .photo:hover span {
+        width: 55px;
+        height: 55px; }
+      .mobile_view.classroom .avatar .photo img {
+        width: 65px;
+        height: 65px;
+        border: 3px solid #f3d396; }
+    .mobile_view.classroom .avatar .name {
+      display: inline-block;
+      font-size: 1.8rem;
+      margin-top: 10px; }
+    .mobile_view.classroom .avatar a {
+      display: inline-block;
+      font-size: 1.2rem; }
+
   .container.classroom.load_next_conversation {
     max-height: 100px; }
   .container.classroom.level_2 {
@@ -3581,100 +3620,25 @@ nav {
       top: 10px; }
     .container.classroom .block * {
       font-size: 1.4rem; }
-    .container.classroom .block textarea {
-      border: none;
-      background: rgba(0, 0, 0, 0); }
-    .container.classroom .block .date_name {
-      font-size: 1.3rem;
-      color: #bababa;
-      text-align: right;
-      padding-top: 15px; }
-  .container.classroom .response {
-    text-align: right; }
 
-  .container.classroom.with_image .block .photo {
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-    position: relative; }
-    .container.classroom.with_image .block .photo:hover::after {
-      cursor: pointer;
-      content: '';
-      background: rgba(0, 0, 0, 0.6) url("../images/icons/icon-zoom.svg") 50% 50% no-repeat;
-      position: absolute;
-      z-index: 5;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0; }
-    .container.classroom.with_image .block .photo img {
-      width: 100%;
-      height: 100%; }
+  /* with img */
+  .container.classroom.with_image .col {
+    float: none;
+    width: 100%; }
   .container.classroom.with_image .message {
-    padding-left: 30px; }
+    padding-left: 0; }
 
-  .container.classroom.add .bottom_bar {
-    text-align: right;
-    padding-top: 10px; }
-    .container.classroom.add .bottom_bar .emoticons,
-    .container.classroom.add .bottom_bar .add_image {
-      position: relative;
-      height: 24px;
-      width: 24px;
-      display: inline-block;
-      vertical-align: middle;
-      margin: 0 8px;
-      z-index: 20;
-      cursor: pointer; }
-    .container.classroom.add .bottom_bar .emoticons {
-      background: url("../images/icons/icon-smile.svg") 50% 50% no-repeat; }
-      .container.classroom.add .bottom_bar .emoticons .icons_block {
-        display: block;
-        padding: 10px 15px 10px 10px;
-        position: absolute;
-        top: 45px;
-        left: 50%;
-        margin-left: -160px;
-        width: 320px;
-        background: #4b6a77;
-        text-align: center; }
-        .container.classroom.add .bottom_bar .emoticons .icons_block .close, .container.classroom.add .bottom_bar .emoticons .icons_block:before {
-          position: absolute;
-          display: block; }
-        .container.classroom.add .bottom_bar .emoticons .icons_block .close {
-          top: 10px;
-          right: 10px;
-          height: 16px;
-          width: 16px;
-          line-height: 16px;
-          font-size: 2rem;
-          color: white; }
-        .container.classroom.add .bottom_bar .emoticons .icons_block:before {
-          content: '';
-          top: -6px;
-          left: calc(50% - 8px);
-          width: 15px;
-          height: 15px;
-          background: #4b6a77;
-          -webkit-transform: rotate(-45deg);
-          -moz-transform: rotate(-45deg);
-          -ms-transform: rotate(-45deg);
-          -o-transform: rotate(-45deg); }
-      .container.classroom.add .bottom_bar .emoticons:hover {
-        background: url("../images/icons/icon-smile-hover.svg") 50% 50% no-repeat; }
-        .container.classroom.add .bottom_bar .emoticons:hover .icons_block {
-          display: block; }
-    .container.classroom.add .bottom_bar .add_image {
-      background: url("../images/icons/icon-image.svg") 50% 50% no-repeat; }
-      .container.classroom.add .bottom_bar .add_image span {
-        overflow: hidden;
-        display: inline-block;
-        height: 24px;
-        width: 24px; }
-        .container.classroom.add .bottom_bar .add_image span input[type="file"] {
-          opacity: 0; }
-      .container.classroom.add .bottom_bar .add_image:hover {
-        background: url("../images/icons/icon-image-hover.svg") 50% 50% no-repeat; }
+  .container.classroom.add .bottom_bar .emoticons,
+  .container.classroom.add .bottom_bar .add_image {
+    height: 24px;
+    width: 24px;
+    margin: 0 8px; }
+  .container.classroom.add .bottom_bar .emoticons .icons_block {
+    padding: 10px 15px 10px 10px;
+    top: 45px;
+    left: 50%;
+    margin-left: -160px;
+    width: 320px; }
 
   .emoticon {
     height: 30px;

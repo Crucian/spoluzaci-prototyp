@@ -11,9 +11,11 @@
 	padding: 0 85px;
 	margin: 0 auto;
 }
+
 /*-----------------------------------------------------------------------------------------------------------------------------*/
 /*  HEADER 			                                                                                                           */
 /*-----------------------------------------------------------------------------------------------------------------------------*/
+
 header {
 	height: 110px;
 	padding: 20px 0;
@@ -420,60 +422,6 @@ path:hover {
 	}
 
 }
-/*
-g#reg01 text tspan, g#reg01 text,
-g#reg02 text tspan, g#reg02 text,
-g#reg03 text tspan, g#reg03 text,
-g#reg04 text tspan, g#reg04 text,
-g#reg05 text tspan, g#reg05 text,
-g#reg06 text tspan, g#reg06 text,
-g#reg07 text tspan, g#reg07 text,
-g#reg08 text tspan, g#reg08 text,
-g#reg09 text tspan, g#reg09 text,
-g#reg10 text tspan, g#reg10 text,
-g#reg11 text tspan, g#reg11 text,
-g#reg12 text tspan, g#reg12 text,
-g#reg13 text tspan, g#reg13 text,
-g#reg14 text tspan, g#reg14 text{
-	fill: $color-d2d2d2;
-}
-g#reg01:hover text tspan, g#reg01:hover text,
-g#reg02:hover text tspan, g#reg02:hover text,
-g#reg03:hover text tspan, g#reg03:hover text,
-g#reg04:hover text tspan, g#reg04:hover text,
-g#reg05:hover text tspan, g#reg05:hover text,
-g#reg06:hover text tspan, g#reg06:hover text,
-g#reg07:hover text tspan, g#reg07:hover text,
-g#reg08:hover text tspan, g#reg08:hover text,
-g#reg09:hover text tspan, g#reg09:hover text,
-g#reg10:hover text tspan, g#reg10:hover text,
-g#reg11:hover text tspan, g#reg11:hover text,
-g#reg12:hover text tspan, g#reg12:hover text,
-g#reg13:hover text tspan, g#reg13:hover text,
-g#reg14:hover text tspan, g#reg14:hover text{
-	fill: #fff;
-	cursor: pointer;
-}
-g#reg01:hover path,
-g#reg02:hover path,
-g#reg03:hover path,
-g#reg04:hover path,
-g#reg05:hover path,
-g#reg06:hover path,
-g#reg07:hover path,
-g#reg08:hover path,
-g#reg09:hover path,
-g#reg10:hover path,
-g#reg11:hover path,
-g#reg12:hover path,
-g#reg13:hover path,
-g#reg14:hover path{
-	fill: $color-4b6a77;
-	cursor: pointer;
-	opacity: 0.9;
-}*/
-
-
 /*-----------------------------------------------------------------------------------------------------------------------------*/
 /*  SUBPAGE		                                                                                                               */
 /*-----------------------------------------------------------------------------------------------------------------------------*/
@@ -1010,7 +958,7 @@ nav {
 			background: url('../images/icons/icon-smile.svg') 50% 50% no-repeat;
 
 			.icons_block {
-				display: block /*zapnout*/;
+				display: none;
 				padding: 25px 30px;
 				position: absolute;
 				top: 45px;
@@ -1046,10 +994,9 @@ nav {
 			}
 			&:hover {
 				background: url('../images/icons/icon-smile-hover.svg') 50% 50% no-repeat;
-
-				.icons_block {
-					display: block;
-				}
+			}
+			&.active .icons_block {
+				display: block;
 			}
 		}
 		.add_image {

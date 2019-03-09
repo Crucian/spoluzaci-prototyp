@@ -10,6 +10,10 @@
 	body {
 		font-size: $fs-15;
 	}
+	/* titles */
+	h1 {
+		font-size: $fs-24;
+	}
 	h2 {
 		font-size: $fs-20;
 	}
@@ -43,6 +47,124 @@
 	.col {
 		padding: 0 10px;
 	}
+	.controls {
+		text-align: center;
+		padding: 40px 0;
+
+		p {
+			padding-top: 20px;
+		}
+	}
+	aside .controls,
+	.popup_dialog .controls {
+		padding: 20px 0 0 0;
+	}
+
+	/*-----------------------------------------------------------------------------------------------------------------------------*/
+	/*  BUTTONS                                                                                                                    */
+	/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+	a.button,
+	button,
+	input[type="button"].button,
+	input[type="submit"].button {
+		height: 45px;
+		line-height: 45px;
+		padding: 0 30px;
+		margin: 0 5px;
+
+		&.low {
+			height: 35px;
+			line-height: 35px;
+			padding: 0 10px;
+		}
+
+	}
+
+	/*-----------------------------------------------------------------------------------------------------------------------------*/
+	/*  HOMEPAGE		                                                                                                           */
+	/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+	.homepage {
+		.hands {
+			float: none;
+			width: 100%;
+			min-height: 10px;
+			text-align: center;
+
+			.hand {
+				width: 80px;
+				height: 220px;
+				position: static;
+				z-index: 2;
+				display: inline-block;
+
+				&.hand_1 {
+					position: static;
+					background: url('../images/hand-1-tr.svg') 50% 30px no-repeat;
+					background-size: 70px auto;
+					animation-play-state: paused;
+				}
+				&.hand_2 {
+					position: static;
+					background: url('../images/hand-2-tr.svg') 50% 50px no-repeat;
+					background-size: 70px auto;
+					animation-play-state: paused;
+				}
+				&.hand_3 {
+					position: static;
+					background: url('../images/hand-3-tr.svg') 50% 20px no-repeat;
+					background-size: 70px auto;
+					animation-play-state: paused;
+				}
+			}
+		}
+		.claim {
+			float: none;
+			width: 100%;
+			display: inline-block;
+			padding: 10px 0 0 0;
+			text-align: center;
+
+			h1 {
+				text-align: center;
+				padding: 0 0 30px 0;
+				span {
+					font-size: $fs-24;
+					color: $color-f6deae;
+				}
+			}
+			.row.search {
+				.col {
+					padding: 5px 20px;
+					width: 100%;
+					float: none;
+					text-align: center;
+				}
+			}
+		}
+		.map {
+			display: none;
+		}
+		.regions {
+			padding: 30px 0;
+			.col {
+				padding: 5px 20px;
+				width: 100%;
+				float: none;
+				text-align: left;
+			}
+			h2 {
+				font-size: $fs-26;
+				padding: 0 0 35px 0;
+			}
+		}
+	}
+
+	/*-----------------------------------------------------------------------------------------------------------------------------*/
+	/*  SUBPAGE		                                                                                                               */
+	/*-----------------------------------------------------------------------------------------------------------------------------*/
+
 	.subpage article {
 		float: none;
 		width: 100%;
@@ -54,29 +176,7 @@
 		padding: 15px 20px;
 	}
 
-	/*school*/
-
-	.mobile_view aside + a {
-		display: inline-block;
-		margin-top: 10px;
-	}
-
-	.container.school {
-		h2 a {
-			bottom: 15px;
-		}
-		.classroom {
-			a {
-				font-size: $fs-16;
-				margin-right: 10px;
-			}
-			span {
-				font-size: $fs-13;
-			}
-		}
-	}
-
-	/*schools*/
+	/* schools */
 
 	.container.schools {
 		.content {
@@ -99,56 +199,64 @@
 		}
 	}
 
+	/* school */
 
-	.add_banner {
-		padding: 30px;
+	.mobile_view.school {
+		position: relative;
 
-		h2 {
-			font-size: $fs-20;
-			padding: 0 0 20px 0;
+		aside {
+			float: none;
+			width: 100%;
+			padding: 5px 15px;
+
+			.avatar {
+				text-align: left;
+				padding: 15px 0;
+				* {
+					display: inline-block;
+					vertical-align: middle;
+				}
+				.photo {
+					width: 80px;
+					height: 80px;
+					padding: 15px;
+
+					img {
+						width: 40px;
+						height: 40px;
+					}
+				}
+				.name {
+					width: calc(100% - 105px);
+					margin-left: 20px;
+
+					font-size: $fs-15;
+				}
+			}
+			&+a {
+				display: inline-block;
+				margin-top: 10px;
+			}
 		}
 	}
-	.advertisement {
-		height: 100px;
-		line-height: 100px;
-		font-size: $fs-20;
-	}
-
-
-	.controls {
-		text-align: center;
-		padding: 40px 0;
-
-		p {
-			padding-top: 20px;
+	.container.school {
+		h2 a {
+			bottom: 15px;
+		}
+		.classroom {
+			a {
+				font-size: $fs-16;
+				margin-right: 10px;
+			}
+			span {
+				font-size: $fs-13;
+			}
 		}
 	}
-	aside .controls,
-	.popup_dialog .controls {
-		padding: 20px 0 0 0;
-	}
+
 	/*-----------------------------------------------------------------------------------------------------------------------------*/
-	/*  BUTTONS                                                                                                                    */
+	/*  ASIDE - fixed position	- pro mobilni rozliseni                                                                            */
 	/*-----------------------------------------------------------------------------------------------------------------------------*/
-
-	a.button,
-	button,
-	input[type="button"].button,
-	input[type="submit"].button {
-		height: 45px;
-		line-height: 45px;
-		padding: 0 30px;
-		margin: 0 5px;
-
-		&.low {
-			height: 35px;
-			line-height: 35px;
-			padding: 0 10px;
-		}
-
-	}
-
-	/* aside - fixed position */
 
 	.mobile_view {
 		position: relative;
@@ -213,271 +321,187 @@
 		}
 
 	}
+
+	.add_banner {
+		padding: 30px;
+
+		h2 {
+			font-size: $fs-20;
+			padding: 0 0 20px 0;
+		}
+	}
+	.advertisement {
+		height: 100px;
+		line-height: 100px;
+		font-size: $fs-20;
+	}
 }
 
 @media only screen and (max-width: 600px) {
-
 
 	[data-tooltip]:before,
 	[data-tooltip]:after {
 		display: none;
 	}
 
-/* schools */
-/* school */
-.mobile_view.school {
-	position: relative;
+	/* classroom */
 
-	aside {
-		float: none;
-		width: 100%;
-		padding: 5px 15px;
-
+	.mobile_view.classroom {
 		.avatar {
+			padding: 5px 0 15px 0;
 			text-align: left;
-			padding: 15px 0;
-			* {
-				display: inline-block;
-				vertical-align: middle;
-			}
-			.photo {
-				width: 80px;
-				height: 80px;
-				padding: 15px;
 
+			.photo {
+				float: left;
+				margin: 0 15px 15px 0;
+				display: block;
+				width: 65px;
+				height: 65px;
+
+				span {
+					display: none;
+				}
+				&:hover {
+					span {
+						width: 55px;
+						height: 55px;
+					}
+				}
 				img {
-					width: 40px;
-					height: 40px;
+					width: 65px;
+					height: 65px;
+					border: 3px solid $color-f3d396;
 				}
 			}
 			.name {
-				width: calc(100% - 105px);
-				margin-left: 20px;
-
-				font-size: $fs-15;
+				display: inline-block;
+				font-size: $fs-18;
+				margin-top: 10px;
+			}
+			a {
+				display: inline-block;
+				font-size: $fs-12;
 			}
 		}
 	}
-}
 
-
-/* classroom */
-.container.classroom {
-	&.load_next_conversation {
-		max-height: 100px;
-	}
-	&.level_2 {
-		margin-left: 50px;
-
-
-	}
-	.load_next {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		height: 90%;
-		background: url('../images/load-next-conversation.svg') 0 0 repeat-x;
-		text-align: center;
-		z-index: 22;
-		padding: 40px 0 0 0;
-	}
-
-	.avatar {
-		width: 22%;
-
-		&>.name {
-			font-size: $fs-10;
-			font-weight: $fw-400;
-			padding-left: 0;
+	.container.classroom {
+		&.load_next_conversation {
+			max-height: 100px;
 		}
-		&:after {
-			top: 28px;
-			left: 28px;
-			height: 6px;
-			width: 6px;
-			@include radius-default(6px);
-
+		&.level_2 {
+			margin-left: 50px;
 		}
-		.status {
-			height: 38px;
-			width: 38px;
-			@include radius-default(38px);
+		.load_next {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			height: 90%;
+			background: url('../images/load-next-conversation.svg') 0 0 repeat-x;
+			text-align: center;
+			z-index: 22;
+			padding: 40px 0 0 0;
+		}
+		.avatar {
+			width: 22%;
 
-			&:hover {
-				.text {
-					padding: 5px 65px;
-				}
+			&>.name {
+				font-size: $fs-10;
+				font-weight: $fw-400;
+				padding-left: 0;
 			}
-			.icon {
+			&:after {
+				top: 28px;
+				left: 28px;
+				height: 6px;
+				width: 6px;
+				@include radius-default(6px);
+
+			}
+			.status {
 				height: 38px;
 				width: 38px;
 				@include radius-default(38px);
 
-				img {
-					height: 34px;
-					width: 34px;
+				&:hover {
+					.text {
+						padding: 5px 65px;
+					}
 				}
-			}
-			.text {
-				* {
-					line-height: 15px;
-				}
-				.name {
-					font-size: $fs-11;
-				}
-				.time {
-					font-size: $fs-11;
-				}
-			}
-			.arrow {
-				right: 7px;
-				top: 7px;
-				height: 25px;
-				width: 25px;
-				@include radius-default(25px);
-			}
-		}
-	}
+				.icon {
+					height: 38px;
+					width: 38px;
+					@include radius-default(38px);
 
-	.block {
-		width: 78%;
-		padding: 5px 25px;
-
-		&:before {
-			top: 10px;
+					img {
+						height: 34px;
+						width: 34px;
+					}
+				}
+				.text {
+					* {
+						line-height: 15px;
+					}
+					.name {
+						font-size: $fs-11;
+					}
+					.time {
+						font-size: $fs-11;
+					}
+				}
+				.arrow {
+					right: 7px;
+					top: 7px;
+					height: 25px;
+					width: 25px;
+					@include radius-default(25px);
+				}
+			}
 		}
-		* {
-			font-size: $fs-14;
-		}
-		textarea {
-			border: none;
-			background: $color-transparent;
-		}
-		.date_name {
-			font-size: $fs-13;
-			color: $color-bababa;
-			text-align: right;
-			padding-top: 15px;
-		}
-	}
-	.response {
-		text-align: right;
-	}
-}
-	.container.classroom.with_image {
 		.block {
-			.photo {
-				overflow: hidden;
-				height: 100%;
-				width: 100%;
-				position: relative;
+			width: 78%;
+			padding: 5px 25px;
 
-				&:hover::after {
-					cursor: pointer;
-					content: '';
-					background: $color-000000-a06 url('../images/icons/icon-zoom.svg') 50% 50% no-repeat;
-					position: absolute;
-					z-index: 5;
-					top: 0;
-					left: 0;
-					right: 0;
-					bottom: 0;
-				}
-				img {
-					width: 100%;
-					height: 100%;
-				}
+			&:before {
+				top: 10px;
 			}
+			* {
+				font-size: $fs-14;
+			}
+		}
+	}
+
+	/* with img */
+
+	.container.classroom.with_image {
+		.col {
+			float: none;
+			width: 100%;
 		}
 		.message {
-			padding-left: 30px;
+			padding-left: 0;
 		}
 	}
-
-
 	.container.classroom.add {
 		.bottom_bar {
-			text-align: right;
-			padding-top: 10px;
-
 			.emoticons,
 			.add_image {
-				position: relative;
 				height: 24px;
 				width: 24px;
-				display: inline-block;
-				vertical-align: middle;
 				margin: 0 8px;
-				z-index: 20;
-				cursor: pointer;
 			}
 			.emoticons {
-				background: url('../images/icons/icon-smile.svg') 50% 50% no-repeat;
-
 				.icons_block {
-					display: block /*zapnout*/;
 					padding: 10px 15px 10px 10px;
-					position: absolute;
 					top: 45px;
 					left: 50%;
 					margin-left: -160px;
 					width: 320px;
-					background: $color-4b6a77;
-					text-align: center;
-
-					.close,
-					&:before {
-						position: absolute;
-						display: block;
-					}
-					.close {
-						top: 10px;
-						right: 10px;
-						height: 16px;
-						width: 16px;
-						line-height: 16px;
-						font-size: $fs-20;
-						color: $color-ffffff;
-					}
-					&:before {
-						content: '';
-						top: -6px;
-						left: calc(50% - 8px);
-						width: 15px;
-						height: 15px;
-						background: $color-4b6a77;
-						@include transform(rotate(-45deg));
-					}
-				}
-				&:hover {
-					background: url('../images/icons/icon-smile-hover.svg') 50% 50% no-repeat;
-
-					.icons_block {
-						display: block;
-					}
-				}
-			}
-			.add_image {
-				background: url('../images/icons/icon-image.svg') 50% 50% no-repeat;
-
-				span {
-					overflow: hidden;
-					display: inline-block;
-					height: 24px;
-					width: 24px;
-
-					input[type="file"] {
-						opacity: 0;
-					}
-				}
-				&:hover {
-					background: url('../images/icons/icon-image-hover.svg') 50% 50% no-repeat;
 				}
 			}
 		}
 	}
-
 	.emoticon {
 		height: 30px;
 		width: 30px;
