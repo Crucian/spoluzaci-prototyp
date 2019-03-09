@@ -783,7 +783,7 @@ h1 {
   font-size: 4rem; }
 
 h2 {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 2.6rem;
   color: #4b6a77; }
 
@@ -1979,175 +1979,6 @@ path:hover {
   fill: #4b6a77;
   cursor: pointer; }
 
-g#reg01:hover text {
-  fill: #d2d2d2; }
-
-g#reg01:hover text tspan, g#reg01:hover text {
-  fill: #fff;
-  cursor: pointer; }
-
-g#reg01:hover path {
-  fill: #4b6a77;
-  cursor: pointer;
-  opacity: 0.9; }
-
-g#reg02:hover text {
-  fill: #d2d2d2; }
-
-g#reg02:hover text tspan, g#reg02:hover text {
-  fill: #fff;
-  cursor: pointer; }
-
-g#reg02:hover path {
-  fill: #4b6a77;
-  cursor: pointer;
-  opacity: 0.9; }
-
-g#reg03:hover text {
-  fill: #d2d2d2; }
-
-g#reg03:hover text tspan, g#reg03:hover text {
-  fill: #fff;
-  cursor: pointer; }
-
-g#reg03:hover path {
-  fill: #4b6a77;
-  cursor: pointer;
-  opacity: 0.9; }
-
-g#reg04:hover text {
-  fill: #d2d2d2; }
-
-g#reg04:hover text tspan, g#reg04:hover text {
-  fill: #fff;
-  cursor: pointer; }
-
-g#reg04:hover path {
-  fill: #4b6a77;
-  cursor: pointer;
-  opacity: 0.9; }
-
-g#reg05:hover text {
-  fill: #d2d2d2; }
-
-g#reg05:hover text tspan, g#reg05:hover text {
-  fill: #fff;
-  cursor: pointer; }
-
-g#reg05:hover path {
-  fill: #4b6a77;
-  cursor: pointer;
-  opacity: 0.9; }
-
-g#reg06:hover text {
-  fill: #d2d2d2; }
-
-g#reg06:hover text tspan, g#reg06:hover text {
-  fill: #fff;
-  cursor: pointer; }
-
-g#reg06:hover path {
-  fill: #4b6a77;
-  cursor: pointer;
-  opacity: 0.9; }
-
-g#reg07:hover text {
-  fill: #d2d2d2; }
-
-g#reg07:hover text tspan, g#reg07:hover text {
-  fill: #fff;
-  cursor: pointer; }
-
-g#reg07:hover path {
-  fill: #4b6a77;
-  cursor: pointer;
-  opacity: 0.9; }
-
-g#reg08:hover text {
-  fill: #d2d2d2; }
-
-g#reg08:hover text tspan, g#reg08:hover text {
-  fill: #fff;
-  cursor: pointer; }
-
-g#reg08:hover path {
-  fill: #4b6a77;
-  cursor: pointer;
-  opacity: 0.9; }
-
-g#reg09:hover text {
-  fill: #d2d2d2; }
-
-g#reg09:hover text tspan, g#reg09:hover text {
-  fill: #fff;
-  cursor: pointer; }
-
-g#reg09:hover path {
-  fill: #4b6a77;
-  cursor: pointer;
-  opacity: 0.9; }
-
-g#reg10:hover text {
-  fill: #d2d2d2; }
-
-g#reg10:hover text tspan, g#reg10:hover text {
-  fill: #fff;
-  cursor: pointer; }
-
-g#reg10:hover path {
-  fill: #4b6a77;
-  cursor: pointer;
-  opacity: 0.9; }
-
-g#reg11:hover text {
-  fill: #d2d2d2; }
-
-g#reg11:hover text tspan, g#reg11:hover text {
-  fill: #fff;
-  cursor: pointer; }
-
-g#reg11:hover path {
-  fill: #4b6a77;
-  cursor: pointer;
-  opacity: 0.9; }
-
-g#reg12:hover text {
-  fill: #d2d2d2; }
-
-g#reg12:hover text tspan, g#reg12:hover text {
-  fill: #fff;
-  cursor: pointer; }
-
-g#reg12:hover path {
-  fill: #4b6a77;
-  cursor: pointer;
-  opacity: 0.9; }
-
-g#reg13:hover text {
-  fill: #d2d2d2; }
-
-g#reg13:hover text tspan, g#reg13:hover text {
-  fill: #fff;
-  cursor: pointer; }
-
-g#reg13:hover path {
-  fill: #4b6a77;
-  cursor: pointer;
-  opacity: 0.9; }
-
-g#reg14:hover text {
-  fill: #d2d2d2; }
-
-g#reg14:hover text tspan, g#reg14:hover text {
-  fill: #fff;
-  cursor: pointer; }
-
-g#reg14:hover path {
-  fill: #4b6a77;
-  cursor: pointer;
-  opacity: 0.9; }
-
-/*
 g#reg01 text tspan, g#reg01 text,
 g#reg02 text tspan, g#reg02 text,
 g#reg03 text tspan, g#reg03 text,
@@ -2161,9 +1992,9 @@ g#reg10 text tspan, g#reg10 text,
 g#reg11 text tspan, g#reg11 text,
 g#reg12 text tspan, g#reg12 text,
 g#reg13 text tspan, g#reg13 text,
-g#reg14 text tspan, g#reg14 text{
-	fill: $color-d2d2d2;
-}
+g#reg14 text tspan, g#reg14 text {
+  fill: #d2d2d2; }
+
 g#reg01:hover text tspan, g#reg01:hover text,
 g#reg02:hover text tspan, g#reg02:hover text,
 g#reg03:hover text tspan, g#reg03:hover text,
@@ -2177,10 +2008,10 @@ g#reg10:hover text tspan, g#reg10:hover text,
 g#reg11:hover text tspan, g#reg11:hover text,
 g#reg12:hover text tspan, g#reg12:hover text,
 g#reg13:hover text tspan, g#reg13:hover text,
-g#reg14:hover text tspan, g#reg14:hover text{
-	fill: #fff;
-	cursor: pointer;
-}
+g#reg14:hover text tspan, g#reg14:hover text {
+  fill: #fff;
+  cursor: pointer; }
+
 g#reg01:hover path,
 g#reg02:hover path,
 g#reg03:hover path,
@@ -2194,11 +2025,11 @@ g#reg10:hover path,
 g#reg11:hover path,
 g#reg12:hover path,
 g#reg13:hover path,
-g#reg14:hover path{
-	fill: $color-4b6a77;
-	cursor: pointer;
-	opacity: 0.9;
-}*/
+g#reg14:hover path {
+  fill: #4b6a77;
+  cursor: pointer;
+  opacity: 0.9; }
+
 /*-----------------------------------------------------------------------------------------------------------------------------*/
 /*  SUBPAGE		                                                                                                               */
 /*-----------------------------------------------------------------------------------------------------------------------------*/
@@ -2697,421 +2528,192 @@ nav {
     -moz-border-radius: 40px;
     -ms-border-radius: 40px;
     -o-border-radius: 40px; }
-
-.e-1f31d {
-  background: url("../images/icons/emoticons/e-1f31d.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f600 {
-  background: url("../images/icons/emoticons/e-1f600.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f601 {
-  background: url("../images/icons/emoticons/e-1f601.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f602 {
-  background: url("../images/icons/emoticons/e-1f602.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f603 {
-  background: url("../images/icons/emoticons/e-1f603.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f604 {
-  background: url("../images/icons/emoticons/e-1f604.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f605 {
-  background: url("../images/icons/emoticons/e-1f605.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f606 {
-  background: url("../images/icons/emoticons/e-1f606.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f607 {
-  background: url("../images/icons/emoticons/e-1f607.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f609 {
-  background: url("../images/icons/emoticons/e-1f609.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f60a {
-  background: url("../images/icons/emoticons/e-1f60a.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f60b {
-  background: url("../images/icons/emoticons/e-1f60b.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f60c {
-  background: url("../images/icons/emoticons/e-1f60c.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f60d {
-  background: url("../images/icons/emoticons/e-1f60d.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f60e {
-  background: url("../images/icons/emoticons/e-1f60e.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f60f {
-  background: url("../images/icons/emoticons/e-1f60f.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f610 {
-  background: url("../images/icons/emoticons/e-1f610.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f611 {
-  background: url("../images/icons/emoticons/e-1f611.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f612 {
-  background: url("../images/icons/emoticons/e-1f612.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f613 {
-  background: url("../images/icons/emoticons/e-1f613.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f614 {
-  background: url("../images/icons/emoticons/e-1f614.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f615 {
-  background: url("../images/icons/emoticons/e-1f615.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f616 {
-  background: url("../images/icons/emoticons/e-1f616.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f617 {
-  background: url("../images/icons/emoticons/e-1f617.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f618 {
-  background: url("../images/icons/emoticons/e-1f618.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f619 {
-  background: url("../images/icons/emoticons/e-1f619.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f61a {
-  background: url("../images/icons/emoticons/e-1f61a.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f61b {
-  background: url("../images/icons/emoticons/e-1f61b.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f61c {
-  background: url("../images/icons/emoticons/e-1f61c.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f61d {
-  background: url("../images/icons/emoticons/e-1f61d.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f61e {
-  background: url("../images/icons/emoticons/e-1f61e.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f61f {
-  background: url("../images/icons/emoticons/e-1f61f.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f620 {
-  background: url("../images/icons/emoticons/e-1f620.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f621 {
-  background: url("../images/icons/emoticons/e-1f621.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f622 {
-  background: url("../images/icons/emoticons/e-1f622.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f623 {
-  background: url("../images/icons/emoticons/e-1f623.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f624 {
-  background: url("../images/icons/emoticons/e-1f624.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f625 {
-  background: url("../images/icons/emoticons/e-1f625.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f626 {
-  background: url("../images/icons/emoticons/e-1f626.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f627 {
-  background: url("../images/icons/emoticons/e-1f627.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f628 {
-  background: url("../images/icons/emoticons/e-1f628.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f629 {
-  background: url("../images/icons/emoticons/e-1f629.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f62a {
-  background: url("../images/icons/emoticons/e-1f62a.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f62b {
-  background: url("../images/icons/emoticons/e-1f62b.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f62c {
-  background: url("../images/icons/emoticons/e-1f62c.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f62d {
-  background: url("../images/icons/emoticons/e-1f62d.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f62e {
-  background: url("../images/icons/emoticons/e-1f62e.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f62f {
-  background: url("../images/icons/emoticons/e-1f62f.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f630 {
-  background: url("../images/icons/emoticons/e-1f630.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f631 {
-  background: url("../images/icons/emoticons/e-1f631.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f632 {
-  background: url("../images/icons/emoticons/e-1f632.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f633 {
-  background: url("../images/icons/emoticons/e-1f633.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f634 {
-  background: url("../images/icons/emoticons/e-1f634.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f635 {
-  background: url("../images/icons/emoticons/e-1f635.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f636 {
-  background: url("../images/icons/emoticons/e-1f636.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f637 {
-  background: url("../images/icons/emoticons/e-1f637.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f640 {
-  background: url("../images/icons/emoticons/e-1f640.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f641 {
-  background: url("../images/icons/emoticons/e-1f641.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f642 {
-  background: url("../images/icons/emoticons/e-1f642.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f643 {
-  background: url("../images/icons/emoticons/e-1f643.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f644 {
-  background: url("../images/icons/emoticons/e-1f644.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f910 {
-  background: url("../images/icons/emoticons/e-1f910.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f911 {
-  background: url("../images/icons/emoticons/e-1f911.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f912 {
-  background: url("../images/icons/emoticons/e-1f912.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f913 {
-  background: url("../images/icons/emoticons/e-1f913.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f914 {
-  background: url("../images/icons/emoticons/e-1f914.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f915 {
-  background: url("../images/icons/emoticons/e-1f915.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f917 {
-  background: url("../images/icons/emoticons/e-1f917.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f920 {
-  background: url("../images/icons/emoticons/e-1f920.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f923 {
-  background: url("../images/icons/emoticons/e-1f923.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f924 {
-  background: url("../images/icons/emoticons/e-1f924.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f925 {
-  background: url("../images/icons/emoticons/e-1f925.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f927 {
-  background: url("../images/icons/emoticons/e-1f927.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f928 {
-  background: url("../images/icons/emoticons/e-1f928.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f929 {
-  background: url("../images/icons/emoticons/e-1f929.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f92a {
-  background: url("../images/icons/emoticons/e-1f92a.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f92b {
-  background: url("../images/icons/emoticons/e-1f92b.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f92c {
-  background: url("../images/icons/emoticons/e-1f92c.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f92d {
-  background: url("../images/icons/emoticons/e-1f92d.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f92e {
-  background: url("../images/icons/emoticons/e-1f92e.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f92f {
-  background: url("../images/icons/emoticons/e-1f92f.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f970 {
-  background: url("../images/icons/emoticons/e-1f970.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f973 {
-  background: url("../images/icons/emoticons/e-1f973.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f974 {
-  background: url("../images/icons/emoticons/e-1f974.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f975 {
-  background: url("../images/icons/emoticons/e-1f975.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f976 {
-  background: url("../images/icons/emoticons/e-1f976.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f97a {
-  background: url("../images/icons/emoticons/e-1f97a.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-1f9d0 {
-  background: url("../images/icons/emoticons/e-1f9d0.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-2639 {
-  background: url("../images/icons/emoticons/e-2639.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-.e-263a {
-  background: url("../images/icons/emoticons/e-263a.svg") 50% 50% no-repeat;
-  background-size: 30px; }
-
-/* aside */
-.mobile_view {
-  position: relative; }
-  .mobile_view.schools {
-    top: -40px; }
-  .mobile_view .aside_container {
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    left: 0;
-    margin: 0;
-    transform: translateX(calc(-100% + 40px));
-    z-index: 100;
-    -webkit-transition: transform .25s ease-in-out;
-    -moz-transition: transform .25s ease-in-out;
-    -ms-transition: transform .25s ease-in-out;
-    -o-transition: transform .25s ease-in-out; }
-    .mobile_view .aside_container .icon-toggle {
-      display: inline-block;
-      box-sizing: border-box;
-      position: absolute;
-      z-index: 99;
-      top: 0;
-      right: 0;
-      height: 40px;
-      width: 40px;
-      background: #7f959e url("../images/icons/icon-filter-hover.svg") 50% 50% no-repeat;
-      cursor: pointer;
-      -webkit-transition: all  .3s;
-      -moz-transition: all  .3s;
-      -ms-transition: all  .3s;
-      -o-transition: all  .3s; }
-    .mobile_view .aside_container aside {
-      position: relative;
-      z-index: 99;
-      width: calc(100% - 40px);
-      height: calc(100vh - 110px);
-      overflow-y: auto;
-      margin: 0; }
-  .mobile_view input[type="checkbox"]:checked ~ .aside_container {
-    transform: translateX(0); }
-  .mobile_view input[type="checkbox"] {
-    box-sizing: border-box;
-    display: none;
-    -webkit-transition: all  .3s;
-    -moz-transition: all  .3s;
-    -ms-transition: all  .3s;
-    -o-transition: all  .3s; }
-  .mobile_view input[type="checkbox"]:checked ~ .icon-toggle {
-    right: 0; }
+  .emoticon.e-1f31d {
+    background: url("../images/icons/emoticons/e-1f31d.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f600 {
+    background: url("../images/icons/emoticons/e-1f600.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f601 {
+    background: url("../images/icons/emoticons/e-1f601.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f602 {
+    background: url("../images/icons/emoticons/e-1f602.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f603 {
+    background: url("../images/icons/emoticons/e-1f603.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f604 {
+    background: url("../images/icons/emoticons/e-1f604.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f605 {
+    background: url("../images/icons/emoticons/e-1f605.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f606 {
+    background: url("../images/icons/emoticons/e-1f606.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f607 {
+    background: url("../images/icons/emoticons/e-1f607.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f609 {
+    background: url("../images/icons/emoticons/e-1f609.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f60a {
+    background: url("../images/icons/emoticons/e-1f60a.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f60b {
+    background: url("../images/icons/emoticons/e-1f60b.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f60c {
+    background: url("../images/icons/emoticons/e-1f60c.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f60d {
+    background: url("../images/icons/emoticons/e-1f60d.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f60e {
+    background: url("../images/icons/emoticons/e-1f60e.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f60f {
+    background: url("../images/icons/emoticons/e-1f60f.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f610 {
+    background: url("../images/icons/emoticons/e-1f610.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f611 {
+    background: url("../images/icons/emoticons/e-1f611.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f612 {
+    background: url("../images/icons/emoticons/e-1f612.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f613 {
+    background: url("../images/icons/emoticons/e-1f613.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f614 {
+    background: url("../images/icons/emoticons/e-1f614.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f615 {
+    background: url("../images/icons/emoticons/e-1f615.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f616 {
+    background: url("../images/icons/emoticons/e-1f616.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f617 {
+    background: url("../images/icons/emoticons/e-1f617.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f618 {
+    background: url("../images/icons/emoticons/e-1f618.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f619 {
+    background: url("../images/icons/emoticons/e-1f619.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f61a {
+    background: url("../images/icons/emoticons/e-1f61a.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f61b {
+    background: url("../images/icons/emoticons/e-1f61b.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f61c {
+    background: url("../images/icons/emoticons/e-1f61c.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f61d {
+    background: url("../images/icons/emoticons/e-1f61d.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f61e {
+    background: url("../images/icons/emoticons/e-1f61e.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f61f {
+    background: url("../images/icons/emoticons/e-1f61f.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f620 {
+    background: url("../images/icons/emoticons/e-1f620.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f621 {
+    background: url("../images/icons/emoticons/e-1f621.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f622 {
+    background: url("../images/icons/emoticons/e-1f622.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f623 {
+    background: url("../images/icons/emoticons/e-1f623.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f624 {
+    background: url("../images/icons/emoticons/e-1f624.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f625 {
+    background: url("../images/icons/emoticons/e-1f625.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f626 {
+    background: url("../images/icons/emoticons/e-1f626.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f627 {
+    background: url("../images/icons/emoticons/e-1f627.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f628 {
+    background: url("../images/icons/emoticons/e-1f628.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f629 {
+    background: url("../images/icons/emoticons/e-1f629.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f62a {
+    background: url("../images/icons/emoticons/e-1f62a.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f62b {
+    background: url("../images/icons/emoticons/e-1f62b.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f62c {
+    background: url("../images/icons/emoticons/e-1f62c.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f62d {
+    background: url("../images/icons/emoticons/e-1f62d.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f62e {
+    background: url("../images/icons/emoticons/e-1f62e.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f62f {
+    background: url("../images/icons/emoticons/e-1f62f.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f630 {
+    background: url("../images/icons/emoticons/e-1f630.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f631 {
+    background: url("../images/icons/emoticons/e-1f631.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f632 {
+    background: url("../images/icons/emoticons/e-1f632.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f633 {
+    background: url("../images/icons/emoticons/e-1f633.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f634 {
+    background: url("../images/icons/emoticons/e-1f634.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f635 {
+    background: url("../images/icons/emoticons/e-1f635.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f636 {
+    background: url("../images/icons/emoticons/e-1f636.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f637 {
+    background: url("../images/icons/emoticons/e-1f637.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f640 {
+    background: url("../images/icons/emoticons/e-1f640.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f641 {
+    background: url("../images/icons/emoticons/e-1f641.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f642 {
+    background: url("../images/icons/emoticons/e-1f642.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f643 {
+    background: url("../images/icons/emoticons/e-1f643.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f644 {
+    background: url("../images/icons/emoticons/e-1f644.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f910 {
+    background: url("../images/icons/emoticons/e-1f910.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f911 {
+    background: url("../images/icons/emoticons/e-1f911.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f912 {
+    background: url("../images/icons/emoticons/e-1f912.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f913 {
+    background: url("../images/icons/emoticons/e-1f913.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f914 {
+    background: url("../images/icons/emoticons/e-1f914.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f915 {
+    background: url("../images/icons/emoticons/e-1f915.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f917 {
+    background: url("../images/icons/emoticons/e-1f917.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f920 {
+    background: url("../images/icons/emoticons/e-1f920.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f923 {
+    background: url("../images/icons/emoticons/e-1f923.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f924 {
+    background: url("../images/icons/emoticons/e-1f924.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f925 {
+    background: url("../images/icons/emoticons/e-1f925.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f927 {
+    background: url("../images/icons/emoticons/e-1f927.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f928 {
+    background: url("../images/icons/emoticons/e-1f928.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f929 {
+    background: url("../images/icons/emoticons/e-1f929.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f92a {
+    background: url("../images/icons/emoticons/e-1f92a.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f92b {
+    background: url("../images/icons/emoticons/e-1f92b.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f92c {
+    background: url("../images/icons/emoticons/e-1f92c.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f92d {
+    background: url("../images/icons/emoticons/e-1f92d.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f92e {
+    background: url("../images/icons/emoticons/e-1f92e.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f92f {
+    background: url("../images/icons/emoticons/e-1f92f.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f970 {
+    background: url("../images/icons/emoticons/e-1f970.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f973 {
+    background: url("../images/icons/emoticons/e-1f973.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f974 {
+    background: url("../images/icons/emoticons/e-1f974.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f975 {
+    background: url("../images/icons/emoticons/e-1f975.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f976 {
+    background: url("../images/icons/emoticons/e-1f976.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f97a {
+    background: url("../images/icons/emoticons/e-1f97a.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f9d0 {
+    background: url("../images/icons/emoticons/e-1f9d0.svg") 50% 50% no-repeat; }
+  .emoticon.e-2639 {
+    background: url("../images/icons/emoticons/e-2639.svg") 50% 50% no-repeat; }
+  .emoticon.e-263a {
+    background: url("../images/icons/emoticons/e-263a.svg") 50% 50% no-repeat; }
+  .emoticon.e-1f31d, .emoticon.e-1f600, .emoticon.e-1f601, .emoticon.e-1f602, .emoticon.e-1f603, .emoticon.e-1f604, .emoticon.e-1f605, .emoticon.e-1f606, .emoticon.e-1f607, .emoticon.e-1f609, .emoticon.e-1f60a, .emoticon.e-1f60b, .emoticon.e-1f60c, .emoticon.e-1f60d, .emoticon.e-1f60e, .emoticon.e-1f60f, .emoticon.e-1f610, .emoticon.e-1f611, .emoticon.e-1f612, .emoticon.e-1f613, .emoticon.e-1f614, .emoticon.e-1f615, .emoticon.e-1f616, .emoticon.e-1f617, .emoticon.e-1f618, .emoticon.e-1f619, .emoticon.e-1f61a, .emoticon.e-1f61b, .emoticon.e-1f61c, .emoticon.e-1f61d, .emoticon.e-1f61e, .emoticon.e-1f61f, .emoticon.e-1f620, .emoticon.e-1f621, .emoticon.e-1f622, .emoticon.e-1f623, .emoticon.e-1f624, .emoticon.e-1f625, .emoticon.e-1f626, .emoticon.e-1f627, .emoticon.e-1f628, .emoticon.e-1f629, .emoticon.e-1f62a, .emoticon.e-1f62b, .emoticon.e-1f62c, .emoticon.e-1f62d, .emoticon.e-1f62e, .emoticon.e-1f62f, .emoticon.e-1f630, .emoticon.e-1f631, .emoticon.e-1f632, .emoticon.e-1f633, .emoticon.e-1f634, .emoticon.e-1f635, .emoticon.e-1f636, .emoticon.e-1f637, .emoticon.e-1f640, .emoticon.e-1f641, .emoticon.e-1f642, .emoticon.e-1f643, .emoticon.e-1f644, .emoticon.e-1f910, .emoticon.e-1f911, .emoticon.e-1f912, .emoticon.e-1f913, .emoticon.e-1f914, .emoticon.e-1f915, .emoticon.e-1f917, .emoticon.e-1f920, .emoticon.e-1f923, .emoticon.e-1f924, .emoticon.e-1f925, .emoticon.e-1f927, .emoticon.e-1f928, .emoticon.e-1f929, .emoticon.e-1f92a, .emoticon.e-1f92b, .emoticon.e-1f92c, .emoticon.e-1f92d, .emoticon.e-1f92e, .emoticon.e-1f92f, .emoticon.e-1f970, .emoticon.e-1f973, .emoticon.e-1f974, .emoticon.e-1f975, .emoticon.e-1f976, .emoticon.e-1f97a, .emoticon.e-1f9d0, .emoticon.e-2639, .emoticon.e-263a {
+    background-size: 30px; }
 
 /*Layout / HP / SP /...*/
 .overlay {
-  display: block;
+  display: none;
   /*kliknutim se nastavi inline style - display: block; */
   background: rgba(0, 0, 0, 0.64);
   position: fixed;
@@ -3122,11 +2724,10 @@ nav {
   z-index: 100; }
 
 .popup_dialog {
-  display: block;
   position: relative;
-  margin: 10vh auto;
+  margin: 170px auto 0 auto;
   width: 470px;
-  padding: 0;
+  padding: 40px;
   text-align: left;
   background: white; }
   .popup_dialog label a {
@@ -3141,82 +2742,7 @@ nav {
     right: 15px;
     top: 15px;
     display: block;
-    z-index: 10;
     background: url("../images/icons/icon-close.svg") 50% 50% no-repeat; }
-  .popup_dialog > h2 {
-    height: 75px;
-    padding: 40px 40px 0 40px; }
-  .popup_dialog .content {
-    padding: 0 40px 40px 40px; }
-
-.popup_dialog.user_profile {
-  width: 570px; }
-  .popup_dialog.user_profile .close {
-    background: url("../images/icons/icon-close-white.svg") 50% 50% no-repeat; }
-  .popup_dialog.user_profile .avatar {
-    position: relative;
-    z-index: 5;
-    background: #4b6a77;
-    text-align: center;
-    height: 175px;
-    margin-bottom: 180px; }
-    .popup_dialog.user_profile .avatar .time:before {
-      content: '';
-      height: 16px;
-      width: 16px;
-      display: inline-block;
-      margin-right: 8px;
-      vertical-align: middle;
-      -webkit-border-radius: 16px;
-      -moz-border-radius: 16px;
-      -ms-border-radius: 16px;
-      -o-border-radius: 16px; }
-    .popup_dialog.user_profile .avatar.active .time:before {
-      background: #73c400; }
-    .popup_dialog.user_profile .avatar.away .time:before {
-      background: #ec9b00; }
-    .popup_dialog.user_profile .avatar.nonactive .time:before {
-      background: #aaaaaa; }
-    .popup_dialog.user_profile .avatar .status {
-      display: inline-block; }
-      .popup_dialog.user_profile .avatar .status .icon {
-        display: inline-block;
-        height: 220px;
-        width: 220px;
-        border: 5px solid white;
-        z-index: 1;
-        overflow: hidden;
-        -webkit-border-radius: 220px;
-        -moz-border-radius: 220px;
-        -ms-border-radius: 220px;
-        -o-border-radius: 220px; }
-        .popup_dialog.user_profile .avatar .status .icon img {
-          width: 100%;
-          height: 100%; }
-      .popup_dialog.user_profile .avatar .status .text .name {
-        color: #4b6a77;
-        font-size: 3.2rem;
-        padding: 5px 0 0 10px; }
-      .popup_dialog.user_profile .avatar .status .text .time {
-        font-size: 1.6rem;
-        position: relative;
-        display: inline-block;
-        vertical-align: middle;
-        color: #666666; }
-  .popup_dialog.user_profile .content {
-    height: calc(80vh - 350px);
-    overflow-y: auto; }
-    .popup_dialog.user_profile .content * {
-      color: #666666; }
-    .popup_dialog.user_profile .content h2 {
-      padding: 35px 0 15px 0;
-      color: #4b6a77; }
-  .popup_dialog.user_profile .photogallery > div {
-    display: block;
-    margin-bottom: 10px; }
-  .popup_dialog.user_profile .photogallery img {
-    width: 100%;
-    height: auto; }
 
 /*Popup - dialog*/
 /*-----------------------------------------------------------------------------------------------------------------------------*/
