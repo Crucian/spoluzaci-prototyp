@@ -481,7 +481,7 @@
 	.emoticon {
 		height: 30px;
 		width: 30px;
-		margin: 0px;
+		margin: 0;
 
 		&:hover {
 			@include radius-default(30px);

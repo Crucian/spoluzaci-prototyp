@@ -3679,7 +3679,7 @@ nav {
   .emoticon {
     height: 30px;
     width: 30px;
-    margin: 0px; }
+    margin: 0; }
     .emoticon:hover {
       -webkit-border-radius: 30px;
       -moz-border-radius: 30px;
