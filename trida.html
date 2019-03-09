@@ -21,7 +21,7 @@
                         <span>Jaroslav Novotný</span>
                     </div>
                     <div class="icon_bar">
-                        <a href="#" class="icon notification unreaded tt-bottom" data-tooltip="Notifikace">
+                        <a href="#" class="icon notification unreaded active tt-bottom" data-tooltip="Notifikace">
                             <div class="notification_block">
                                 <div class="item">
                                     <p><span>Petr Veselý</span> odpověděl na Váš příspěvek.</p>
@@ -48,35 +48,77 @@
     </header>
     <section class="subpage">
         <div class="inner_box">
-            <aside>
-                <div class="avatar user">
-                    <div class="photo">
-                        <img src="images/ilustracni/avatar.png"/>
-                        <span>Změnit foto</span>
+            <!-- ASIDE trida / desktop zobrazeni -->
+            <div class="desktop_view">
+                <aside>
+                    <div class="avatar user">
+                        <div class="photo">
+                            <img src="images/ilustracni/avatar.png"/>
+                            <span>Změnit foto</span>
+                        </div>
+                        <div class="name">Jaroslav Novotný</div>
+                        <a href="#">Upravit profil</a>
                     </div>
-                    <div class="name">Jaroslav Novotný</div>
-                    <a href="#">Upravit profil</a>
-                </div>
-                <div class="form_block">
-                    <div class="row">
-                        <div class="col p100">
-                            <select>
-                                <option>9. B | Základní škola Veselí nad Lužnicí</option>
-                            </select>
+                    <div class="form_block">
+                        <div class="row">
+                            <div class="col p100">
+                                <select>
+                                    <option>9. B | Základní škola Veselí nad Lužnicí</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
+                    <nav>
+                        <ul>
+                            <li class="active"><a href="#">Diskuze</a></li>
+                            <li><a href="#">Fotogalerie<sup>Již brzy</sup></a></li>
+                            <li><a href="#">Spolužáci<sup>Již brzy</sup></a></li>
+                            <li><a href="#">Učitelé</sup></a></li>
+                            <li><a href="#">Pozvat žáka</a></li>
+                            <li><a href="#">Nastavení třídy</a></li>
+                        </ul>
+                    </nav>
+                </aside>
+            </div>
+            <!-- ASIDE trida / mobilni zobrazeni -->
+            <div class="mobile_view classroom">
+                <input type="checkbox" id="toggle-aside">
+                <div class="aside_container">
+                    <label for="toggle-aside" class="icon-toggle"></label>
+                    <aside>
+                        <div class="avatar user">
+                            <div class="photo">
+                                <img src="images/ilustracni/avatar.png"/>
+                                <span>Změnit foto</span>
+                            </div>
+                            <div class="name">Jaroslav Novotný</div>
+                            <a href="#">Upravit profil</a>
+                        </div>
+                        <div class="form_block">
+                            <div class="row">
+                                <div class="col p100">
+                                    <select>
+                                        <option>9. B | Základní škola Veselí nad Lužnicí</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li class="active"><a href="#">Diskuze</a></li>
+                                <li><a href="#">Fotogalerie<sup>Již brzy</sup></a></li>
+                                <li><a href="#">Spolužáci<sup>Již brzy</sup></a></li>
+                                <li><a href="#">Učitelé</sup></a></li>
+                                <li><a href="#">Pozvat žáka</a></li>
+                                <li><a href="#">Nastavení třídy</a></li>
+                            </ul>
+                        </nav>
+                    </aside>
                 </div>
-                <nav>
-                    <ul>
-                        <li class="active"><a href="#">Diskuze</a></li>
-                        <li><a href="#">Fotogalerie<sup>Již brzy</sup></a></li>
-                        <li><a href="#">Spolužáci<sup>Již brzy</sup></a></li>
-                        <li><a href="#">Učitelé</sup></a></li>
-                        <li><a href="#">Pozvat žáka</a></li>
-                        <li><a href="#">Nastavení třídy</a></li>
-                    </ul>
-                </nav>
-            </aside>
+            </div>
+
+
+
             <article>
                 <!--active status-->
                 <div class="container classroom add">
@@ -196,7 +238,10 @@
                                 </div><div class="add_image tt-top" data-tooltip="Nahrát obrázek">
                                     <span><input type="file" name="img_upload"/></span>
                                 </div>
-                                <button class="submit low"><span>Přidat příspěvek</span></button>
+                                <button class="submit low">
+                                    <span class="desktop_view">Přidat příspěvek</span>
+                                    <span class="mobile_view">Přidat</span>
+                                </button>
                             </div>
                             <div class="clear"></div>
                         </div>

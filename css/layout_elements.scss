@@ -115,8 +115,8 @@ header {
 						position: absolute;
 						top: 45px;
 						left: 50%;
-						margin-left: -170px;
-						width: 280px;
+						margin-left: -160px;
+						width: 270px;
 						background: $color-4b6a77;
 
 						.close,
@@ -136,7 +136,7 @@ header {
 						&:before {
 							content: '';
 							top: -6px;
-							left: calc(61% - 8px);
+							left: calc(60% - 10px);
 							width: 15px;
 							height: 15px;
 							background: $color-4b6a77;
@@ -761,6 +761,7 @@ nav {
 			font-size: $fs-15;
 			bottom: 10px;
 			right: 0;
+			font-weight: $fw-400;
 		}
 	}
 	.classroom {
@@ -1092,93 +1093,5 @@ nav {
 
 
 
-/* aside */
-
-
-/* schools */
-.mobile_view {
-	position: relative;
-
-	&.schools {
-		top: -40px;
-	}
-	.aside_container {
-		height: 100%;
-		width: 100%;
-		position: fixed;
-		left: 0;
-		margin: 0;
-		transform: translateX(calc(-100% + 40px));
-		z-index: 100;
-		@include transition-default(("transform .25s ease-in-out"));
-
-		.icon-toggle {
-			display: inline-block;
-			box-sizing: border-box;
-			position: absolute;
-			z-index: 99;
-			top: 0;
-			right: 0;
-			height: 40px;
-			width: 40px;
-			background: $color-7f959e url('../images/icons/icon-filter-hover.svg') 50% 50% no-repeat;
-			cursor: pointer;
-			@include transition-default(("all  .3s"));
-		}
-		aside {
-			position: relative;
-			z-index: 99;
-			width: calc(100% - 40px);
-			height: calc(100vh - 110px);
-			overflow-y: auto;
-			margin: 0;
-		}
-	}
-	input[type="checkbox"]:checked ~ .aside_container {
-		transform: translateX(0);
-	}
-	input[type="checkbox"] {
-		box-sizing: border-box;
-		display: none;
-		@include transition-default(("all  .3s"));
-	}
-	input[type="checkbox"]:checked ~ .icon-toggle {
-		right: 0;
-	}
-
-}
-
-/* school */
-.mobile_view.school {
-	position: relative;
-
-		aside {
-			float: none;
-			width: 100%;
-			.avatar {
-				* {
-					display: inline-block;
-					vertical-align: middle;
-					text-align: left;
-				}
-				.photo {
-					width: 100px;
-					height: 100px;
-					padding: 20px;
-
-					img {
-						width: 50px;
-						height: 50px;
-					}
-				}
-				.name {
-					width: calc(100% - 140px);
-					margin-left: 20px;
-
-					font-size: $fs-16;
-				}
-			}
-		}
-	}
 
 

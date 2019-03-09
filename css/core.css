@@ -783,7 +783,7 @@ h1 {
   font-size: 4rem; }
 
 h2 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 2.6rem;
   color: #4b6a77; }
 
@@ -1707,8 +1707,8 @@ header {
           position: absolute;
           top: 45px;
           left: 50%;
-          margin-left: -170px;
-          width: 280px;
+          margin-left: -160px;
+          width: 270px;
           background: #4b6a77; }
           header .logged_user .icon_bar .icon.notification .notification_block .close, header .logged_user .icon_bar .icon.notification .notification_block:before {
             position: absolute;
@@ -1724,7 +1724,7 @@ header {
           header .logged_user .icon_bar .icon.notification .notification_block:before {
             content: '';
             top: -6px;
-            left: calc(61% - 8px);
+            left: calc(60% - 10px);
             width: 15px;
             height: 15px;
             background: #4b6a77;
@@ -1979,6 +1979,175 @@ path:hover {
   fill: #4b6a77;
   cursor: pointer; }
 
+g#reg01:hover text {
+  fill: #d2d2d2; }
+
+g#reg01:hover text tspan, g#reg01:hover text {
+  fill: #fff;
+  cursor: pointer; }
+
+g#reg01:hover path {
+  fill: #4b6a77;
+  cursor: pointer;
+  opacity: 0.9; }
+
+g#reg02:hover text {
+  fill: #d2d2d2; }
+
+g#reg02:hover text tspan, g#reg02:hover text {
+  fill: #fff;
+  cursor: pointer; }
+
+g#reg02:hover path {
+  fill: #4b6a77;
+  cursor: pointer;
+  opacity: 0.9; }
+
+g#reg03:hover text {
+  fill: #d2d2d2; }
+
+g#reg03:hover text tspan, g#reg03:hover text {
+  fill: #fff;
+  cursor: pointer; }
+
+g#reg03:hover path {
+  fill: #4b6a77;
+  cursor: pointer;
+  opacity: 0.9; }
+
+g#reg04:hover text {
+  fill: #d2d2d2; }
+
+g#reg04:hover text tspan, g#reg04:hover text {
+  fill: #fff;
+  cursor: pointer; }
+
+g#reg04:hover path {
+  fill: #4b6a77;
+  cursor: pointer;
+  opacity: 0.9; }
+
+g#reg05:hover text {
+  fill: #d2d2d2; }
+
+g#reg05:hover text tspan, g#reg05:hover text {
+  fill: #fff;
+  cursor: pointer; }
+
+g#reg05:hover path {
+  fill: #4b6a77;
+  cursor: pointer;
+  opacity: 0.9; }
+
+g#reg06:hover text {
+  fill: #d2d2d2; }
+
+g#reg06:hover text tspan, g#reg06:hover text {
+  fill: #fff;
+  cursor: pointer; }
+
+g#reg06:hover path {
+  fill: #4b6a77;
+  cursor: pointer;
+  opacity: 0.9; }
+
+g#reg07:hover text {
+  fill: #d2d2d2; }
+
+g#reg07:hover text tspan, g#reg07:hover text {
+  fill: #fff;
+  cursor: pointer; }
+
+g#reg07:hover path {
+  fill: #4b6a77;
+  cursor: pointer;
+  opacity: 0.9; }
+
+g#reg08:hover text {
+  fill: #d2d2d2; }
+
+g#reg08:hover text tspan, g#reg08:hover text {
+  fill: #fff;
+  cursor: pointer; }
+
+g#reg08:hover path {
+  fill: #4b6a77;
+  cursor: pointer;
+  opacity: 0.9; }
+
+g#reg09:hover text {
+  fill: #d2d2d2; }
+
+g#reg09:hover text tspan, g#reg09:hover text {
+  fill: #fff;
+  cursor: pointer; }
+
+g#reg09:hover path {
+  fill: #4b6a77;
+  cursor: pointer;
+  opacity: 0.9; }
+
+g#reg10:hover text {
+  fill: #d2d2d2; }
+
+g#reg10:hover text tspan, g#reg10:hover text {
+  fill: #fff;
+  cursor: pointer; }
+
+g#reg10:hover path {
+  fill: #4b6a77;
+  cursor: pointer;
+  opacity: 0.9; }
+
+g#reg11:hover text {
+  fill: #d2d2d2; }
+
+g#reg11:hover text tspan, g#reg11:hover text {
+  fill: #fff;
+  cursor: pointer; }
+
+g#reg11:hover path {
+  fill: #4b6a77;
+  cursor: pointer;
+  opacity: 0.9; }
+
+g#reg12:hover text {
+  fill: #d2d2d2; }
+
+g#reg12:hover text tspan, g#reg12:hover text {
+  fill: #fff;
+  cursor: pointer; }
+
+g#reg12:hover path {
+  fill: #4b6a77;
+  cursor: pointer;
+  opacity: 0.9; }
+
+g#reg13:hover text {
+  fill: #d2d2d2; }
+
+g#reg13:hover text tspan, g#reg13:hover text {
+  fill: #fff;
+  cursor: pointer; }
+
+g#reg13:hover path {
+  fill: #4b6a77;
+  cursor: pointer;
+  opacity: 0.9; }
+
+g#reg14:hover text {
+  fill: #d2d2d2; }
+
+g#reg14:hover text tspan, g#reg14:hover text {
+  fill: #fff;
+  cursor: pointer; }
+
+g#reg14:hover path {
+  fill: #4b6a77;
+  cursor: pointer;
+  opacity: 0.9; }
+
+/*
 g#reg01 text tspan, g#reg01 text,
 g#reg02 text tspan, g#reg02 text,
 g#reg03 text tspan, g#reg03 text,
@@ -1992,9 +2161,9 @@ g#reg10 text tspan, g#reg10 text,
 g#reg11 text tspan, g#reg11 text,
 g#reg12 text tspan, g#reg12 text,
 g#reg13 text tspan, g#reg13 text,
-g#reg14 text tspan, g#reg14 text {
-  fill: #d2d2d2; }
-
+g#reg14 text tspan, g#reg14 text{
+	fill: $color-d2d2d2;
+}
 g#reg01:hover text tspan, g#reg01:hover text,
 g#reg02:hover text tspan, g#reg02:hover text,
 g#reg03:hover text tspan, g#reg03:hover text,
@@ -2008,10 +2177,10 @@ g#reg10:hover text tspan, g#reg10:hover text,
 g#reg11:hover text tspan, g#reg11:hover text,
 g#reg12:hover text tspan, g#reg12:hover text,
 g#reg13:hover text tspan, g#reg13:hover text,
-g#reg14:hover text tspan, g#reg14:hover text {
-  fill: #fff;
-  cursor: pointer; }
-
+g#reg14:hover text tspan, g#reg14:hover text{
+	fill: #fff;
+	cursor: pointer;
+}
 g#reg01:hover path,
 g#reg02:hover path,
 g#reg03:hover path,
@@ -2025,11 +2194,11 @@ g#reg10:hover path,
 g#reg11:hover path,
 g#reg12:hover path,
 g#reg13:hover path,
-g#reg14:hover path {
-  fill: #4b6a77;
-  cursor: pointer;
-  opacity: 0.9; }
-
+g#reg14:hover path{
+	fill: $color-4b6a77;
+	cursor: pointer;
+	opacity: 0.9;
+}*/
 /*-----------------------------------------------------------------------------------------------------------------------------*/
 /*  SUBPAGE		                                                                                                               */
 /*-----------------------------------------------------------------------------------------------------------------------------*/
@@ -2258,7 +2427,8 @@ nav {
     position: absolute;
     font-size: 1.5rem;
     bottom: 10px;
-    right: 0; }
+    right: 0;
+    font-weight: 400; }
 .container.school .classroom {
   height: 20px;
   text-overflow: ellipsis;
@@ -2528,188 +2698,366 @@ nav {
     -moz-border-radius: 40px;
     -ms-border-radius: 40px;
     -o-border-radius: 40px; }
-  .emoticon.e-1f31d {
-    background: url("../images/icons/emoticons/e-1f31d.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f600 {
-    background: url("../images/icons/emoticons/e-1f600.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f601 {
-    background: url("../images/icons/emoticons/e-1f601.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f602 {
-    background: url("../images/icons/emoticons/e-1f602.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f603 {
-    background: url("../images/icons/emoticons/e-1f603.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f604 {
-    background: url("../images/icons/emoticons/e-1f604.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f605 {
-    background: url("../images/icons/emoticons/e-1f605.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f606 {
-    background: url("../images/icons/emoticons/e-1f606.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f607 {
-    background: url("../images/icons/emoticons/e-1f607.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f609 {
-    background: url("../images/icons/emoticons/e-1f609.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f60a {
-    background: url("../images/icons/emoticons/e-1f60a.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f60b {
-    background: url("../images/icons/emoticons/e-1f60b.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f60c {
-    background: url("../images/icons/emoticons/e-1f60c.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f60d {
-    background: url("../images/icons/emoticons/e-1f60d.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f60e {
-    background: url("../images/icons/emoticons/e-1f60e.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f60f {
-    background: url("../images/icons/emoticons/e-1f60f.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f610 {
-    background: url("../images/icons/emoticons/e-1f610.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f611 {
-    background: url("../images/icons/emoticons/e-1f611.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f612 {
-    background: url("../images/icons/emoticons/e-1f612.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f613 {
-    background: url("../images/icons/emoticons/e-1f613.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f614 {
-    background: url("../images/icons/emoticons/e-1f614.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f615 {
-    background: url("../images/icons/emoticons/e-1f615.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f616 {
-    background: url("../images/icons/emoticons/e-1f616.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f617 {
-    background: url("../images/icons/emoticons/e-1f617.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f618 {
-    background: url("../images/icons/emoticons/e-1f618.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f619 {
-    background: url("../images/icons/emoticons/e-1f619.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f61a {
-    background: url("../images/icons/emoticons/e-1f61a.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f61b {
-    background: url("../images/icons/emoticons/e-1f61b.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f61c {
-    background: url("../images/icons/emoticons/e-1f61c.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f61d {
-    background: url("../images/icons/emoticons/e-1f61d.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f61e {
-    background: url("../images/icons/emoticons/e-1f61e.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f61f {
-    background: url("../images/icons/emoticons/e-1f61f.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f620 {
-    background: url("../images/icons/emoticons/e-1f620.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f621 {
-    background: url("../images/icons/emoticons/e-1f621.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f622 {
-    background: url("../images/icons/emoticons/e-1f622.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f623 {
-    background: url("../images/icons/emoticons/e-1f623.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f624 {
-    background: url("../images/icons/emoticons/e-1f624.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f625 {
-    background: url("../images/icons/emoticons/e-1f625.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f626 {
-    background: url("../images/icons/emoticons/e-1f626.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f627 {
-    background: url("../images/icons/emoticons/e-1f627.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f628 {
-    background: url("../images/icons/emoticons/e-1f628.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f629 {
-    background: url("../images/icons/emoticons/e-1f629.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f62a {
-    background: url("../images/icons/emoticons/e-1f62a.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f62b {
-    background: url("../images/icons/emoticons/e-1f62b.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f62c {
-    background: url("../images/icons/emoticons/e-1f62c.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f62d {
-    background: url("../images/icons/emoticons/e-1f62d.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f62e {
-    background: url("../images/icons/emoticons/e-1f62e.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f62f {
-    background: url("../images/icons/emoticons/e-1f62f.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f630 {
-    background: url("../images/icons/emoticons/e-1f630.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f631 {
-    background: url("../images/icons/emoticons/e-1f631.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f632 {
-    background: url("../images/icons/emoticons/e-1f632.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f633 {
-    background: url("../images/icons/emoticons/e-1f633.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f634 {
-    background: url("../images/icons/emoticons/e-1f634.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f635 {
-    background: url("../images/icons/emoticons/e-1f635.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f636 {
-    background: url("../images/icons/emoticons/e-1f636.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f637 {
-    background: url("../images/icons/emoticons/e-1f637.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f640 {
-    background: url("../images/icons/emoticons/e-1f640.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f641 {
-    background: url("../images/icons/emoticons/e-1f641.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f642 {
-    background: url("../images/icons/emoticons/e-1f642.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f643 {
-    background: url("../images/icons/emoticons/e-1f643.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f644 {
-    background: url("../images/icons/emoticons/e-1f644.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f910 {
-    background: url("../images/icons/emoticons/e-1f910.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f911 {
-    background: url("../images/icons/emoticons/e-1f911.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f912 {
-    background: url("../images/icons/emoticons/e-1f912.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f913 {
-    background: url("../images/icons/emoticons/e-1f913.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f914 {
-    background: url("../images/icons/emoticons/e-1f914.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f915 {
-    background: url("../images/icons/emoticons/e-1f915.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f917 {
-    background: url("../images/icons/emoticons/e-1f917.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f920 {
-    background: url("../images/icons/emoticons/e-1f920.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f923 {
-    background: url("../images/icons/emoticons/e-1f923.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f924 {
-    background: url("../images/icons/emoticons/e-1f924.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f925 {
-    background: url("../images/icons/emoticons/e-1f925.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f927 {
-    background: url("../images/icons/emoticons/e-1f927.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f928 {
-    background: url("../images/icons/emoticons/e-1f928.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f929 {
-    background: url("../images/icons/emoticons/e-1f929.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f92a {
-    background: url("../images/icons/emoticons/e-1f92a.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f92b {
-    background: url("../images/icons/emoticons/e-1f92b.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f92c {
-    background: url("../images/icons/emoticons/e-1f92c.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f92d {
-    background: url("../images/icons/emoticons/e-1f92d.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f92e {
-    background: url("../images/icons/emoticons/e-1f92e.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f92f {
-    background: url("../images/icons/emoticons/e-1f92f.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f970 {
-    background: url("../images/icons/emoticons/e-1f970.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f973 {
-    background: url("../images/icons/emoticons/e-1f973.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f974 {
-    background: url("../images/icons/emoticons/e-1f974.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f975 {
-    background: url("../images/icons/emoticons/e-1f975.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f976 {
-    background: url("../images/icons/emoticons/e-1f976.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f97a {
-    background: url("../images/icons/emoticons/e-1f97a.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f9d0 {
-    background: url("../images/icons/emoticons/e-1f9d0.svg") 50% 50% no-repeat; }
-  .emoticon.e-2639 {
-    background: url("../images/icons/emoticons/e-2639.svg") 50% 50% no-repeat; }
-  .emoticon.e-263a {
-    background: url("../images/icons/emoticons/e-263a.svg") 50% 50% no-repeat; }
-  .emoticon.e-1f31d, .emoticon.e-1f600, .emoticon.e-1f601, .emoticon.e-1f602, .emoticon.e-1f603, .emoticon.e-1f604, .emoticon.e-1f605, .emoticon.e-1f606, .emoticon.e-1f607, .emoticon.e-1f609, .emoticon.e-1f60a, .emoticon.e-1f60b, .emoticon.e-1f60c, .emoticon.e-1f60d, .emoticon.e-1f60e, .emoticon.e-1f60f, .emoticon.e-1f610, .emoticon.e-1f611, .emoticon.e-1f612, .emoticon.e-1f613, .emoticon.e-1f614, .emoticon.e-1f615, .emoticon.e-1f616, .emoticon.e-1f617, .emoticon.e-1f618, .emoticon.e-1f619, .emoticon.e-1f61a, .emoticon.e-1f61b, .emoticon.e-1f61c, .emoticon.e-1f61d, .emoticon.e-1f61e, .emoticon.e-1f61f, .emoticon.e-1f620, .emoticon.e-1f621, .emoticon.e-1f622, .emoticon.e-1f623, .emoticon.e-1f624, .emoticon.e-1f625, .emoticon.e-1f626, .emoticon.e-1f627, .emoticon.e-1f628, .emoticon.e-1f629, .emoticon.e-1f62a, .emoticon.e-1f62b, .emoticon.e-1f62c, .emoticon.e-1f62d, .emoticon.e-1f62e, .emoticon.e-1f62f, .emoticon.e-1f630, .emoticon.e-1f631, .emoticon.e-1f632, .emoticon.e-1f633, .emoticon.e-1f634, .emoticon.e-1f635, .emoticon.e-1f636, .emoticon.e-1f637, .emoticon.e-1f640, .emoticon.e-1f641, .emoticon.e-1f642, .emoticon.e-1f643, .emoticon.e-1f644, .emoticon.e-1f910, .emoticon.e-1f911, .emoticon.e-1f912, .emoticon.e-1f913, .emoticon.e-1f914, .emoticon.e-1f915, .emoticon.e-1f917, .emoticon.e-1f920, .emoticon.e-1f923, .emoticon.e-1f924, .emoticon.e-1f925, .emoticon.e-1f927, .emoticon.e-1f928, .emoticon.e-1f929, .emoticon.e-1f92a, .emoticon.e-1f92b, .emoticon.e-1f92c, .emoticon.e-1f92d, .emoticon.e-1f92e, .emoticon.e-1f92f, .emoticon.e-1f970, .emoticon.e-1f973, .emoticon.e-1f974, .emoticon.e-1f975, .emoticon.e-1f976, .emoticon.e-1f97a, .emoticon.e-1f9d0, .emoticon.e-2639, .emoticon.e-263a {
-    background-size: 30px; }
+
+.e-1f31d {
+  background: url("../images/icons/emoticons/e-1f31d.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f600 {
+  background: url("../images/icons/emoticons/e-1f600.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f601 {
+  background: url("../images/icons/emoticons/e-1f601.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f602 {
+  background: url("../images/icons/emoticons/e-1f602.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f603 {
+  background: url("../images/icons/emoticons/e-1f603.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f604 {
+  background: url("../images/icons/emoticons/e-1f604.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f605 {
+  background: url("../images/icons/emoticons/e-1f605.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f606 {
+  background: url("../images/icons/emoticons/e-1f606.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f607 {
+  background: url("../images/icons/emoticons/e-1f607.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f609 {
+  background: url("../images/icons/emoticons/e-1f609.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f60a {
+  background: url("../images/icons/emoticons/e-1f60a.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f60b {
+  background: url("../images/icons/emoticons/e-1f60b.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f60c {
+  background: url("../images/icons/emoticons/e-1f60c.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f60d {
+  background: url("../images/icons/emoticons/e-1f60d.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f60e {
+  background: url("../images/icons/emoticons/e-1f60e.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f60f {
+  background: url("../images/icons/emoticons/e-1f60f.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f610 {
+  background: url("../images/icons/emoticons/e-1f610.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f611 {
+  background: url("../images/icons/emoticons/e-1f611.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f612 {
+  background: url("../images/icons/emoticons/e-1f612.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f613 {
+  background: url("../images/icons/emoticons/e-1f613.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f614 {
+  background: url("../images/icons/emoticons/e-1f614.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f615 {
+  background: url("../images/icons/emoticons/e-1f615.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f616 {
+  background: url("../images/icons/emoticons/e-1f616.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f617 {
+  background: url("../images/icons/emoticons/e-1f617.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f618 {
+  background: url("../images/icons/emoticons/e-1f618.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f619 {
+  background: url("../images/icons/emoticons/e-1f619.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f61a {
+  background: url("../images/icons/emoticons/e-1f61a.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f61b {
+  background: url("../images/icons/emoticons/e-1f61b.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f61c {
+  background: url("../images/icons/emoticons/e-1f61c.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f61d {
+  background: url("../images/icons/emoticons/e-1f61d.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f61e {
+  background: url("../images/icons/emoticons/e-1f61e.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f61f {
+  background: url("../images/icons/emoticons/e-1f61f.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f620 {
+  background: url("../images/icons/emoticons/e-1f620.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f621 {
+  background: url("../images/icons/emoticons/e-1f621.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f622 {
+  background: url("../images/icons/emoticons/e-1f622.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f623 {
+  background: url("../images/icons/emoticons/e-1f623.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f624 {
+  background: url("../images/icons/emoticons/e-1f624.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f625 {
+  background: url("../images/icons/emoticons/e-1f625.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f626 {
+  background: url("../images/icons/emoticons/e-1f626.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f627 {
+  background: url("../images/icons/emoticons/e-1f627.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f628 {
+  background: url("../images/icons/emoticons/e-1f628.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f629 {
+  background: url("../images/icons/emoticons/e-1f629.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f62a {
+  background: url("../images/icons/emoticons/e-1f62a.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f62b {
+  background: url("../images/icons/emoticons/e-1f62b.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f62c {
+  background: url("../images/icons/emoticons/e-1f62c.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f62d {
+  background: url("../images/icons/emoticons/e-1f62d.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f62e {
+  background: url("../images/icons/emoticons/e-1f62e.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f62f {
+  background: url("../images/icons/emoticons/e-1f62f.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f630 {
+  background: url("../images/icons/emoticons/e-1f630.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f631 {
+  background: url("../images/icons/emoticons/e-1f631.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f632 {
+  background: url("../images/icons/emoticons/e-1f632.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f633 {
+  background: url("../images/icons/emoticons/e-1f633.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f634 {
+  background: url("../images/icons/emoticons/e-1f634.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f635 {
+  background: url("../images/icons/emoticons/e-1f635.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f636 {
+  background: url("../images/icons/emoticons/e-1f636.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f637 {
+  background: url("../images/icons/emoticons/e-1f637.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f640 {
+  background: url("../images/icons/emoticons/e-1f640.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f641 {
+  background: url("../images/icons/emoticons/e-1f641.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f642 {
+  background: url("../images/icons/emoticons/e-1f642.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f643 {
+  background: url("../images/icons/emoticons/e-1f643.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f644 {
+  background: url("../images/icons/emoticons/e-1f644.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f910 {
+  background: url("../images/icons/emoticons/e-1f910.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f911 {
+  background: url("../images/icons/emoticons/e-1f911.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f912 {
+  background: url("../images/icons/emoticons/e-1f912.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f913 {
+  background: url("../images/icons/emoticons/e-1f913.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f914 {
+  background: url("../images/icons/emoticons/e-1f914.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f915 {
+  background: url("../images/icons/emoticons/e-1f915.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f917 {
+  background: url("../images/icons/emoticons/e-1f917.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f920 {
+  background: url("../images/icons/emoticons/e-1f920.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f923 {
+  background: url("../images/icons/emoticons/e-1f923.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f924 {
+  background: url("../images/icons/emoticons/e-1f924.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f925 {
+  background: url("../images/icons/emoticons/e-1f925.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f927 {
+  background: url("../images/icons/emoticons/e-1f927.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f928 {
+  background: url("../images/icons/emoticons/e-1f928.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f929 {
+  background: url("../images/icons/emoticons/e-1f929.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f92a {
+  background: url("../images/icons/emoticons/e-1f92a.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f92b {
+  background: url("../images/icons/emoticons/e-1f92b.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f92c {
+  background: url("../images/icons/emoticons/e-1f92c.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f92d {
+  background: url("../images/icons/emoticons/e-1f92d.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f92e {
+  background: url("../images/icons/emoticons/e-1f92e.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f92f {
+  background: url("../images/icons/emoticons/e-1f92f.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f970 {
+  background: url("../images/icons/emoticons/e-1f970.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f973 {
+  background: url("../images/icons/emoticons/e-1f973.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f974 {
+  background: url("../images/icons/emoticons/e-1f974.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f975 {
+  background: url("../images/icons/emoticons/e-1f975.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f976 {
+  background: url("../images/icons/emoticons/e-1f976.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f97a {
+  background: url("../images/icons/emoticons/e-1f97a.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-1f9d0 {
+  background: url("../images/icons/emoticons/e-1f9d0.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-2639 {
+  background: url("../images/icons/emoticons/e-2639.svg") 50% 50% no-repeat;
+  background-size: 30px; }
+
+.e-263a {
+  background: url("../images/icons/emoticons/e-263a.svg") 50% 50% no-repeat;
+  background-size: 30px; }
 
 /*Layout / HP / SP /...*/
 .overlay {
@@ -2724,10 +3072,11 @@ nav {
   z-index: 100; }
 
 .popup_dialog {
+  display: block;
   position: relative;
-  margin: 170px auto 0 auto;
+  margin: 10vh auto;
   width: 470px;
-  padding: 40px;
+  padding: 0;
   text-align: left;
   background: white; }
   .popup_dialog label a {
@@ -2742,7 +3091,82 @@ nav {
     right: 15px;
     top: 15px;
     display: block;
+    z-index: 10;
     background: url("../images/icons/icon-close.svg") 50% 50% no-repeat; }
+  .popup_dialog > h2 {
+    height: 75px;
+    padding: 40px 40px 0 40px; }
+  .popup_dialog .content {
+    padding: 0 40px 40px 40px; }
+
+.popup_dialog.user_profile {
+  width: 570px; }
+  .popup_dialog.user_profile .close {
+    background: url("../images/icons/icon-close-white.svg") 50% 50% no-repeat; }
+  .popup_dialog.user_profile .avatar {
+    position: relative;
+    z-index: 5;
+    background: #4b6a77;
+    text-align: center;
+    height: 175px;
+    margin-bottom: 180px; }
+    .popup_dialog.user_profile .avatar .time:before {
+      content: '';
+      height: 16px;
+      width: 16px;
+      display: inline-block;
+      margin-right: 8px;
+      vertical-align: middle;
+      -webkit-border-radius: 16px;
+      -moz-border-radius: 16px;
+      -ms-border-radius: 16px;
+      -o-border-radius: 16px; }
+    .popup_dialog.user_profile .avatar.active .time:before {
+      background: #73c400; }
+    .popup_dialog.user_profile .avatar.away .time:before {
+      background: #ec9b00; }
+    .popup_dialog.user_profile .avatar.nonactive .time:before {
+      background: #aaaaaa; }
+    .popup_dialog.user_profile .avatar .status {
+      display: inline-block; }
+      .popup_dialog.user_profile .avatar .status .icon {
+        display: inline-block;
+        height: 220px;
+        width: 220px;
+        border: 5px solid white;
+        z-index: 1;
+        overflow: hidden;
+        -webkit-border-radius: 220px;
+        -moz-border-radius: 220px;
+        -ms-border-radius: 220px;
+        -o-border-radius: 220px; }
+        .popup_dialog.user_profile .avatar .status .icon img {
+          width: 100%;
+          height: 100%; }
+      .popup_dialog.user_profile .avatar .status .text .name {
+        color: #4b6a77;
+        font-size: 3.2rem;
+        padding: 5px 0 0 10px; }
+      .popup_dialog.user_profile .avatar .status .text .time {
+        font-size: 1.6rem;
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        color: #666666; }
+  .popup_dialog.user_profile .content {
+    height: calc(80vh - 350px);
+    overflow-y: auto; }
+    .popup_dialog.user_profile .content * {
+      color: #666666; }
+    .popup_dialog.user_profile .content h2 {
+      padding: 35px 0 15px 0;
+      color: #4b6a77; }
+  .popup_dialog.user_profile .photogallery > div {
+    display: block;
+    margin-bottom: 10px; }
+  .popup_dialog.user_profile .photogallery img {
+    width: 100%;
+    height: auto; }
 
 /*Popup - dialog*/
 /*-----------------------------------------------------------------------------------------------------------------------------*/
@@ -2885,5 +3309,751 @@ nav {
     padding: 10px; }
 
 /*Message info/alert/error/default*/
+@media only screen and (max-width: 1200px) {
+  .inner_box {
+    padding: 0 15px; } }
+@media only screen and (max-width: 999px) {
+  .desktop_view {
+    display: none; }
+
+  .mobile_view {
+    display: block; }
+
+  body {
+    font-size: 1.5rem; }
+
+  h2 {
+    font-size: 2rem; }
+
+  header {
+    height: 75px;
+    padding: 10px 0; }
+    header .logotype img {
+      width: 100%;
+      margin-top: 0;
+      max-height: 50px; }
+    header .block_login button.default {
+      margin: 5px 0 0 0; }
+    header .logged_user .icon_bar .icon {
+      margin: 15px 0 0 15px; }
+    header .block_login button.submit,
+    header .logged_user .avatar {
+      display: none; }
+    header .notification_block {
+      top: 48px !important; }
+
+  .row {
+    padding: 10px 0;
+    margin: 0 -10px; }
+
+  .col {
+    padding: 0 10px; }
+
+  .subpage article {
+    float: none;
+    width: 100%; }
+
+  .subpage article > .endyear_calculator {
+    display: none; }
+
+  .container .block {
+    padding: 15px 20px; }
+
+  /*school*/
+  .mobile_view aside + a {
+    display: inline-block;
+    margin-top: 10px; }
+
+  .container.school h2 a {
+    bottom: 15px; }
+  .container.school .classroom a {
+    font-size: 1.6rem;
+    margin-right: 10px; }
+  .container.school .classroom span {
+    font-size: 1.3rem; }
+
+  /*schools*/
+  .container.schools .content h2 {
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 1.6rem; }
+  .container.schools .content p {
+    font-size: 1.3rem; }
+  .container.schools .col.p20 {
+    width: 30%; }
+  .container.schools .col.p80 {
+    width: 70%; }
+
+  .add_banner {
+    padding: 30px; }
+    .add_banner h2 {
+      font-size: 2rem;
+      padding: 0 0 20px 0; }
+
+  .advertisement {
+    height: 100px;
+    line-height: 100px;
+    font-size: 2rem; }
+
+  .controls {
+    text-align: center;
+    padding: 40px 0; }
+    .controls p {
+      padding-top: 20px; }
+
+  aside .controls,
+  .popup_dialog .controls {
+    padding: 20px 0 0 0; }
+
+  /*-----------------------------------------------------------------------------------------------------------------------------*/
+  /*  BUTTONS                                                                                                                    */
+  /*-----------------------------------------------------------------------------------------------------------------------------*/
+  a.button,
+  button,
+  input[type="button"].button,
+  input[type="submit"].button {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 30px;
+    margin: 0 5px; }
+    a.button.low,
+    button.low,
+    input[type="button"].button.low,
+    input[type="submit"].button.low {
+      height: 35px;
+      line-height: 35px;
+      padding: 0 10px; }
+
+  /* aside - fixed position */
+  .mobile_view {
+    position: relative; }
+    .mobile_view.schools, .mobile_view.classroom {
+      top: -40px; }
+    .mobile_view .icon-toggle {
+      display: inline-block;
+      box-sizing: border-box;
+      position: absolute;
+      z-index: 99;
+      top: 0;
+      right: 0;
+      height: 40px;
+      width: 40px;
+      cursor: pointer;
+      -webkit-transition: all  .3s;
+      -moz-transition: all  .3s;
+      -ms-transition: all  .3s;
+      -o-transition: all  .3s; }
+    .mobile_view.schools .icon-toggle {
+      background: #7f959e url("../images/icons/icon-filter-hover.svg") 50% 50% no-repeat;
+      background-size: 25px auto; }
+    .mobile_view.classroom .icon-toggle {
+      background: #7f959e url("../images/icons/icon-menu-hover.svg") 50% 50% no-repeat;
+      background-size: 25px auto; }
+    .mobile_view .aside_container {
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      left: 0;
+      margin: 0;
+      transform: translateX(calc(-100% + 40px));
+      z-index: 100;
+      -webkit-transition: transform .25s ease-in-out;
+      -moz-transition: transform .25s ease-in-out;
+      -ms-transition: transform .25s ease-in-out;
+      -o-transition: transform .25s ease-in-out; }
+      .mobile_view .aside_container aside {
+        position: relative;
+        z-index: 99;
+        width: calc(100% - 40px);
+        height: calc(100vh - 75px);
+        overflow-y: auto;
+        margin: 0; }
+    .mobile_view input[type="checkbox"]:checked ~ .aside_container {
+      transform: translateX(0); }
+    .mobile_view input[type="checkbox"] {
+      box-sizing: border-box;
+      display: none;
+      -webkit-transition: all  .3s;
+      -moz-transition: all  .3s;
+      -ms-transition: all  .3s;
+      -o-transition: all  .3s; }
+    .mobile_view input[type="checkbox"]:checked ~ .icon-toggle {
+      right: 0; } }
+@media only screen and (max-width: 600px) {
+  [data-tooltip]:before,
+  [data-tooltip]:after {
+    display: none; }
+
+  /* schools */
+  /* school */
+  .mobile_view.school {
+    position: relative; }
+    .mobile_view.school aside {
+      float: none;
+      width: 100%;
+      padding: 5px 15px; }
+      .mobile_view.school aside .avatar {
+        text-align: left;
+        padding: 15px 0; }
+        .mobile_view.school aside .avatar * {
+          display: inline-block;
+          vertical-align: middle; }
+        .mobile_view.school aside .avatar .photo {
+          width: 80px;
+          height: 80px;
+          padding: 15px; }
+          .mobile_view.school aside .avatar .photo img {
+            width: 40px;
+            height: 40px; }
+        .mobile_view.school aside .avatar .name {
+          width: calc(100% - 105px);
+          margin-left: 20px;
+          font-size: 1.5rem; }
+
+  /* classroom */
+  .container.classroom.load_next_conversation {
+    max-height: 100px; }
+  .container.classroom.level_2 {
+    margin-left: 50px; }
+  .container.classroom .load_next {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 90%;
+    background: url("../images/load-next-conversation.svg") 0 0 repeat-x;
+    text-align: center;
+    z-index: 22;
+    padding: 40px 0 0 0; }
+  .container.classroom .avatar {
+    width: 22%; }
+    .container.classroom .avatar > .name {
+      font-size: 1rem;
+      font-weight: 400;
+      padding-left: 0; }
+    .container.classroom .avatar:after {
+      top: 28px;
+      left: 28px;
+      height: 6px;
+      width: 6px;
+      -webkit-border-radius: 6px;
+      -moz-border-radius: 6px;
+      -ms-border-radius: 6px;
+      -o-border-radius: 6px; }
+    .container.classroom .avatar .status {
+      height: 38px;
+      width: 38px;
+      -webkit-border-radius: 38px;
+      -moz-border-radius: 38px;
+      -ms-border-radius: 38px;
+      -o-border-radius: 38px; }
+      .container.classroom .avatar .status:hover .text {
+        padding: 5px 65px; }
+      .container.classroom .avatar .status .icon {
+        height: 38px;
+        width: 38px;
+        -webkit-border-radius: 38px;
+        -moz-border-radius: 38px;
+        -ms-border-radius: 38px;
+        -o-border-radius: 38px; }
+        .container.classroom .avatar .status .icon img {
+          height: 34px;
+          width: 34px; }
+      .container.classroom .avatar .status .text * {
+        line-height: 15px; }
+      .container.classroom .avatar .status .text .name {
+        font-size: 1.1rem; }
+      .container.classroom .avatar .status .text .time {
+        font-size: 1.1rem; }
+      .container.classroom .avatar .status .arrow {
+        right: 7px;
+        top: 7px;
+        height: 25px;
+        width: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px; }
+  .container.classroom .block {
+    width: 78%;
+    padding: 5px 25px; }
+    .container.classroom .block:before {
+      top: 10px; }
+    .container.classroom .block * {
+      font-size: 1.4rem; }
+    .container.classroom .block textarea {
+      border: none;
+      background: rgba(0, 0, 0, 0); }
+    .container.classroom .block .date_name {
+      font-size: 1.3rem;
+      color: #bababa;
+      text-align: right;
+      padding-top: 15px; }
+  .container.classroom .response {
+    text-align: right; }
+
+  .container.classroom.with_image .block .photo {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: relative; }
+    .container.classroom.with_image .block .photo:hover::after {
+      cursor: pointer;
+      content: '';
+      background: rgba(0, 0, 0, 0.6) url("../images/icons/icon-zoom.svg") 50% 50% no-repeat;
+      position: absolute;
+      z-index: 5;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+    .container.classroom.with_image .block .photo img {
+      width: 100%;
+      height: 100%; }
+  .container.classroom.with_image .message {
+    padding-left: 30px; }
+
+  .container.classroom.add .bottom_bar {
+    text-align: right;
+    padding-top: 10px; }
+    .container.classroom.add .bottom_bar .emoticons,
+    .container.classroom.add .bottom_bar .add_image {
+      position: relative;
+      height: 24px;
+      width: 24px;
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 8px;
+      z-index: 20;
+      cursor: pointer; }
+    .container.classroom.add .bottom_bar .emoticons {
+      background: url("../images/icons/icon-smile.svg") 50% 50% no-repeat; }
+      .container.classroom.add .bottom_bar .emoticons .icons_block {
+        display: block;
+        padding: 10px 15px 10px 10px;
+        position: absolute;
+        top: 45px;
+        left: 50%;
+        margin-left: -160px;
+        width: 320px;
+        background: #4b6a77;
+        text-align: center; }
+        .container.classroom.add .bottom_bar .emoticons .icons_block .close, .container.classroom.add .bottom_bar .emoticons .icons_block:before {
+          position: absolute;
+          display: block; }
+        .container.classroom.add .bottom_bar .emoticons .icons_block .close {
+          top: 10px;
+          right: 10px;
+          height: 16px;
+          width: 16px;
+          line-height: 16px;
+          font-size: 2rem;
+          color: white; }
+        .container.classroom.add .bottom_bar .emoticons .icons_block:before {
+          content: '';
+          top: -6px;
+          left: calc(50% - 8px);
+          width: 15px;
+          height: 15px;
+          background: #4b6a77;
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+          -o-transform: rotate(-45deg); }
+      .container.classroom.add .bottom_bar .emoticons:hover {
+        background: url("../images/icons/icon-smile-hover.svg") 50% 50% no-repeat; }
+        .container.classroom.add .bottom_bar .emoticons:hover .icons_block {
+          display: block; }
+    .container.classroom.add .bottom_bar .add_image {
+      background: url("../images/icons/icon-image.svg") 50% 50% no-repeat; }
+      .container.classroom.add .bottom_bar .add_image span {
+        overflow: hidden;
+        display: inline-block;
+        height: 24px;
+        width: 24px; }
+        .container.classroom.add .bottom_bar .add_image span input[type="file"] {
+          opacity: 0; }
+      .container.classroom.add .bottom_bar .add_image:hover {
+        background: url("../images/icons/icon-image-hover.svg") 50% 50% no-repeat; }
+
+  .emoticon {
+    height: 30px;
+    width: 30px;
+    margin: 0px; }
+    .emoticon:hover {
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      -ms-border-radius: 30px;
+      -o-border-radius: 30px; }
+
+  .e-1f31d {
+    background: url("../images/icons/emoticons/e-1f31d.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f600 {
+    background: url("../images/icons/emoticons/e-1f600.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f601 {
+    background: url("../images/icons/emoticons/e-1f601.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f602 {
+    background: url("../images/icons/emoticons/e-1f602.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f603 {
+    background: url("../images/icons/emoticons/e-1f603.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f604 {
+    background: url("../images/icons/emoticons/e-1f604.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f605 {
+    background: url("../images/icons/emoticons/e-1f605.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f606 {
+    background: url("../images/icons/emoticons/e-1f606.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f607 {
+    background: url("../images/icons/emoticons/e-1f607.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f609 {
+    background: url("../images/icons/emoticons/e-1f609.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f60a {
+    background: url("../images/icons/emoticons/e-1f60a.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f60b {
+    background: url("../images/icons/emoticons/e-1f60b.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f60c {
+    background: url("../images/icons/emoticons/e-1f60c.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f60d {
+    background: url("../images/icons/emoticons/e-1f60d.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f60e {
+    background: url("../images/icons/emoticons/e-1f60e.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f60f {
+    background: url("../images/icons/emoticons/e-1f60f.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f610 {
+    background: url("../images/icons/emoticons/e-1f610.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f611 {
+    background: url("../images/icons/emoticons/e-1f611.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f612 {
+    background: url("../images/icons/emoticons/e-1f612.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f613 {
+    background: url("../images/icons/emoticons/e-1f613.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f614 {
+    background: url("../images/icons/emoticons/e-1f614.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f615 {
+    background: url("../images/icons/emoticons/e-1f615.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f616 {
+    background: url("../images/icons/emoticons/e-1f616.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f617 {
+    background: url("../images/icons/emoticons/e-1f617.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f618 {
+    background: url("../images/icons/emoticons/e-1f618.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f619 {
+    background: url("../images/icons/emoticons/e-1f619.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f61a {
+    background: url("../images/icons/emoticons/e-1f61a.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f61b {
+    background: url("../images/icons/emoticons/e-1f61b.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f61c {
+    background: url("../images/icons/emoticons/e-1f61c.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f61d {
+    background: url("../images/icons/emoticons/e-1f61d.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f61e {
+    background: url("../images/icons/emoticons/e-1f61e.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f61f {
+    background: url("../images/icons/emoticons/e-1f61f.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f620 {
+    background: url("../images/icons/emoticons/e-1f620.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f621 {
+    background: url("../images/icons/emoticons/e-1f621.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f622 {
+    background: url("../images/icons/emoticons/e-1f622.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f623 {
+    background: url("../images/icons/emoticons/e-1f623.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f624 {
+    background: url("../images/icons/emoticons/e-1f624.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f625 {
+    background: url("../images/icons/emoticons/e-1f625.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f626 {
+    background: url("../images/icons/emoticons/e-1f626.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f627 {
+    background: url("../images/icons/emoticons/e-1f627.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f628 {
+    background: url("../images/icons/emoticons/e-1f628.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f629 {
+    background: url("../images/icons/emoticons/e-1f629.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f62a {
+    background: url("../images/icons/emoticons/e-1f62a.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f62b {
+    background: url("../images/icons/emoticons/e-1f62b.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f62c {
+    background: url("../images/icons/emoticons/e-1f62c.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f62d {
+    background: url("../images/icons/emoticons/e-1f62d.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f62e {
+    background: url("../images/icons/emoticons/e-1f62e.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f62f {
+    background: url("../images/icons/emoticons/e-1f62f.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f630 {
+    background: url("../images/icons/emoticons/e-1f630.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f631 {
+    background: url("../images/icons/emoticons/e-1f631.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f632 {
+    background: url("../images/icons/emoticons/e-1f632.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f633 {
+    background: url("../images/icons/emoticons/e-1f633.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f634 {
+    background: url("../images/icons/emoticons/e-1f634.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f635 {
+    background: url("../images/icons/emoticons/e-1f635.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f636 {
+    background: url("../images/icons/emoticons/e-1f636.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f637 {
+    background: url("../images/icons/emoticons/e-1f637.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f640 {
+    background: url("../images/icons/emoticons/e-1f640.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f641 {
+    background: url("../images/icons/emoticons/e-1f641.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f642 {
+    background: url("../images/icons/emoticons/e-1f642.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f643 {
+    background: url("../images/icons/emoticons/e-1f643.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f644 {
+    background: url("../images/icons/emoticons/e-1f644.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f910 {
+    background: url("../images/icons/emoticons/e-1f910.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f911 {
+    background: url("../images/icons/emoticons/e-1f911.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f912 {
+    background: url("../images/icons/emoticons/e-1f912.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f913 {
+    background: url("../images/icons/emoticons/e-1f913.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f914 {
+    background: url("../images/icons/emoticons/e-1f914.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f915 {
+    background: url("../images/icons/emoticons/e-1f915.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f917 {
+    background: url("../images/icons/emoticons/e-1f917.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f920 {
+    background: url("../images/icons/emoticons/e-1f920.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f923 {
+    background: url("../images/icons/emoticons/e-1f923.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f924 {
+    background: url("../images/icons/emoticons/e-1f924.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f925 {
+    background: url("../images/icons/emoticons/e-1f925.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f927 {
+    background: url("../images/icons/emoticons/e-1f927.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f928 {
+    background: url("../images/icons/emoticons/e-1f928.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f929 {
+    background: url("../images/icons/emoticons/e-1f929.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f92a {
+    background: url("../images/icons/emoticons/e-1f92a.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f92b {
+    background: url("../images/icons/emoticons/e-1f92b.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f92c {
+    background: url("../images/icons/emoticons/e-1f92c.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f92d {
+    background: url("../images/icons/emoticons/e-1f92d.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f92e {
+    background: url("../images/icons/emoticons/e-1f92e.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f92f {
+    background: url("../images/icons/emoticons/e-1f92f.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f970 {
+    background: url("../images/icons/emoticons/e-1f970.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f973 {
+    background: url("../images/icons/emoticons/e-1f973.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f974 {
+    background: url("../images/icons/emoticons/e-1f974.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f975 {
+    background: url("../images/icons/emoticons/e-1f975.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f976 {
+    background: url("../images/icons/emoticons/e-1f976.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f97a {
+    background: url("../images/icons/emoticons/e-1f97a.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-1f9d0 {
+    background: url("../images/icons/emoticons/e-1f9d0.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-2639 {
+    background: url("../images/icons/emoticons/e-2639.svg") 50% 50% no-repeat;
+    background-size: 22px; }
+
+  .e-263a {
+    background: url("../images/icons/emoticons/e-263a.svg") 50% 50% no-repeat;
+    background-size: 22px; } }
+@media only screen and (max-width: 480px) {
+  .subpage article.white {
+    padding: 35px; }
+  .subpage article .form_block .row {
+    padding: 0; }
+  .subpage article .form_block .col {
+    float: none;
+    width: 100%;
+    padding: 10px 0; } }
+/*responsive layout*/
 
 /*# sourceMappingURL=core.css.map */
