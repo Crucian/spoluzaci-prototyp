@@ -3009,7 +3009,7 @@ nav {
 
 /*Layout / HP / SP /...*/
 .overlay {
-  display: none;
+  display: block;
   /*kliknutim se nastavi inline style - display: block; */
   background: rgba(0, 0, 0, 0.64);
   position: fixed;
@@ -3017,7 +3017,7 @@ nav {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 100; }
+  z-index: 1000; }
 
 .popup_dialog {
   display: block;
@@ -3288,7 +3288,7 @@ nav {
       margin: 5px 0 0 0; }
     header .logged_user .icon_bar .icon {
       margin: 15px 0 0 15px; }
-    header .block_login button.submit,
+    header .block_login > button.submit,
     header .logged_user .avatar {
       display: none; }
     header .notification_block {
@@ -4008,7 +4008,58 @@ nav {
 
   .e-263a {
     background: url("../images/icons/emoticons/e-263a.svg") 50% 50% no-repeat;
-    background-size: 22px; } }
+    background-size: 22px; }
+
+  .popup_dialog {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0; }
+    .popup_dialog .content {
+      padding: 0 15px 25px 15px; }
+    .popup_dialog > h2 {
+      padding: 15px 15px 0 15px;
+      height: auto; }
+
+  .popup_dialog.user_profile .avatar {
+    text-align: left;
+    height: 100px;
+    margin-bottom: 0;
+    padding: 10px 15px; }
+    .popup_dialog.user_profile .avatar .time:before {
+      height: 10px;
+      width: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px; }
+    .popup_dialog.user_profile .avatar .status {
+      display: inline-block; }
+      .popup_dialog.user_profile .avatar .status .icon {
+        height: 80px;
+        width: 80px;
+        border: 3px solid white;
+        vertical-align: middle;
+        -webkit-border-radius: 80px;
+        -moz-border-radius: 80px;
+        -ms-border-radius: 80px;
+        -o-border-radius: 80px; }
+      .popup_dialog.user_profile .avatar .status .text {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 15px; }
+        .popup_dialog.user_profile .avatar .status .text .name {
+          color: white;
+          font-size: 2rem;
+          padding: 5px 0 0 0; }
+        .popup_dialog.user_profile .avatar .status .text .time {
+          font-size: 1.4rem;
+          color: white; }
+  .popup_dialog.user_profile .content {
+    height: calc(100vh - 100px); } }
 @media only screen and (max-width: 480px) {
   .subpage article.white {
     padding: 35px; }

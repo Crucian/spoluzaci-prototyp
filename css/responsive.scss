@@ -32,7 +32,7 @@
 		.logged_user .icon_bar .icon {
 			margin: 15px 0 0 15px;
 		}
-		.block_login button.submit,
+		.block_login>button.submit,
 		.logged_user .avatar {
 			display: none;
 		}
@@ -515,6 +515,72 @@
 		.e-#{$code} {
 			background: url('../images/icons/emoticons/e-#{$code}.svg') 50% 50% no-repeat;
 			background-size: 22px;
+		}
+	}
+
+	// dialog
+
+	.popup_dialog {
+		width: 100vw;
+		height: 100vh;
+		top: 0;
+		left:0;
+		right:0;
+		bottom: 0;
+		margin: 0;
+
+		.content {
+			padding: 0 15px 25px 15px;
+		}
+		&>h2 {
+			padding: 15px 15px 0 15px;
+			height: auto;
+		}
+	}
+
+	// dialog profilu
+
+	.popup_dialog.user_profile {
+		.avatar {
+			text-align: left;
+			height: 100px;
+			margin-bottom: 0;
+			padding: 10px 15px;
+
+			.time:before {
+				height: 10px;
+				width: 10px;
+				@include radius-default(10px);
+			}
+			.status {
+				display: inline-block;
+
+				.icon {
+					height: 80px;
+					width: 80px;
+					border: 3px solid $color-ffffff;
+					vertical-align: middle;
+					@include radius-default(80px);
+				}
+				.text {
+					display: inline-block;
+					vertical-align: middle;
+					margin-left: 15px;
+
+					.name {
+						color: $color-ffffff;
+						font-size: $fs-20;
+						padding: 5px 0 0 0;
+					}
+					.time {
+						font-size: $fs-14;
+						color: $color-ffffff;
+					}
+				}
+			}
+		}
+		.content {
+			height: calc(100vh - 100px);
 		}
 	}
 }
